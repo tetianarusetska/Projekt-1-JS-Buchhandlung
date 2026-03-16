@@ -1,7 +1,7 @@
 :root {
     --primaryColor: black;
     --secondaryColor: white;
-    --accentColor: red;
+    --accentColor: rgb(191, 2, 2);
 
     --mainFont: "Untitled";
     --decorativeFont1: "Feijoa";

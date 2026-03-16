@@ -54,6 +54,10 @@ function showArtBooks() {
                 <p class="a-author">${book.author}</p>
                 <p class="a-tags">${book.tags.join(",  ")}</p>
                 <p class="a-price">${book.price}${book.currency}</p>
+                <div class="actionButtons">
+                    <button id="likeButton" class="like-Button"></button>
+                    <button id="cardButton" class="card-Button"></button>
+                </div>
              </div>
         `;
     });
@@ -104,6 +108,10 @@ function renderBooks() {
                 <p class="booksAuthor">${book.author}, ${book.publishedDate}</p>
                 <p class="booksTags">${book.tags.join(", ")}</p>
                 <p class="booksPrice">${book.price}${book.currency}</p>
+                <div class="actionButtons">
+                    <button id="likeButton" class="like-Button"></button>
+                    <button id="cardButton" class="card-Button"></button>
+                </div>
             </div>
         `;
     });
@@ -153,4 +161,39 @@ searchInput.addEventListener("input", () => {
 });
 
 // -------------------------------------------------------------------------------------------------------------------------------------------
-// 
+// LIKE SYSTEM
+
+// const likeButton = document.getElementById("likeButton");
+// const favoritesContainer = document.getElementById("favoritesContainer");
+
+// let favorites = [];
+
+// likeButton.addEventListener("click", () => {
+
+//     getBooks();
+//     favorites.push(books);
+//     renderFavorites();
+
+// });
+
+// function renderFavorites() {
+
+//     favoritesContainer.innerHTML = "";
+
+//     favorites.forEach((fav) => {
+//         favoritesContainer.innerHTML += `
+//             <div>
+//                 <img src="${fav.src}" alt="${fav.name}" class="booksImage">
+//                 <p class="booksName">${fav.name}</p>
+//                 <p class="booksAuthor">${fav.author}, ${fav.publishedDate}</p>
+//                 <p class="booksTags">${fav.tags.join(", ")}</p>
+//                 <p class="booksPrice">${fav.price}${fav.currency}</p>
+//             </div>
+//         `;
+//     });
+
+// }
+
+// -------------------------------------------------------------------------------------------------------------------------------------------
+// SHOW BOOK DESCRIPTION
+
