@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "Algerian";
+    src: url("/fonts/AlgerianRegular/AlgerianRegular.ttf");
+}
+
+@font-face {
+    font-family: "Jacquard";
+    src: url("/fonts/Jacquard_24/Jacquard24-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Le Murmure";
+    src: url("/fonts/murmure-main/fonts/le-murmure.ttf");
+}
+
+@font-face {
+    font-family: "Alegreya";
+    src: url("/fonts/Alegreya/Alegreya-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Almendra";
+    src: url("/fonts/Almendra/Almendra-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Melodrama";
+    src: url("/fonts/Melodrama_Complete-2/Fonts/TTF/Melodrama-Variable.ttf");
+}
+
+@font-face {
+    font-family: "ABC Maxi";
+    src: url("/fonts/ABC Maxi/ABC Maxi Plus Variable/.ABCMaxiPlusVariable-Trial.ttf");
+}
+
+@font-face {
+    font-family: "Boxing";
+    src: url("/fonts/Boxing_Complete/Fonts/WEB/fonts/Boxing-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Aktura";
+    src: url("/fonts/Aktura_Complete/Fonts/WEB/fonts/Aktura-Regular.ttf");
+}
+
+@font-face {
+    font-family: "New Title";
+    src: url("/fonts/NewTitle_Complete/Fonts/TTF/NewTitle-Variable.ttf");
+}
+
+@font-face {
+    font-family: "Striper";
+    src: url("/fonts/Striper_Complete/Fonts/WEB/fonts/Striper-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Grotesk";
+    src: url("/fonts/test2ttf/Test_Die_Grotesk/TestDieGroteskVF-Roman.ttf");
+}
+
+@font-face {
+    font-family: "Grotesk_thin";
+    src: url("/fonts/test1otf/Test_Die_Grotesk/TestDieGrotesk-C-Thin.otf");
+}
+
+@font-face {
+    font-family: "Grotesk_Founders_Medium";
+    src: url("/fonts/test1otf/Test_Founders_Grotesk_Collection/Test_Founders_Grotesk/TestFoundersGrotesk-Medium.otf");
+}
+
+@font-face {
+    font-family: "Grotesk_Founders_Regular";
+    src: url("/fonts/test1otf/Test_Founders_Grotesk_Collection/Test_Founders_Grotesk/TestFoundersGrotesk-Regular.otf");
+}
+
+@font-face {
+    font-family: "Grotesk_XBold";
+    src: url("/fonts/test1otf/Test_Founders_Grotesk_Collection/Test_Founders_Grotesk_X-Condensed/TestFoundersGroteskX-Condensed-Bold.otf");
+}
+
+@font-face {
+    font-family: "Geograph";
+    src: url("/fonts/test2ttf/Test_Geograph/TestGeographVF-Roman.ttf");
+}
+
+@font-face {
+    font-family: "Geograph_Medium";
+    src: url("/fonts/test1otf/Test_Geograph/TestGeograph-Medium.otf");
+}
+
+@font-face {
+    font-family: "Geograph_Light";
+    src: url("/fonts/test1otf/Test_Geograph/TestGeograph-Light.otf");
+}
+
+@font-face {
+    font-family: "Untitled";
+    src: url("/fonts/test2ttf/Test_Untitled_Collection/Test_Untitled_Sans/TestUntitledSansVF-Roman.ttf");
+}
+
+
+@font-face {
+    font-family: "American_Gr";
+    src: url("/fonts/test1otf/Test_American_Grotesk_Collection/Test_American_Grotesk_Compressed/TestAmericanGroteskCompressed-Light.otf");
+}
+
+@font-face {
+    font-family: "Feijoa";
+    src: url("/fonts/test1otf/Test_Feijoa/TestFeijoa-Display.otf");
+}
+
+@font-face {
+    font-family: "Karbon";
+    src: url("/fonts/test1otf/Test_Karbon_Collection/Test_Karbon/TestKarbon-Regular.otf");
+}
+
+@font-face {
+    font-family: "Maelstrom_Sans";
+    src: url("/fonts/test1otf/Test_Maelstrom_Collection/Test_Maelstrom_Sans/TestMaelstromSans-Bold.otf");
+}
+
+@font-face {
+    font-family: "Maelstrom_Bold";
+    src: url("/fonts/test1otf/Test_Maelstrom_Collection/Test_Maelstrom/TestMaelstrom-Bold.otf");
+}
+
+@font-face {
+    font-family: "Manuka";
+    src: url("/fonts/test1otf/Test_Manuka_Collection/Test_Manuka/TestManuka-Light.otf");
+}
+
+@font-face {
+    font-family: "Manuka_Ultra";
+    src: url("/fonts/test1otf/Test_Manuka_Collection/Test_Manuka/TestManuka-Ultra.otf");
+}
+
+@font-face {
+    font-family: "Söhne_Schmal_Buch";
+    src: url("/fonts/test1otf/Test_Söhne_Collection/Test_Söhne_Schmal/TestSöhneSchmal-Buch.otf");
+}
+
+@font-face {
+    font-family: "Söhne_Schmal_Leicht";
+    src: url("/fonts/test1otf/Test_Söhne_Collection/Test_Söhne_Schmal/TestSöhneSchmal-Extraleicht.otf");
+}

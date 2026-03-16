@@ -1,0 +1,1260 @@
+[
+       {
+        "id": 0,
+        "src": "assets/images/books/klein.webp",
+        "name": "Yves Klein",
+        "author": "Yves Klein",
+        "category": "kunst",
+        "tags": [
+            "Moderne Kunst",
+            "Monochrom",
+            "Sammleredition"
+        ],
+        "price": 170,
+        "currency": "€",
+        "publishedDate": "2016"
+    },
+    {
+        "id": 1,
+        "src": "assets/images/books/shiele2.webp",
+        "name": "Egon Schiele: Sämtliche Gemälde 1909–1918",
+        "author": "Egon Schiele",
+        "category": "kunst",
+        "tags": [
+            "Expressionismus",
+            "Malerei",
+            "Kunstgeschichte"
+        ],
+        "price": 200,
+        "currency": "€",
+        "publishedDate": "2013"
+    },
+    {
+        "id": 2,
+        "src": "assets/images/books/stoa.jpg",
+        "name": "Stoa",
+        "author": "Various",
+        "category": "kunst",
+        "tags": [
+            "Architektur",
+            "Fotografie",
+            "Säulen"
+        ],
+        "price": 45,
+        "currency": "€",
+        "publishedDate": "2018"
+    },
+    {
+        "id": 3,
+        "src": "assets/images/books/ntfs.webp",
+        "name": "On NFTs – Collector's Edition",
+        "author": "Various",
+        "category": "kunst",
+        "tags": [
+            "Digitale Kunst",
+            "NFT",
+            "Sammleredition"
+        ],
+        "price": 2200,
+        "currency": "€",
+        "publishedDate": "2022"
+    },
+    {
+        "id": 4,
+        "src": "assets/images/books/munch.jpg",
+        "name": "Edvard Munch",
+        "author": "Edvard Munch",
+        "category": "kunst",
+        "tags": [
+            "Expressionismus",
+            "Malerei",
+            "Kunstgeschichte"
+        ],
+        "price": 130,
+        "currency": "€",
+        "publishedDate": "2015"
+    },
+    {
+        "id": 5,
+        "src": "assets/images/books/dali.webp",
+        "name": "Dalí: Baby Sumo",
+        "author": "Salvador Dalí",
+        "category": "kunst",
+        "tags": [
+            "Surrealismus",
+            "Sammleredition",
+            "Kunstbuch"
+        ],
+        "price": 3000,
+        "currency": "€",
+        "publishedDate": "2018"
+    },
+    {
+        "id": 6,
+        "src": "assets/images/books/baselitz.webp",
+        "name": "Georg Baselitz",
+        "author": "Georg Baselitz",
+        "category": "kunst",
+        "tags": [
+            "Malerei",
+            "Sammleredition",
+            "Moderne Kunst"
+        ],
+        "price": 2500,
+        "currency": "€",
+        "publishedDate": "2021"
+    },
+    {
+        "id": 7,
+        "src": "assets/images/books/baskia2.webp",
+        "name": "Basquiat",
+        "author": "Jean-Michel Basquiat",
+        "category": "kunst",
+        "tags": [
+            "Neoexpressionismus",
+            "Street Art",
+            "Moderne Kunst"
+        ],
+        "price": 150,
+        "currency": "€",
+        "publishedDate": "2016"
+    },
+    {
+        "id": 8,
+        "src": "assets/images/books/giger.webp",
+        "name": "HR Giger",
+        "author": "HR Giger",
+        "category": "kunst",
+        "tags": [
+            "Surrealismus",
+            "Moderne Kunst",
+            "Design"
+        ],
+        "price": 150,
+        "currency": "€",
+        "publishedDate": "2015"
+    },
+    {
+        "id": 9,
+        "src": "assets/images/books/weiwei.webp",
+        "name": "Ai Weiwei: The Silk Scarf Haircut",
+        "author": "Ai Weiwei",
+        "category": "kunst",
+        "tags": [
+            "Moderne Kunst",
+            "Installationen",
+            "Sammleredition"
+        ],
+        "price": 1800,
+        "currency": "€",
+        "publishedDate": "2019"
+    },
+    {
+        "id": 10,
+        "src": "assets/images/books/vermeer.webp",
+        "name": "Vermeer: Das vollständige Werk",
+        "author": "Johannes Vermeer",
+        "category": "kunst",
+        "tags": [
+            "Barock",
+            "Malerei",
+            "Kunstgeschichte"
+        ],
+        "price": 120,
+        "currency": "€",
+        "publishedDate": "2014"
+    },
+    {
+        "id": 11,
+        "src": "assets/images/books/bosch.webp",
+        "name": "Bosch: Das vollständige Werk",
+        "author": "Hieronymus Bosch",
+        "category": "kunst",
+        "tags": [
+            "Renaissance",
+            "Malerei",
+            "Kunstgeschichte"
+        ],
+        "price": 130,
+        "currency": "€",
+        "publishedDate": "2014"
+    },
+    {
+        "id": 12,
+        "src": "assets/images/books/hopper.webp",
+        "name": "Hopper",
+        "author": "Edward Hopper",
+        "category": "kunst",
+        "tags": [
+            "Moderne Kunst",
+            "Malerei",
+            "Amerikanische Kunst"
+        ],
+        "price": 125,
+        "currency": "€",
+        "publishedDate": "2017"
+    },
+    {
+        "id": 13,
+        "src": "assets/images/books/gogh.webp",
+        "name": "Van Gogh: Sämtliche Gemälde",
+        "author": "Vincent van Gogh",
+        "category": "kunst",
+        "tags": [
+            "Postimpressionismus",
+            "Malerei",
+            "Kunstgeschichte"
+        ],
+        "price": 140,
+        "currency": "€",
+        "publishedDate": "2016"
+    },
+    {
+        "id": 14,
+        "src": "assets/images/books/schiele.webp",
+        "name": "Egon Schiele: Sämtliche Gemälde 1909–1918",
+        "author": "Egon Schiele",
+        "category": "kunst",
+        "tags": [
+            "Expressionismus",
+            "Malerei",
+            "Kunstgeschichte"
+        ],
+        "price": 200,
+        "currency": "€",
+        "publishedDate": "2013"
+    },
+    {
+        "id": 15,
+        "src": "assets/images/books/leonardo.webp",
+        "name": "Leonardo: Sämtliche Gemälde und Zeichnungen",
+        "author": "Leonardo da Vinci",
+        "category": "kunst",
+        "tags": [
+            "Renaissance",
+            "Malerei",
+            "Zeichnungen"
+        ],
+        "price": 220,
+        "currency": "€",
+        "publishedDate": "2012"
+    },
+    {
+        "id": 16,
+        "src": "assets/images/books/beckmann.jpg",
+        "name": "Max Beckmann",
+        "author": "Max Beckmann",
+        "category": "kunst",
+        "tags": [
+            "Expressionismus",
+            "Malerei",
+            "Kunstgeschichte"
+        ],
+        "price": 140,
+        "currency": "€",
+        "publishedDate": "2016"
+    },
+    {
+        "id": 17,
+        "src": "assets/images/books/holler.webp",
+        "name": "Carsten Höller: Book of Games",
+        "author": "Carsten Höller",
+        "category": "kunst",
+        "tags": [
+            "Konzeptkunst",
+            "Spiel",
+            "Interaktive Experimente"
+        ],
+        "price": 120,
+        "currency": "€",
+        "publishedDate": "2010"
+    },
+    {
+        "id": 18,
+        "src": "assets/images/books/bergman1.webp",
+        "name": "Das Ingmar Bergman Archiv",
+        "author": "Ingmar Bergman",
+        "category": "film",
+        "tags": [
+            "Film",
+            "Archiv",
+            "Regie"
+        ],
+        "price": 85,
+        "currency": "€",
+        "publishedDate": "2015"
+    },
+    {
+        "id": 19,
+        "src": "assets/images/books/chaplin.webp",
+        "name": "Das Charlie Chaplin Archiv",
+        "author": "Charlie Chaplin",
+        "category": "film",
+        "tags": [
+            "Film",
+            "Archiv",
+            "Stummfilm"
+        ],
+        "price": 90,
+        "currency": "€",
+        "publishedDate": "2015"
+    },
+    {
+        "id": 20,
+        "src": "assets/images/books/avangard.webp",
+        "name": "Film Posters of the Russian Avant-Garde",
+        "author": "Unbekannt",
+        "category": "film",
+        "tags": [
+            "Film",
+            "Poster",
+            "Avantgarde"
+        ],
+        "price": 60,
+        "currency": "€",
+        "publishedDate": "2014"
+    },
+    {
+        "id": 21,
+        "src": "assets/images/books/kubrick.webp",
+        "name": "Das Stanley Kubrick Archiv",
+        "author": "Stanley Kubrick",
+        "category": "film",
+        "tags": [
+            "Film",
+            "Archiv",
+            "Regie"
+        ],
+        "price": 95,
+        "currency": "€",
+        "publishedDate": "2016"
+    },
+    {
+        "id": 22,
+        "src": "assets/images/books/hopper.webp",
+        "name": "Dennis Hopper Photographs 1961–1967",
+        "author": "Dennis Hopper",
+        "category": "film",
+        "tags": [
+            "Film",
+            "Fotografie",
+            "Hollywood"
+        ],
+        "price": 70,
+        "currency": "€",
+        "publishedDate": "2016"
+    },
+    {
+        "id": 23,
+        "src": "assets/images/books/almodovar.webp",
+        "name": "The Pedro Almodóvar Archives",
+        "author": "Pedro Almodóvar",
+        "category": "film",
+        "tags": [
+            "Film",
+            "Archiv",
+            "Regie"
+        ],
+        "price": 80,
+        "currency": "€",
+        "publishedDate": "2017"
+    },
+    {
+        "id": 24,
+        "src": "assets/images/books/sophia.webp",
+        "name": "Sophia by Eisenstaedt",
+        "author": "Eisenstaedt",
+        "category": "film",
+        "tags": [
+            "Film",
+            "Fotografie",
+            "Porträt"
+        ],
+        "price": 120,
+        "currency": "€",
+        "publishedDate": "2016"
+    },
+    {
+        "id": 25,
+        "src": "assets/images/books/bookbergman1.jpg",
+        "name": "Ingmar Bergman – The Fifth Act",
+        "author": "Ingmar Bergman",
+        "category": "film",
+        "tags": [
+            "Film",
+            "Regie",
+            "Biografie"
+        ],
+        "price": 45,
+        "currency": "€",
+        "publishedDate": "2018"
+    },
+    {
+        "id": 26,
+        "src": "assets/images/books/bookbergman2.jpg",
+        "name": "Ingmar Bergman – Laterna Magica",
+        "author": "Ingmar Bergman",
+        "category": "film",
+        "tags": [
+            "Film",
+            "Regie",
+            "Biografie"
+        ],
+        "price": 48,
+        "currency": "€",
+        "publishedDate": "2018"
+    },
+    {
+        "id": 27,
+        "src": "assets/images/books/bookbergman3.jpg",
+        "name": "Ingmar Bergman",
+        "author": "Ingmar Bergman",
+        "category": "film",
+        "tags": [
+            "Film",
+            "Regie",
+            "Klassiker"
+        ],
+        "price": 35,
+        "currency": "€",
+        "publishedDate": "2017"
+    },  
+
+
+
+
+    {
+        "id": 28,
+        "src": "assets/images/books/rheims.webp",
+        "name": "Bettina Rheims & Serge Bramly: Rose – Art Edition No. 1–100",
+        "author": "Bettina Rheims & Serge Bramly",
+        "category": "fotografie",
+        "tags": [
+            "Porträt",
+            "Sammleredition",
+            "Künstlerbuch"
+        ],
+        "price": 1800,
+        "currency": "€",
+        "publishedDate": "2019"
+    },
+       {
+        "id": 29,
+        "src": "assets/images/books/beard.webp",
+        "name": "Peter Beard",
+        "author": "Peter Beard",
+        "category": "fotografie",
+        "tags": [
+            "Tierfotografie",
+            "Natur",
+            "Reise"
+        ],
+        "price": 85,
+        "currency": "€",
+        "publishedDate": "2017"
+    },
+    {
+        "id": 30,
+        "src": "assets/images/books/lindberg1.webp",
+        "name": "Peter Lindbergh: On Fashion Photography",
+        "author": "Peter Lindbergh",
+        "category": "fotografie",
+        "tags": [
+            "Modefotografie",
+            "Porträt",
+            "Schwarz-Weiß"
+        ],
+        "price": 120,
+        "currency": "€",
+        "publishedDate": "2018"
+    },
+    {
+        "id": 31,
+        "src": "assets/images/books/newton1.webp",
+        "name": "Helmut Newton: SUMO – 20th Anniversary Edition",
+        "author": "Helmut Newton",
+        "category": "fotografie",
+        "tags": [
+            "Modefotografie",
+            "Erotik",
+            "Sammleredition"
+        ],
+        "price": 150,
+        "currency": "€",
+        "publishedDate": "2019"
+    },
+    {
+        "id": 32,
+        "src": "assets/images/books/lindberg22.webp",
+        "name": "Peter Lindbergh: Azzedine Alaïa",
+        "author": "Peter Lindbergh",
+        "category": "fotografie",
+        "tags": [
+            "Modefotografie",
+            "Porträt",
+            "Schwarz-Weiß"
+        ],
+        "price": 80,
+        "currency": "€",
+        "publishedDate": "2020"
+    },
+    {
+        "id": 33,
+        "src": "assets/images/books/newton2.webp",
+        "name": "Helmut Newton: Berlin, Berlin",
+        "author": "Helmut Newton",
+        "category": "fotografie",
+        "tags": [
+            "Stadtfotografie",
+            "Modefotografie",
+            "Porträt"
+        ],
+        "price": 85,
+        "currency": "€",
+        "publishedDate": "2017"
+    },
+     {
+        "id": 34,
+        "src": "assets/images/books/leibovitz1.webp",
+        "name": "Annie Leibovitz",
+        "author": "Annie Leibovitz",
+        "category": "fotografie",
+        "tags": [
+            "Porträt",
+            "Celebrity",
+            "Fotografie"
+        ],
+        "price": 100,
+        "currency": "€",
+        "publishedDate": "2020"
+    },
+     {
+        "id": 35,
+        "src": "assets/images/books/salgado1.webp",
+        "name": "Sebastião Salgado: Genesis – 45th Edition",
+        "author": "Sebastião Salgado",
+        "category": "fotografie",
+        "tags": [
+            "Natur",
+            "Reportagefotografie",
+            "Schwarz-Weiß"
+        ],
+        "price": 90,
+        "currency": "€",
+        "publishedDate": "2021"
+    },
+    {
+        "id": 36,
+        "src": "assets/images/books/salgado2.webp",
+        "name": "Sebastião Salgado: Amazonia – 45th Edition",
+        "author": "Sebastião Salgado",
+        "category": "fotografie",
+        "tags": [
+            "Natur",
+            "Regenwald",
+            "Reportagefotografie"
+        ],
+        "price": 95,
+        "currency": "€",
+        "publishedDate": "2021"
+    },
+    {
+        "id": 37,
+        "src": "assets/images/books/newton3.webp",
+        "name": "Helmut Newton: Legacy",
+        "author": "Helmut Newton",
+        "category": "fotografie",
+        "tags": [
+            "Modefotografie",
+            "Porträt",
+            "Sammleredition"
+        ],
+        "price": 120,
+        "currency": "€",
+        "publishedDate": "2021"
+    },
+    {
+        "id": 38,
+        "src": "assets/images/books/nasa.webp",
+        "name": "Das NASA-Archiv – 60 Jahre im All",
+        "author": "NASA",
+        "category": "fotografie",
+        "tags": [
+            "Weltraum",
+            "Archiv",
+            "Fotografie"
+        ],
+        "price": 80,
+        "currency": "€",
+        "publishedDate": "2018"
+    },
+    {
+        "id": 39,
+        "src": "assets/images/books/lindberg2.webp",
+        "name": "Peter Lindbergh: Untold Stories",
+        "author": "Peter Lindbergh",
+        "category": "fotografie",
+        "tags": [
+            "Modefotografie",
+            "Porträt",
+            "Schwarz-Weiß"
+        ],
+        "price": 95,
+        "currency": "€",
+        "publishedDate": "2019"
+    },
+    {
+        "id": 40,
+        "src": "assets/images/books/doisneu.webp",
+        "name": "Robert Doisneau: Paris",
+        "author": "Robert Doisneau",
+        "category": "fotografie",
+        "tags": [
+            "Streetfotografie",
+            "Porträt",
+            "Schwarz-Weiß"
+        ],
+        "price": 70,
+        "currency": "€",
+        "publishedDate": "2016"
+    },
+    {
+        "id": 41,
+        "src": "assets/images/books/smith.jpg",
+        "name": "Lynn Goldsmith: Patti Smith – Before Easter After",
+        "author": "Lynn Goldsmith",
+        "category": "fotografie",
+        "tags": [
+            "Musik",
+            "Porträt",
+            "Celebrity"
+        ],
+        "price": 2200,
+        "currency": "€",
+        "publishedDate": "2020"
+    },
+    {
+        "id": 42,
+        "src": "assets/images/books/salgado4.webp",
+        "name": "Sebastião Salgado: Kuwait – Eine Wüste in Flammen",
+        "author": "Sebastião Salgado",
+        "category": "fotografie",
+        "tags": [
+            "Kriegsfotografie",
+            "Natur",
+            "Reportage"
+        ],
+        "price": 100,
+        "currency": "€",
+        "publishedDate": "2015"
+    },
+     {
+        "id": 43,
+        "src": "assets/images/books/sophia.webp",
+        "name": "Sophia by Eisenstaedt",
+        "author": "Alfred Eisenstaedt",
+        "category": "fotografie",
+        "tags": [
+            "Film",
+            "Portrait",
+            "Klassik"
+        ],
+        "price": 70,
+        "currency": "€",
+        "publishedDate": "2016"
+    },
+
+
+
+
+    {
+        "id": 44,
+        "src": "assets/images/books/schop1.jpg",
+        "name": "Die Kunst, Recht zu behalten",
+        "author": "Arthur Schopenhauer",
+        "category": "philosophie",
+        "tags": [
+            "Philosophie",
+            "Logik",
+            "Kommunikation"
+        ],
+        "price": 37,
+        "currency": "€",
+        "publishedDate": "1831"
+    },
+     {
+        "id": 45,
+        "src": "assets/images/books/kafka3.jpg",
+        "name": "Das Schloß",
+        "author": "Franz Kafka",
+        "category": "philosophie",
+        "tags": [
+            "Philosophie",
+            "Identität",
+            "Isolation"
+        ],
+        "price": 38,
+        "currency": "€",
+        "publishedDate": "1926"
+    },
+    {
+        "id": 46,
+        "src": "assets/images/books/nietzsche2.jpg",
+        "name": "Also sprach Zarathustra",
+        "author": "Friedrich Nietzsche",
+        "category": "philosophie",
+        "tags": [
+            "Philosophie",
+            "Übermensch",
+            "Ethik"
+        ],
+        "price": 35,
+        "currency": "€",
+        "publishedDate": "1883-1885"
+    },
+    {
+        "id": 47,
+        "src": "assets/images/books/sartre.jpg",
+        "name": "Das Sein und das Nichts",
+        "author": "Jean-Paul Sartre",
+        "category": "philosophie",
+        "tags": [
+            "Existenzialismus",
+            "Freiheit",
+            "Bewusstsein"
+        ],
+        "price": 36,
+        "currency": "€",
+        "publishedDate": "1943"
+    },
+    {
+        "id": 48,
+        "src": "assets/images/books/nietzsche1.jpg",
+        "name": "Beyond Good and Evil",
+        "author": "Friedrich Nietzsche",
+        "category": "philosophie",
+        "tags": [
+            "Philosophie",
+            "Ethik",
+            "Kritik der Moral"
+        ],
+        "price": 30,
+        "currency": "€",
+        "publishedDate": "1886"
+    },
+    {
+        "id": 49,
+        "src": "assets/images/books/kafka1.jpg",
+        "name": "Die Verwandlung",
+        "author": "Franz Kafka",
+        "category": "philosophie",
+        "tags": [
+            "Literatur",
+            "Absurdität",
+            "Identität"
+        ],
+        "price": 38,
+        "currency": "€",
+        "publishedDate": "1915"
+    },
+    {
+        "id": 50,
+        "src": "assets/images/books/sartr.jpg",
+        "name": "Der Existentialismus ist ein Humanismus",
+        "author": "Jean-Paul Sartre",
+        "category": "philosophie",
+        "tags": [
+            "Existentialismus",
+            "Philosophie",
+            "Humanismus"
+        ],
+        "price": 46,
+        "currency": "€",
+        "publishedDate": "1946"
+    },
+    {
+        "id": 51,
+        "src": "assets/images/books/kafka2.jpg",
+        "name": "Der Prozeß",
+        "author": "Franz Kafka",
+        "category": "philosophie",
+        "tags": [
+            "Literatur",
+            "Absurdität",
+            "Recht"
+        ],
+        "price": 38,
+        "currency": "€",
+        "publishedDate": "1925"
+    },
+    {
+        "id": 52,
+        "src": "assets/images/books/sartre.jpg",
+        "name": "Das Spiel ist aus",
+        "author": "Jean-Paul Sartre",
+        "category": "philosophie",
+        "tags": [
+            "Existentialismus",
+            "Theater",
+            "Philosophie"
+        ],
+        "price": 42,
+        "currency": "€",
+        "publishedDate": "1947"
+    },
+    {
+        "id": 53,
+        "src": "assets/images/books/nietzsche4.jpg",
+        "name": "Jenseits von Gut und Böse",
+        "author": "Friedrich Nietzsche",
+        "category": "philosophie",
+        "tags": [
+            "Philosophie",
+            "Ethik",
+            "Kritik der Moral"
+        ],
+        "price": 35,
+        "currency": "€",
+        "publishedDate": "1886"
+    },
+    {
+        "id": 54,
+        "src": "assets/images/books/sartre1.jpg",
+        "name": "Wir sind alle Mörder",
+        "author": "Jean-Paul Sartre",
+        "category": "philosophie",
+        "tags": [
+            "Existentialismus",
+            "Ethik",
+            "Verantwortung"
+        ],
+        "price": 40,
+        "currency": "€",
+        "publishedDate": "1946"
+    },
+    {
+        "id": 55,
+        "src": "assets/images/books/sartre2.jpg",
+        "name": "Fragen der Methode",
+        "author": "Jean-Paul Sartre",
+        "category": "philosophie",
+        "tags": [
+            "Existentialismus",
+            "Philosophie",
+            "Methode"
+        ],
+        "price": 39,
+        "currency": "€",
+        "publishedDate": "1957"
+    },
+    {
+        "id": 56,
+        "src": "assets/images/books/kant.jpeg",
+        "name": "Kritik der reinen Vernunft",
+        "author": "Immanuel Kant",
+        "category": "philosophie",
+        "tags": [
+            "Erkenntnistheorie",
+            "Vernunft",
+            "Metaphysik"
+        ],
+        "price": 48,
+        "currency": "€",
+        "publishedDate": "1781"
+    },
+    {
+        "id": 57,
+        "src": "assets/images/books/descartes.jpeg",
+        "name": "Diskurs über die Methode",
+        "author": "René Descartes",
+        "category": "philosophie",
+        "tags": [
+            "Rationalismus",
+            "Erkenntnis",
+            "Philosophie"
+        ],
+        "price": 56,
+        "currency": "€",
+        "publishedDate": "1637"
+    },
+
+
+
+
+
+    {
+        "id": 58,
+        "src": "assets/images/books/hesse1.jpg",
+        "name": "Das Glasperlenspiel",
+        "author": "Hermann Hesse",
+        "category": "literatur",
+        "tags": [
+            "Bildungsspiel",
+            "Philosophie",
+            "Romane"
+        ],
+        "price": 69,
+        "currency": "€",
+        "publishedDate": "1943"
+    },
+    {
+        "id": 59,
+        "src": "assets/images/books/hesse2.jpg",
+        "name": "Stufen",
+        "author": "Hermann Hesse",
+        "category": "literatur",
+        "tags": [
+            "Gedichte",
+            "Leben",
+            "Selbstfindung"
+        ],
+        "price": 15,
+        "currency": "€",
+        "publishedDate": "1941"
+    },
+    {
+        "id": 60,
+        "src": "assets/images/books/miller1.jpg",
+        "name": "Sexus",
+        "author": "Henry Miller",
+        "category": "literatur",
+        "tags": [
+            "Autobiographie",
+            "Erotik",
+            "Moderne Literatur"
+        ],
+        "price": 18,
+        "currency": "€",
+        "publishedDate": "1949"
+    },
+    {
+        "id": 61,
+        "src": "assets/images/books/miller2.jpg",
+        "name": "Opus Pistorum",
+        "author": "Henry Miller",
+        "category": "literatur",
+        "tags": [
+            "Autobiographie",
+            "Erotik",
+            "Romane"
+        ],
+        "price": 18,
+        "currency": "€",
+        "publishedDate": "1969"
+    },
+    {
+        "id": 62,
+        "src": "assets/images/books/orwell2.jpg",
+        "name": "Farm der Tiere",
+        "author": "George Orwell",
+        "category": "literatur",
+        "tags": [
+            "Satire",
+            "Politik",
+            "Gesellschaft"
+        ],
+        "price": 17,
+        "currency": "€",
+        "publishedDate": "1945"
+    },
+    {
+        "id": 63,
+        "src": "assets/images/books/orwell1.jpg",
+        "name": "1984",
+        "author": "George Orwell",
+        "category": "literatur",
+        "tags": [
+            "Dystopie",
+            "Politik",
+            "Überwachung"
+        ],
+        "price": 19,
+        "currency": "€",
+        "publishedDate": "1949"
+    },
+    {
+        "id": 64,
+        "src": "assets/images/books/zweig1.jpg",
+        "name": "Die Welt von Gestern",
+        "author": "Stefan Zweig",
+        "category": "literatur",
+        "tags": [
+            "Erinnerungen",
+            "Europa",
+            "Geschichte"
+        ],
+        "price": 22,
+        "currency": "€",
+        "publishedDate": "1942"
+    },
+    {
+        "id": 65,
+        "src": "assets/images/books/zweig2.jpg",
+        "name": "Der Kampf mit dem Dämon",
+        "author": "Stefan Zweig",
+        "category": "literatur",
+        "tags": [
+            "Biographie",
+            "Psychologie",
+            "Literatur"
+        ],
+        "price": 21,
+        "currency": "€",
+        "publishedDate": "1925"
+    },
+    {
+        "id": 66,
+        "src": "assets/images/books/kurt1.jpg",
+        "name": "Galapagos",
+        "author": "Kurt Vonnegut",
+        "category": "literatur",
+        "tags": [
+            "Satire",
+            "Science Fiction",
+            "Gesellschaft"
+        ],
+        "price": 18,
+        "currency": "€",
+        "publishedDate": "1985"
+    },
+    {
+        "id": 67,
+        "src": "assets/images/books/kurt2.jpg",
+        "name": "Die Sirenen des Titan",
+        "author": "Kurt Vonnegut",
+        "category": "literatur",
+        "tags": [
+            "Science Fiction",
+            "Philosophie",
+            "Satire"
+        ],
+        "price": 18,
+        "currency": "€",
+        "publishedDate": "1959"
+    },
+    {
+        "id": 68,
+        "src": "assets/images/books/caroll.jpg",
+        "name": "Alice im Wunderland",
+        "author": "Lewis Carroll",
+        "category": "viktorianisch",
+        "tags": [
+            "Fantasy",
+            "Kinderliteratur",
+            "Absurdität"
+        ],
+        "price": 24,
+        "currency": "€",
+        "publishedDate": "1865"
+    },
+    {
+        "id": 69,
+        "src": "assets/images/books/doyle.jpg",
+        "name": "Der Hund der Baskervilles",
+        "author": "Arthur Conan Doyle",
+        "category": "viktorianisch",
+        "tags": [
+            "Detektiv",
+            "Krimi",
+            "Sherlock Holmes"
+        ],
+        "price": 16,
+        "currency": "€",
+        "publishedDate": "1902"
+    },
+    {
+        "id": 70,
+        "src": "assets/images/books/austen1.jpg",
+        "name": "Northanger Abbey",
+        "author": "Jane Austen",
+        "category": "viktorianisch",
+        "tags": [
+            "Roman",
+            "Ironie",
+            "Gesellschaft"
+        ],
+        "price": 15,
+        "currency": "€",
+        "publishedDate": "1817"
+    },
+    {
+        "id": 71,
+        "src": "assets/images/books/austen6.jpg",
+        "name": "Mansfield Park",
+        "author": "Jane Austen",
+        "category": "viktorianisch",
+        "tags": [
+            "Roman",
+            "Gesellschaft",
+            "Liebe"
+        ],
+        "price": 22,
+        "currency": "€",
+        "publishedDate": "1814"
+    },
+    {
+        "id": 72,
+        "src": "assets/images/books/bronte1.jpg",
+        "name": "Villette",
+        "author": "Charlotte Brontë",
+        "category": "viktorianisch",
+        "tags": [
+            "Roman",
+            "Psychologie",
+            "Liebe"
+        ],
+        "price": 18,
+        "currency": "€",
+        "publishedDate": "1853"
+    },
+    {
+        "id": 73,
+        "src": "assets/images/books/dickens2.jpg",
+        "name": "Oliver Twist",
+        "author": "Charles Dickens",
+        "category": "viktorianisch",
+        "tags": [
+            "Gesellschaft",
+            "Armut",
+            "Kinder"
+        ],
+        "price": 23,
+        "currency": "€",
+        "publishedDate": "1838"
+    },
+    {
+        "id": 74,
+        "src": "assets/images/books/wilde2.jpg",
+        "name": "Märchen",
+        "author": "Oscar Wilde",
+        "category": "viktorianisch",
+        "tags": [
+            "Märchen",
+            "Philosophie",
+            "Symbolismus"
+        ],
+        "price": 20,
+        "currency": "€",
+        "publishedDate": "1888"
+    },
+    {
+        "id": 75,
+        "src": "assets/images/books/austen2.jpg",
+        "name": "Stolz und Vorurteil",
+        "author": "Jane Austen",
+        "category": "viktorianisch",
+        "tags": [
+            "Roman",
+            "Liebe",
+            "Gesellschaft"
+        ],
+        "price": 22,
+        "currency": "€",
+        "publishedDate": "1813"
+    },
+    {
+        "id": 76,
+        "src": "assets/images/books/bronte2.jpg",
+        "name": "Jane Eyre",
+        "author": "Charlotte Brontë",
+        "category": "viktorianisch",
+        "tags": [
+            "Roman",
+            "Liebe",
+            "Selbstständigkeit"
+        ],
+        "price": 17,
+        "currency": "€",
+        "publishedDate": "1847"
+    },
+    {
+        "id": 77,
+        "src": "assets/images/books/wilde.jpg",
+        "name": "Das Bildnis des Dorian Gray",
+        "author": "Oscar Wilde",
+        "category": "viktorianisch",
+        "tags": [
+            "Philosophie",
+            "Ästhetik",
+            "Dekadenz"
+        ],
+        "price": 24,
+        "currency": "€",
+        "publishedDate": "1890"
+    },
+    {
+        "id": 78,
+        "src": "assets/images/books/austen3.jpg",
+        "name": "Emma",
+        "author": "Jane Austen",
+        "category": "viktorianisch",
+        "tags": [
+            "Roman",
+            "Gesellschaft",
+            "Ironie"
+        ],
+        "price": 18,
+        "currency": "€",
+        "publishedDate": "1815"
+    },
+    {
+        "id": 79,
+        "src": "assets/images/books/dickens3.jpg",
+        "name": "David Copperfield",
+        "author": "Charles Dickens",
+        "category": "viktorianisch",
+        "tags": [
+            "Bildungsroman",
+            "Kindheit",
+            "Gesellschaft"
+        ],
+        "price": 25,
+        "currency": "€",
+        "publishedDate": "1850"
+    },
+    {
+        "id": 80,
+        "src": "assets/images/books/wilde3.jpg",
+        "name": "Der Sozialismus und die Seele des Menschen",
+        "author": "Oscar Wilde",
+        "category": "viktorianisch",
+        "tags": [
+            "Essay",
+            "Philosophie",
+            "Gesellschaft"
+        ],
+        "price": 16,
+        "currency": "€",
+        "publishedDate": "1891"
+    },
+    {
+        "id": 81,
+        "src": "assets/images/books/ebronte.jpg",
+        "name": "Wuthering Heights",
+        "author": "Emily Brontë",
+        "category": "viktorianisch",
+        "tags": [
+            "Roman",
+            "Liebe",
+            "Tragödie"
+        ],
+        "price": 18,
+        "currency": "€",
+        "publishedDate": "1847"
+    },
+    {
+        "id": 82,
+        "src": "assets/images/books/dickens1.jpg",
+        "name": "Große Erwartungen",
+        "author": "Charles Dickens",
+        "category": "viktorianisch",
+        "tags": [
+            "Bildungsroman",
+            "Gesellschaft",
+            "Kindheit"
+        ],
+        "price": 23,
+        "currency": "€",
+        "publishedDate": "1861"
+    }
+]

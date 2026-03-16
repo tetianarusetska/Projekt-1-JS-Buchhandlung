@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/root.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="script.js" defer></script>
+    <title>Buchhandlung</title>
+</head>
+
+<body>
+    <!------------------------ HEADER --------------------------->
+    <header>
+
+        <div><img class="logo" src="assets/logo/screenshots/newversion5.png" alt="logo"></div>
+        <div class="menuAndSearch">
+            <nav class="menu1">
+                <ul>
+                    <li><a href="#">HOME<svg class="down-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1">
+                                <path d="M6 9l6 6 6-6" />
+                            </svg></a></li>
+                    <li><a href="#">ÜBER UNS<svg class="down-arrow" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="1">
+                                <path d="M6 9l6 6 6-6" />
+                            </svg></a></li>
+                    <li><a href="#allBooks">SHOP<svg class="down-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1">
+                                <path d="M6 9l6 6 6-6" />
+                            </svg></a></li>
+                    <li><a href="#">KONTAKT<svg class="down-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1">
+                                <path d="M6 9l6 6 6-6" />
+                            </svg></a></li>
+                    <li><img class="icon4" id="searchIcon" src="assets/icons/search3.svg" alt="icon4"></li>
+                </ul>
+            </nav>
+            <div id="searchContainer" class="search">
+                <input type="search">
+            </div>
+        </div>
+
+        <div class="icons">
+            <img class="icon2" src="assets/icons/heart.svg" alt="icon2">
+            <img class="icon1" src="assets/icons/profile2.svg" alt="icon1">
+            <img class="icon3" src="assets/icons/basket.png" alt="icon4">
+        </div>
+
+    </header>
+    <main>
+        <!------------------------ MAIN --------------------------->
+        
+        <!----------------------- SECTION 1 ----------------------->
+        <section>
+            <img class="heroImage" src="assets/images/books/Bildschirmfoto 2026-03-07 um 18.53.59.png"
+                alt="hero-section-book-1">
+        </section>
+        <!----------------------- SECTION 2 ----------------------->
+        <section id="artBooks" class="mainBooks">
+            <p class="a-booksText">KUNST</p>
+            <div id="artBooks"></div>
+        </section>
+        <!--------------------- SECTION 3 ------------------------->
+        <section id="allBooks" class="booksPage">
+            <div class="menu2">
+                <ul>
+                    <li><a onclick="filterBooks('kunst')">KUNST</a></li>
+                    <li><a onclick="filterBooks('film')">FILM</a></li>
+                    <li><a onclick="filterBooks('fotografie')">FOTOGRAFIE</a></li>
+                    <li><a onclick="filterBooks('philosophie')">PHILOSOPHIE</a></li>
+                    <li><a onclick="filterBooks('literatur')">LITERATUR</a></li>
+                    <li><a onclick="filterBooks('viktorianisch')">VIKTORIANISCHE LITERATUR</a></li>
+                </ul>
+            </div>
+            <div class="pagesWithPagination">
+                <div id="pageWithBooks"></div>
+                <div class="roman-pagination">
+
+                    <label class="roman-radio">
+                        <input type="radio" name="radioName" checked onclick="changePage(1)">
+                        <span class="num">I.</span>
+                        <span class="title">Erste Seite</span>
+                    </label>
+
+                    <label class="roman-radio">
+                        <input type="radio" name="radioName" onclick="changePage(2)">
+                        <span class="num">II.</span>
+                        <span class="title">Zweite Seite</span>
+                    </label>
+
+                    <label class="roman-radio">
+                        <input type="radio" name="radioName" onclick="changePage(3)">
+                        <span class="num">III.</span>
+                        <span class="title">Dritte Seite</span>
+                    </label>
+
+                    <label class="roman-radio">
+                        <input type="radio" name="radioName" onclick="changePage(4)">
+                        <span class="num">IV.</span>
+                        <span class="title">Vierte Seite</span>
+                    </label>
+
+                    <label class="roman-radio">
+                        <input type="radio" name="radioName" onclick="changePage(5)">
+                        <span class="num">V.</span>
+                        <span class="title">Fünfte Seite</span>
+                    </label>
+
+                    <label class="roman-radio">
+                        <input type="radio" name="radioName" onclick="changePage(6)">
+                        <span class="num">VI.</span>
+                        <span class="title">Sechste Seite</span>
+                    </label>
+
+                    <label class="roman-radio">
+                        <input type="radio" name="radioName" onclick="changePage(7)">
+                        <span class="num">VII.</span>
+                        <span class="title">Siebte Seite</span>
+                    </label>
+
+                    <label class="roman-radio">
+                        <input type="radio" name="radioName" onclick="changePage(8)">
+                        <span class="num">VIII.</span>
+                        <span class="title">Achte Seite</span>
+                    </label>
+
+                    <label class="roman-radio">
+                        <input type="radio" name="radioName" onclick="changePage(9)">
+                        <span class="num">IX.</span>
+                        <span class="title">Neunte Seite</span>
+                    </label>
+
+                    <label class="roman-radio">
+                        <input type="radio" name="radioName" onclick="changePage(10)">
+                        <span class="num">X.</span>
+                        <span class="title">Neunte Seite</span>
+                    </label>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer></footer>
+</body>
+
+</html>

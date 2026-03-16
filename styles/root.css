@@ -1,0 +1,10 @@
+:root {
+    --primaryColor: black;
+    --secondaryColor: white;
+    --accentColor: red;
+
+    --mainFont: "Untitled";
+    --decorativeFont1: "Feijoa";
+    --decorativeFont2: "Maelstrom_Sans";
+    --decorativeFont3: "Maelstrom_Bold";
+}

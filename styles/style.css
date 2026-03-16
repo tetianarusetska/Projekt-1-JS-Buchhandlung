@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+header {
+    margin: 0px 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* MENU */
+
+.menu1 ul {
+    display: flex;
+    gap: 22px;
+    list-style-type: none;
+    margin-top: 70px;
+}
+
+.menu1 a {
+    color: var(--primaryColor);
+    text-decoration: none;
+    font-family: var(--mainFont);
+    letter-spacing: -1.0px;
+    font-size: 20px;
+}
+
+.menu1 .down-arrow {
+    margin-left: 3px;
+    width: 30px;
+    height: 36px;
+    vertical-align: middle;
+    stroke: var(--primaryColor);
+    transform: translateY(-4px);
+}
+
+/* SEARCH */
+
+.menuAndSearch {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.search {
+    position: relative;
+}
+
+.search input {
+    display: none;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    font-size: 17px;
+    font-family: var(--decorativeFont1);
+    width: 480px;
+    height: 30px;
+    border: 1px solid var(--primaryColor);
+    transform: translateY(-20px);
+}
+
+.search.active input {
+    display: block;      
+}
+
+.search input:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.8px var(--primaryColor);
+}
+
+/* LOGO */
+
+.logo {
+    margin-top: 18px;
+    width: 110px;
+    height: 90px;
+}
+
+
+/* ICONS */
+
+.icons {
+    align-items: center;
+    margin-top: 20px;
+    display: flex;
+    gap: 0px;
+}
+
+.icon1,
+.icon2 {
+    width: 50px;
+}
+
+.icon1 {
+    height: 50px;
+    transform: translateY(6px)
+}
+
+.icon2 {
+    height: 60px;
+    transform: translate(8px, 6px);
+}
+
+.icon3 {
+    width: 40px;
+    height: 38px;
+    transform: translate(-4px, 4px);
+}
+
+.icon4 {
+    width: 70px;
+    height: 70px;
+    transform: translate(-18px, -6px);
+}
+
+
+/* ----------------------------------------------------------SECTION 1----------------------------------------------------------------------- */
+
+/* HERO SECTION */
+
+/* IMAGE */
+
+.heroImage {
+    object-fit: cover;
+    width: 89%;
+    height: 500px;
+    margin: 40px 80px;
+}
+
+/* ----------------------------------------------------------SECTION 2----------------------------------------------------------------------- */
+
+/* BOOKS */
+/* !!!!! KUNST */
+
+.mainBooks {
+    margin: 30px 80px;
+}
+
+/* TITEL */
+
+.a-booksText {
+    font-size: 66px;
+    font-family: var(--decorativeFont2);
+}
+
+/* IMAGES */
+
+#artBooks {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 70px;
+}
+
+.a-booksImage {
+    width: 270px;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* BLOCK FOR ART BOOK */
+
+.a-book {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+    font-family: "Feijoa";
+}
+
+.a-name {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.a-author {
+    font-size: 16px;
+}
+
+.a-tags {
+    font-size: 14px;
+}
+
+.a-price {
+    font-size: 16px;
+}
+
+
+/* ----------------------------------------------------------SECTION 3----------------------------------------------------------------------- */
+
+/* BOOKS */
+/* PAGE WITH BOOKS */
+
+.booksPage {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 70px;
+    margin: 50px 80px;
+    height: fit-content;
+}
+
+/* MENU 2 */
+
+.menu2 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+    list-style-type: none;
+}
+
+.menu2 ul li a {
+    font-family: var(--mainFont);
+    letter-spacing: -1.0px;
+    font-size: 26px;
+}
+
+/* PAGE WITH BOOKS */
+
+#pageWithBooks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
+    text-align: center;
+    align-items: start;
+}
+
+/* BOOK */
+.book {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.book:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+.book {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-family: "Feijoa";
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.booksImage {
+    width: 200px;
+    height: 290px;
+    object-fit: cover;
+}
+
+.booksName {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.booksAuthor {
+    font-size: 16px;
+}
+
+.booksTags {
+    font-size: 14px;
+    min-height: 40px;
+}
+
+.booksPrice {
+    font-size: 16px;
+}
+
+
+/* PAGINATION */
+
+.pagesWithPagination {
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+}
+
+.roman-pagination {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.roman-radio {
+	margin: 0 8px;
+	color: #969696;
+    font-family: var(--mainFont);
+    font-size: 17px;
+}
+
+input[type="radio"] { display: none; }
+input[type="radio"]:checked ~ span { color: black; }
+input[type="radio"]:checked ~ .title { display: inline; margin-left: 0; }
+
+.title {
+	display: none;
+	margin-left: -16px;
+}
