@@ -145,7 +145,7 @@ searchButton.addEventListener("click", () => {
     searchContainer.classList.toggle('active');
 });
 
-searchInput.addEventListener("input", () => {
+searchInput.addEventListener("input", (e) => {
 
     e.preventDefault();
 
@@ -165,15 +165,25 @@ searchInput.addEventListener("input", () => {
 // -------------------------------------------------------------------------------------------------------------------------------------------
 // LIKE SYSTEM
 
+let favorites = [];
+
+
 
 
 
 // -------------------------------------------------------------------------------------------------------------------------------------------
 // SHOW BOOK DESCRIPTION
 
+const allBooks = document.querySelectorAll(".book, .a-book");
 
+allBooks.forEach((bookEl) => {
 
+    bookEl.addEventListener("click", () => {
 
+        window.open("bookpage.html");
+
+    });
+});
 
 
 

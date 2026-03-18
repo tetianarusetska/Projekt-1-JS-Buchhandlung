@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 /* HEADER */
 
 header {
@@ -11,6 +12,11 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+
+.hidden {
+    display: none !important;
 }
 
 /* MENU */
@@ -48,8 +54,8 @@ header {
 }
 
 .menu1 a:hover .down-arrow {
-     transform: scale(1.1);
-     transform: translateY(-4px);
+    transform: scale(1.1);
+    transform: translateY(-4px);
     stroke: var(--secondaryColor);
 }
 
@@ -196,7 +202,7 @@ header {
     gap: 16px;
     text-align: center;
     font-family: "Feijoa";
-     align-items: center;
+    align-items: center;
 
 }
 
@@ -369,19 +375,20 @@ input[type="radio"]:checked~.title {
     margin-bottom: 12px;
 }
 
-.like-Button, .card-Button {
-    background-size: cover;    
+.like-Button,
+.card-Button {
+    background-size: cover;
     background-repeat: no-repeat;
-    border: none;    
+    border: none;
     cursor: pointer;
-    vertical-align: middle; 
-    padding: 0;   
+    vertical-align: middle;
+    padding: 0;
 }
 
 .like-Button {
-    width: 24px;        
+    width: 24px;
     height: 24px;
-    background-image: url("/assets/icons/heart3.png"); 
+    background-image: url("/assets/icons/heart3.png");
 }
 
 .like-Button:hover {
@@ -389,7 +396,7 @@ input[type="radio"]:checked~.title {
 }
 
 .card-Button {
-    width: 25px;        
+    width: 25px;
     height: 25px;
     background-image: url("/assets/icons/basket.png");
 }
@@ -400,30 +407,215 @@ input[type="radio"]:checked~.title {
 
 .a-book:hover .like-Button {
     background-image: url("/assets/icons/heart5.png");
-    background-size: cover;    
+    background-size: cover;
     background-repeat: no-repeat;
-    border: 1px solid var(--accentColor); 
+    border: 1px solid var(--accentColor);
 }
 
 .a-book:hover .card-Button {
     background-image: url("/assets/icons/basket4.png");
-    background-size: cover;    
+    background-size: cover;
     background-repeat: no-repeat;
-    border: 1px solid var(--accentColor); 
+    border: 1px solid var(--accentColor);
 }
 
 .book:hover .like-Button {
     background-image: url("/assets/icons/heart5.png");
-    background-size: cover;    
+    background-size: cover;
     background-repeat: no-repeat;
-    border: 1px solid var(--accentColor); 
+    border: 1px solid var(--accentColor);
 }
 
 .book:hover .card-Button {
     background-image: url("/assets/icons/basket4.png");
-    background-size: cover;    
+    background-size: cover;
     background-repeat: no-repeat;
-    border: 1px solid var(--accentColor); 
+    border: 1px solid var(--accentColor);
 }
 
+/* PROFILE PAGE */
 
+.profileWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.profilePage {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+
+    width: max-content;
+    height: 350px;
+    padding: 24px;
+
+    margin: 0 auto;
+}
+
+.profilePage:hover {
+    background-color: var(--primaryColor);
+    border: 2px solid var(--accentColor);
+}
+
+.profilePage:hover p {
+    color: var(--secondaryColor);
+}
+
+.profilePage:hover label {
+    color: var(--secondaryColor);
+}
+
+.profilePage:hover .login-Button {
+    background-color: var(--secondaryColor);
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, var(--secondaryColor) 0 -3px 0 inset;
+    color: var(--primaryColor);
+}
+
+.profilePage:hover .registr-Button {
+    background-color: var(--secondaryColor);
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, var(--secondaryColor) 0 -3px 0 inset;
+    color: var(--primaryColor);
+}
+
+.profilePage label {
+    text-align: left;
+    font-size: 17px;
+    font-family: var(--mainFont);
+    margin-bottom: 12px;
+    color: var(--primaryColor);
+}
+
+.profilePage p {
+    font-size: 17px;
+    font-family: var(--mainFont);
+    color: var(--primaryColor);
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+}
+
+.email,
+.password {
+    font-size: 17px;
+    font-family: var(--decorativeFont1);
+    width: 400px;
+    height: 28px;
+    border: 2px solid var(--primaryColor);
+    margin-bottom: 18px;
+}
+
+.login-Button,
+.registr-Button {
+    color: var(--secondaryColor);
+    font-size: 17px;
+    font-family: var(--mainFont);
+
+    letter-spacing: 1.6px;
+    background-color: var(--primaryColor);
+    border-radius: 2px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, var(--primaryColor) 0 -3px 0 inset;
+    box-sizing: border-box;
+    height: 38px;
+    width: 160px;
+    color: var(--secondaryColor);
+    line-height: 1;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.login-Button {
+    margin: 0 auto;
+    transform: translateY(10px);
+}
+
+.registr-Button {
+    transform: translateY(-10px);
+}
+
+.messages {
+    font-size: 17px;
+    font-family: var(--mainFont);
+    margin-top: 24px;
+}
+
+/* REGISTRATION */
+
+.registr {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+
+    padding: 24px;
+
+    margin: 0 auto;
+}
+
+.form label {
+    text-align: left;
+    font-size: 17px;
+    font-family: var(--mainFont);
+    margin-bottom: 12px;
+    color: var(--primaryColor);
+}
+
+.form input {
+    font-size: 17px;
+    font-family: var(--decorativeFont1);
+    width: 400px;
+    height: 28px;
+    border: 2px solid var(--primaryColor);
+    margin-bottom: 4px;
+}
+
+.form button {
+    margin-top: 12px;
+    color: var(--secondaryColor);
+    font-size: 17px;
+    font-family: var(--mainFont);
+
+    letter-spacing: 1.6px;
+    background-color: var(--primaryColor);
+    border-radius: 2px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, var(--primaryColor) 0 -3px 0 inset;
+    box-sizing: border-box;
+    height: 38px;
+    width: 160px;
+    color: var(--secondaryColor);
+    line-height: 1;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+#r-passwordMessage {
+    font-size: 17px;
+    font-family: var(--mainFont);
+    margin-top: 24px;
+}
+
+#r-message {
+    font-size: 17px;
+    font-family: var(--mainFont);
+    margin-top: 24px;
+}

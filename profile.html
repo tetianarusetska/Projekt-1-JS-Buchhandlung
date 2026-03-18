@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/root.css">
     <link rel="stylesheet" href="styles/style.css">
     <script src="script.js" defer></script>
+    <script src="profile.js" defer></script>
     <title>Profile Page</title>
 </head>
 
@@ -15,12 +16,12 @@
     <!------------------------ HEADER --------------------------->
     <header>
 
-        <div><img class="logo" src="assets/logo/screenshots/newversion5.png" alt="logo"></div>
+        <div><a href="index.html"><img class="logo" src="assets/logo/screenshots/newversion5.png" alt="logo"></a></div>
         <div class="menuAndSearch">
             <nav class="menu1">
                 <ul>
-                    <li><a href="index.html">HOME<svg class="down-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="1">
+                    <li><a href="index.html">HOME<svg class="down-arrow" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="1">
                                 <path d="M6 9l6 6 6-6" />
                             </svg></a></li>
                     <li><a href="#">ÜBER UNS<svg class="down-arrow" viewBox="0 0 24 24" fill="none"
@@ -50,9 +51,43 @@
         </div>
 
     </header>
-
+    <!------------------------ MAIN --------------------------->
     <main>
-        <section id="profileContainer"></section>
+        <section id="profilePage" class="profileWrapper">
+            <div class="profilePage">
+                <div class="login">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="emailInput" class="email">
+
+                    <label for="password">Passwort</label>
+                    <input type="password" name="password" id="passwordInput" class="password">
+
+                    <button type="button" id="loginButton" class="login-Button">Anmelden</button>
+                </div>
+                <p>oder</p>
+                <button type="button" id="registrButton" class="registr-Button">Registrieren</button>
+            </div>
+            <p id="message" class="messages"></p>
+        </section>
+
+        <section id="registration" class="hidden registr">
+                <form id="registrationForm" class="form">
+                    <label for="nameInput">Vorname, Nachname</label>
+                    <input type="text" name="nameInput" id="nameInput">
+                    <label for="r-emailInput">E-Mail</label>
+                    <input type="email" name="r-emailInput" id="r-emailInput">
+                    <label for="r-passwordInput">Passwort</label>
+                    <input type="password" name="r-passwordInput" id="r-passwordInput">
+                    <label for="r-passwordInput2">Passwort wiederholen</label>
+                    <input type="password" name="r-passwordInput2" id="r-passwordInput2">
+                    <button type="submit" id="registrationButton">Registrieren</button>
+                    <p id="r-message"></p>
+                </form>
+        </section>
+
+        <section id="profile" class="hidden prof">
+            <div id="profile-content" class="profileContent"></div>
+        </section>
     </main>
 
 </body>
