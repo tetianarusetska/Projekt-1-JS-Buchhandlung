@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-
+/* ------------------------------------------------------------------------------------------------------------------------------ */
 /* HEADER */
 
 header {
@@ -139,7 +139,7 @@ header {
     transform: translate(-18px, -6px);
 }
 
-
+/* ---------------------------------------------------------- HOME PAGE ----------------------------------------------------------- */
 /* ----------------------------------------------------------SECTION 1----------------------------------------------------------------------- */
 
 /* HERO SECTION */
@@ -323,7 +323,7 @@ header {
     font-size: 16px;
 }
 
-
+/* ------------------------------------------------------------------------------------------------------------------------------ */
 /* PAGINATION */
 
 .pagesWithPagination {
@@ -364,6 +364,7 @@ input[type="radio"]:checked~.title {
     margin-left: -16px;
 }
 
+/* ------------------------------------------------------------------------------------------------------------------------------ */
 /* LIKE SYSTEM + ADD TO CARD SYSTEM */
 
 .actionButtons {
@@ -433,6 +434,7 @@ input[type="radio"]:checked~.title {
     border: 1px solid var(--accentColor);
 }
 
+/* ------------------------------------------------------------------------------------------------------------------------------ */
 /* PROFILE PAGE */
 
 .profileWrapper {
@@ -518,7 +520,7 @@ input[type="radio"]:checked~.title {
     font-size: 17px;
     font-family: var(--mainFont);
 
-    letter-spacing: 1.6px;
+    letter-spacing: 1.3px;
     background-color: var(--primaryColor);
     border-radius: 2px;
     border-width: 0;
@@ -655,7 +657,8 @@ input[type="radio"]:checked~.title {
     margin-bottom: 80px;
 }
 
-.profList, .profOrders { 
+.profList,
+.profOrders {
     font-size: 17px;
     margin-bottom: 20px;
 }
@@ -666,4 +669,56 @@ input[type="radio"]:checked~.title {
     vertical-align: middle;
     stroke: var(--primaryColor);
     transform: translateY(-1px);
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+/* FAVORITES SEITE */
+
+.favoritesPage {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin: 60px 430px;
+}
+
+.favTitel {
+    font-size: 22px;
+    font-family: var(--mainFont);
+}
+
+.favIcon1 {
+    width: 54px;
+    height: 54px;
+    transform: translate(-5px, 22px);
+}
+
+.favoritesContainer {
+    margin-top: 40px;
+    border: var(--accentColor);
+    width: 600px;
+    height: 600px;
+    background-color: blue;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+/* WARENKORB SEITE */
+
+.card-section {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin: 60px 430px;
+}
+
+.cardTitel {
+    font-size: 22px;
+    font-family: var(--mainFont);
+}
+
+.cardContainer {
+    margin-top: 40px;
+    border: var(--accentColor);
+    width: 600px;
+    height: 600px;
+    background-color: blue;
 }
