@@ -147,6 +147,8 @@ searchButton.addEventListener("click", () => {
 
 searchInput.addEventListener("input", () => {
 
+    e.preventDefault();
+
     const query = searchInput.value.toLowerCase();
 
     currentBooks = books.filter(book =>
