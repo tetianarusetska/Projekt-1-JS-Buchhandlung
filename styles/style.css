@@ -565,9 +565,7 @@ input[type="radio"]:checked~.title {
     justify-content: center;
     align-items: center;
     text-align: left;
-
     padding: 24px;
-
     margin: 0 auto;
 }
 
@@ -618,4 +616,54 @@ input[type="radio"]:checked~.title {
     font-size: 17px;
     font-family: var(--mainFont);
     margin-top: 24px;
+}
+
+.form:hover {
+    background-color: var(--primaryColor);
+    border: 2px solid var(--accentColor);
+}
+
+.form:hover label {
+    color: var(--secondaryColor);
+}
+
+.form:hover input {
+    border: 2px solid var(--secondaryColor);
+}
+
+.form:hover button {
+    color: var(--primaryColor);
+    background-color: var(--secondaryColor);
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, var(--secondaryColor) 0 -3px 0 inset;
+    color: var(--primaryColor);
+}
+
+/* ACCOUNT */
+
+.prof {
+    margin: 80px 430px;
+    font-family: var(--mainFont);
+}
+
+.profTitel {
+    font-size: 33px;
+    margin-bottom: 40px;
+}
+
+.profWillkommen {
+    font-size: 17px;
+    margin-bottom: 80px;
+}
+
+.profList, .profOrders { 
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.prof .down-arrow {
+    width: 30px;
+    height: 36px;
+    vertical-align: middle;
+    stroke: var(--primaryColor);
+    transform: translateY(-1px);
 }

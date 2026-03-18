@@ -71,22 +71,34 @@
         </section>
 
         <section id="registration" class="hidden registr">
-                <form id="registrationForm" class="form">
-                    <label for="nameInput">Vorname, Nachname</label>
-                    <input type="text" name="nameInput" id="nameInput">
-                    <label for="r-emailInput">E-Mail</label>
-                    <input type="email" name="r-emailInput" id="r-emailInput">
-                    <label for="r-passwordInput">Passwort</label>
-                    <input type="password" name="r-passwordInput" id="r-passwordInput">
-                    <label for="r-passwordInput2">Passwort wiederholen</label>
-                    <input type="password" name="r-passwordInput2" id="r-passwordInput2">
-                    <button type="submit" id="registrationButton">Registrieren</button>
-                    <p id="r-message"></p>
-                </form>
+            <form id="registrationForm" class="form">
+                <label for="nameInput">Vorname, Nachname</label>
+                <input type="text" name="nameInput" id="nameInput">
+                <label for="r-emailInput">E-Mail</label>
+                <input type="email" name="r-emailInput" id="r-emailInput">
+                <label for="r-passwordInput">Passwort</label>
+                <input type="password" name="r-passwordInput" id="r-passwordInput">
+                <label for="r-passwordInput2">Passwort wiederholen</label>
+                <input type="password" name="r-passwordInput2" id="r-passwordInput2">
+                <button type="submit" id="registrationButton">Registrieren</button>
+            </form>
+            <p id="r-message"></p>
         </section>
 
         <section id="profile" class="hidden prof">
-            <div id="profile-content" class="profileContent"></div>
+            <div id="profile-content" class="profileContent">
+                <p class="profTitel">Profil</p>
+                <p class="profWillkommen">Willkommen in Ihrem persönlichen Kundenkonto.<br>Hier finden Sie eine
+                    Übersicht Ihrer Bestellungen.</p>
+                <p class="profOrders">Meine Bestellungen<svg class="down-arrow" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="1">
+                        <path d="M6 9l6 6 6-6" />
+                    </svg></p>
+                <p class="profList">Mein Merkzettel<svg class="down-arrow" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="1">
+                        <path d="M6 9l6 6 6-6" />
+                    </svg></p>
+            </div>
         </section>
     </main>
 

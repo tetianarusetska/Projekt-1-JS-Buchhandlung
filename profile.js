@@ -20,6 +20,8 @@ registrButton.addEventListener("click", () => {
     showSection("registration");
 });
 
+
+
 loginButton.addEventListener("click", (e) => {
 
     e.preventDefault();
