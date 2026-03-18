@@ -51,7 +51,7 @@ function showArtBooks() {
             <div class="a-book">
                 <img class="a-booksImage" src="${book.src}">
                 <p class="a-name">${book.name}</p>
-                <p class="a-author">${book.author}</p>
+                <p class="a-author">${book.author}, ${book.publishedDate}</p>
                 <p class="a-tags">${book.tags.join(",  ")}</p>
                 <p class="a-price">${book.price}${book.currency}</p>
                 <div class="actionButtons">
@@ -157,7 +157,7 @@ searchInput.addEventListener("input", () => {
 
     currentPage = 1;
     renderBooks();
-    
+
 });
 
 // -------------------------------------------------------------------------------------------------------------------------------------------
@@ -197,3 +197,48 @@ searchInput.addEventListener("input", () => {
 // -------------------------------------------------------------------------------------------------------------------------------------------
 // SHOW BOOK DESCRIPTION
 
+
+
+
+
+
+
+// -------------------------------------------------------------------------------------------------------------------------------------------
+// NEUE START MIT API
+
+// const pageWithBooks = document.getElementById("pageWithBooks");
+
+// async function getBooks(query) {
+
+//     const response = await fetch(`https://openlibrary.org/search.json?q=${query}`);
+//     const data = await response.json();
+
+//     console.log(data);
+//     renderBooks(data);
+
+// }
+
+// getBooks("love");
+
+// function renderBooks(data) {
+//     pageWithBooks.innerHTML = "";
+
+//     data.docs.forEach(book => {
+//         if (!book.title || !book.first_publish_year || !book.cover_i) return;
+
+//         const coverUrl = `https://covers.openlibrary.org/b/id/${book.cover_i}-M.jpg`;
+//         const authors = book.author_name ? book.author_name.join(", ") : "Неизвестно";
+
+//         pageWithBooks.innerHTML += `
+//             <div class="book">
+//                 <img src="${coverUrl}" alt="${book.title}" class="booksImage">
+//                 <p class="booksName">${book.title}</p>
+//                 <p class="booksAuthor">${authors}, ${book.first_publish_year}</p>
+//                 <div class="actionButtons">
+//                     <button class="like-Button"></button>
+//                     <button class="card-Button"></button>
+//                 </div>
+//             </div>
+//         `;
+//     });
+// }

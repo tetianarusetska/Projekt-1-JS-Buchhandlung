@@ -46,7 +46,7 @@ header {
     transform: translateY(-4px);
 }
 
-.menu1 .down-arrow:hover {
+.menu1 a:hover .down-arrow {
      transform: scale(1.1);
      transform: translateY(-4px);
     stroke: var(--secondaryColor);
@@ -74,7 +74,7 @@ header {
     font-family: var(--decorativeFont1);
     width: 480px;
     height: 30px;
-    border: 1px solid var(--primaryColor);
+    border: 2px solid var(--primaryColor);
     transform: translateY(-20px);
 }
 

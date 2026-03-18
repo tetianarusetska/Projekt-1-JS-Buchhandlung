@@ -1,5 +1,5 @@
 [
-       {
+    {
         "id": 0,
         "src": "assets/images/books/klein.webp",
         "name": "Yves Klein",
@@ -418,11 +418,7 @@
         "price": 35,
         "currency": "€",
         "publishedDate": "2017"
-    },  
-
-
-
-
+    },
     {
         "id": 28,
         "src": "assets/images/books/rheims.webp",
@@ -438,7 +434,7 @@
         "currency": "€",
         "publishedDate": "2019"
     },
-       {
+    {
         "id": 29,
         "src": "assets/images/books/beard.webp",
         "name": "Peter Beard",
@@ -513,7 +509,7 @@
         "currency": "€",
         "publishedDate": "2017"
     },
-     {
+    {
         "id": 34,
         "src": "assets/images/books/leibovitz1.webp",
         "name": "Annie Leibovitz",
@@ -528,7 +524,7 @@
         "currency": "€",
         "publishedDate": "2020"
     },
-     {
+    {
         "id": 35,
         "src": "assets/images/books/salgado1.webp",
         "name": "Sebastião Salgado: Genesis – 45th Edition",
@@ -648,7 +644,7 @@
         "currency": "€",
         "publishedDate": "2015"
     },
-     {
+    {
         "id": 43,
         "src": "assets/images/books/sophia.webp",
         "name": "Sophia by Eisenstaedt",
@@ -663,10 +659,6 @@
         "currency": "€",
         "publishedDate": "2016"
     },
-
-
-
-
     {
         "id": 44,
         "src": "assets/images/books/schop1.jpg",
@@ -682,7 +674,7 @@
         "currency": "€",
         "publishedDate": "1831"
     },
-     {
+    {
         "id": 45,
         "src": "assets/images/books/kafka3.jpg",
         "name": "Das Schloß",
@@ -877,11 +869,6 @@
         "currency": "€",
         "publishedDate": "1637"
     },
-
-
-
-
-
     {
         "id": 58,
         "src": "assets/images/books/hesse1.jpg",
@@ -1034,6 +1021,206 @@
     },
     {
         "id": 68,
+        "src": "assets/images/books/hesse10.jpg",
+        "name": "The Fairy Tales of Hermann Hesse",
+        "author": "Hermann Hesse",
+        "category": "literatur",
+        "tags": [
+            "Fairy Tales",
+            "Philosophy",
+            "Spirituality"
+        ],
+        "price": 14,
+        "currency": "€",
+        "publishedDate": "1995"
+    },
+    {
+        "id": 69,
+        "src": "assets/images/books/hesse11.jpg",
+        "name": "Narcissus and Goldmund",
+        "author": "Hermann Hesse",
+        "category": "literatur",
+        "tags": [
+            "Philosophy",
+            "Identity",
+            "Classic"
+        ],
+        "price": 13,
+        "currency": "€",
+        "publishedDate": "1930"
+    },
+    {
+        "id": 70,
+        "src": "assets/images/books/hesse12.jpg",
+        "name": "Siddhartha",
+        "author": "Hermann Hesse",
+        "category": "literatur",
+        "tags": [
+            "Spirituality",
+            "Philosophy",
+            "Classic"
+        ],
+        "price": 12,
+        "currency": "€",
+        "publishedDate": "1922"
+    },
+    {
+        "id": 71,
+        "src": "assets/images/books/miller10.jpg",
+        "name": "Plexus",
+        "author": "Henry Miller",
+        "category": "literatur",
+        "tags": [
+            "Autobiography",
+            "Modernism",
+            "Experimental"
+        ],
+        "price": 16,
+        "currency": "€",
+        "publishedDate": "1953"
+    },
+    {
+        "id": 72,
+        "src": "assets/images/books/miller11.jpg",
+        "name": "Big Sur and the Oranges of Hieronymus Bosch",
+        "author": "Henry Miller",
+        "category": "literatur",
+        "tags": [
+            "Essays",
+            "Art",
+            "Philosophy"
+        ],
+        "price": 15,
+        "currency": "€",
+        "publishedDate": "1957"
+    },
+    {
+        "id": 73,
+        "src": "assets/images/books/miller12.jpg",
+        "name": "The Henry Miller Reader",
+        "author": "Henry Miller",
+        "category": "literatur",
+        "tags": [
+            "Collection",
+            "Essays",
+            "Literature"
+        ],
+        "price": 18,
+        "currency": "€",
+        "publishedDate": "1959"
+    },
+    {
+        "id": 74,
+        "src": "assets/images/books/miller13.jpg",
+        "name": "Black Spring",
+        "author": "Henry Miller",
+        "category": "literatur",
+        "tags": [
+            "Autobiography",
+            "Experimental",
+            "Modernism"
+        ],
+        "price": 14,
+        "currency": "€",
+        "publishedDate": "1936"
+    },
+    {
+        "id": 75,
+        "src": "assets/images/books/miller14.jpg",
+        "name": "Tropic of Cancer",
+        "author": "Henry Miller",
+        "category": "literatur",
+        "tags": [
+            "Modernism",
+            "Controversial",
+            "Classic"
+        ],
+        "price": 13,
+        "currency": "€",
+        "publishedDate": "1934"
+    },
+    {
+        "id": 76,
+        "src": "assets/images/books/miller15.jpg",
+        "name": "Tropic of Capricorn",
+        "author": "Henry Miller",
+        "category": "literatur",
+        "tags": [
+            "Modernism",
+            "Autobiography",
+            "Classic"
+        ],
+        "price": 13,
+        "currency": "€",
+        "publishedDate": "1939"
+    },
+    {
+        "id": 77,
+        "src": "assets/images/books/orwell10.jpg",
+        "name": "Fascism and Democracy",
+        "author": "George Orwell",
+        "category": "literatur",
+        "tags": [
+            "Politics",
+            "Essays",
+            "History"
+        ],
+        "price": 10,
+        "currency": "€",
+        "publishedDate": "1941"
+    },
+    {
+        "id": 78,
+        "src": "assets/images/books/orwell11.jpg",
+        "name": "Books v. Cigarettes",
+        "author": "George Orwell",
+        "category": "literatur",
+        "tags": [
+            "Essays",
+            "Literature",
+            "Criticism"
+        ],
+        "price": 9,
+        "currency": "€",
+        "publishedDate": "1946"
+    },
+    {
+        "id": 79,
+        "src": "assets/images/books/orwell12.jpg",
+        "name": "A Shooting an Elephant",
+        "author": "George Orwell",
+        "category": "literatur",
+        "tags": [
+            "Essays",
+            "Colonialism",
+            "Classic"
+        ],
+        "price": 11,
+        "currency": "€",
+        "publishedDate": "1936"
+    },
+    {
+        "id": 80,
+        "src": "assets/images/books/miller16.jpg",
+        "name": "Nexus",
+        "author": "Henry Miller",
+        "category": "literatur",
+        "tags": [
+            "Autobiography",
+            "Modernism",
+            "Trilogy"
+        ],
+        "price": 17,
+        "currency": "€",
+        "publishedDate": "1960"
+    },
+
+
+
+
+
+    {
+        "id": 81,
         "src": "assets/images/books/caroll.jpg",
         "name": "Alice im Wunderland",
         "author": "Lewis Carroll",
@@ -1048,7 +1235,7 @@
         "publishedDate": "1865"
     },
     {
-        "id": 69,
+        "id": 82,
         "src": "assets/images/books/doyle.jpg",
         "name": "Der Hund der Baskervilles",
         "author": "Arthur Conan Doyle",
@@ -1063,7 +1250,7 @@
         "publishedDate": "1902"
     },
     {
-        "id": 70,
+        "id": 83,
         "src": "assets/images/books/austen1.jpg",
         "name": "Northanger Abbey",
         "author": "Jane Austen",
@@ -1078,7 +1265,7 @@
         "publishedDate": "1817"
     },
     {
-        "id": 71,
+        "id": 84,
         "src": "assets/images/books/austen6.jpg",
         "name": "Mansfield Park",
         "author": "Jane Austen",
@@ -1093,7 +1280,7 @@
         "publishedDate": "1814"
     },
     {
-        "id": 72,
+        "id": 85,
         "src": "assets/images/books/bronte1.jpg",
         "name": "Villette",
         "author": "Charlotte Brontë",
@@ -1108,7 +1295,7 @@
         "publishedDate": "1853"
     },
     {
-        "id": 73,
+        "id": 86,
         "src": "assets/images/books/dickens2.jpg",
         "name": "Oliver Twist",
         "author": "Charles Dickens",
@@ -1123,7 +1310,7 @@
         "publishedDate": "1838"
     },
     {
-        "id": 74,
+        "id": 87,
         "src": "assets/images/books/wilde2.jpg",
         "name": "Märchen",
         "author": "Oscar Wilde",
@@ -1138,7 +1325,7 @@
         "publishedDate": "1888"
     },
     {
-        "id": 75,
+        "id": 88,
         "src": "assets/images/books/austen2.jpg",
         "name": "Stolz und Vorurteil",
         "author": "Jane Austen",
@@ -1153,7 +1340,7 @@
         "publishedDate": "1813"
     },
     {
-        "id": 76,
+        "id": 89,
         "src": "assets/images/books/bronte2.jpg",
         "name": "Jane Eyre",
         "author": "Charlotte Brontë",
@@ -1168,7 +1355,7 @@
         "publishedDate": "1847"
     },
     {
-        "id": 77,
+        "id": 90,
         "src": "assets/images/books/wilde.jpg",
         "name": "Das Bildnis des Dorian Gray",
         "author": "Oscar Wilde",
@@ -1183,7 +1370,7 @@
         "publishedDate": "1890"
     },
     {
-        "id": 78,
+        "id": 91,
         "src": "assets/images/books/austen3.jpg",
         "name": "Emma",
         "author": "Jane Austen",
@@ -1198,7 +1385,7 @@
         "publishedDate": "1815"
     },
     {
-        "id": 79,
+        "id": 92,
         "src": "assets/images/books/dickens3.jpg",
         "name": "David Copperfield",
         "author": "Charles Dickens",
@@ -1213,7 +1400,7 @@
         "publishedDate": "1850"
     },
     {
-        "id": 80,
+        "id": 93,
         "src": "assets/images/books/wilde3.jpg",
         "name": "Der Sozialismus und die Seele des Menschen",
         "author": "Oscar Wilde",
@@ -1228,7 +1415,7 @@
         "publishedDate": "1891"
     },
     {
-        "id": 81,
+        "id": 94,
         "src": "assets/images/books/ebronte.jpg",
         "name": "Wuthering Heights",
         "author": "Emily Brontë",
@@ -1243,7 +1430,7 @@
         "publishedDate": "1847"
     },
     {
-        "id": 82,
+        "id": 95,
         "src": "assets/images/books/dickens1.jpg",
         "name": "Große Erwartungen",
         "author": "Charles Dickens",
