@@ -165,36 +165,8 @@ searchInput.addEventListener("input", () => {
 // -------------------------------------------------------------------------------------------------------------------------------------------
 // LIKE SYSTEM
 
-// const likeButton = document.getElementById("likeButton");
-// const favoritesContainer = document.getElementById("favoritesContainer");
 
-// let favorites = [];
 
-// likeButton.addEventListener("click", () => {
-
-//     getBooks();
-//     favorites.push(books);
-//     renderFavorites();
-
-// });
-
-// function renderFavorites() {
-
-//     favoritesContainer.innerHTML = "";
-
-//     favorites.forEach((fav) => {
-//         favoritesContainer.innerHTML += `
-//             <div>
-//                 <img src="${fav.src}" alt="${fav.name}" class="booksImage">
-//                 <p class="booksName">${fav.name}</p>
-//                 <p class="booksAuthor">${fav.author}, ${fav.publishedDate}</p>
-//                 <p class="booksTags">${fav.tags.join(", ")}</p>
-//                 <p class="booksPrice">${fav.price}${fav.currency}</p>
-//             </div>
-//         `;
-//     });
-
-// }
 
 // -------------------------------------------------------------------------------------------------------------------------------------------
 // SHOW BOOK DESCRIPTION
