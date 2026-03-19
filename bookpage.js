@@ -17,10 +17,10 @@ function showDescription() {
                     <p class="description-price">${book.price}${book.currency}</p>
                     <p class="description-summary">${book.summary}</p>
                     <p class="description-info">${book.info}</p>
-                </div>
-                <div class="description-actionButtons">
-                    <button id="likeButton" class="description-like-Button"></button>
-                    <button id="cardButton" class="description-card-Button"></button>
+                    <div class="description-actionButtons">
+                        <button id="likeButton" class="description-like-Button">Auf die Merkliste</button>
+                        <button id="cardButton" class="description-card-Button">In den Warenkorb</button>
+                    </div>
                 </div>
             </div>
         `;

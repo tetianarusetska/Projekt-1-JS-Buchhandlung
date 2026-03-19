@@ -731,7 +731,7 @@ input[type="radio"]:checked~.title {
     display: grid;
     grid-template-columns: 650px 1fr;
     font-family: var(--mainFont);
-    justify-content: center; 
+    justify-content: center;
 }
 
 .descriprion-image {
@@ -757,15 +757,42 @@ input[type="radio"]:checked~.title {
     width: 500px;
 }
 
-.description-price, .description-tags {
+.description-price,
+.description-tags {
     font-weight: 500;
 }
 
 
-/* .description-like-Button {
+.description-like-Button,
+.description-card-Button {
 
+    font-size: 17px;
+    font-family: var(--mainFont);
+    letter-spacing: 1.6px;
+    border-radius: 2px;
+    border-width: 0;
+    box-sizing: border-box;
+    height: 38px;
+    width: fit-content;
+    line-height: 1;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.description-actionButtons {
+    display: flex;
+    gap: 26px;
+    margin-top: 30px;
 }
 
 .description-card-Button {
+    color: var(--secondaryColor);
+    background-color: var(--primaryColor);
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, var(--primaryColor) 0 -3px 0 inset;
+}
 
-} */
+.description-like-Button {
+    color: var(--secondaryColor);
+    background-color: var(--accentColor);
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, var(--accentColor) 0 -3px 0 inset;
+}
