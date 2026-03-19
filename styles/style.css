@@ -722,3 +722,50 @@ input[type="radio"]:checked~.title {
     height: 600px;
     background-color: blue;
 }
+
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+/* BÜCHER BESCHREIBUNG SEITE */
+
+.description {
+    margin: 90px 80px;
+    display: grid;
+    grid-template-columns: 650px 1fr;
+    font-family: var(--mainFont);
+    justify-content: center; 
+}
+
+.descriprion-image {
+    margin: 0 100px;
+    object-fit: contain;
+    width: 500px;
+    height: 400px;
+}
+
+.description-text {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    font-size: 18px;
+}
+
+.description-name {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.description-summary {
+    width: 500px;
+}
+
+.description-price, .description-tags {
+    font-weight: 500;
+}
+
+
+/* .description-like-Button {
+
+}
+
+.description-card-Button {
+
+} */

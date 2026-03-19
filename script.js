@@ -9,16 +9,20 @@ const artBooks = [
         publishedDate: 1990,
         tags: ["Gemälde", "Aquarelle", "Zeichnungen"],
         price: 100,
-        currency: "€"
+        currency: "€",
+        summary: "Gesamtkatalog der Werke von Egon Schiele, mit über 600 Illustrationen, Essays über sein Leben und Werk sowie Schieles persönlichen Schriften.",
+        info: "Hardcover, 25 x 34 cm, 3.88 kg, 608 Seiten"
     },
     {
         src: "assets/images/books/dali11.png",
         name: "Dalí. BABY SUMO",
         author: "Hans Werner Holzwarth",
-        publishedDate: 2011,
+        publishedDate: 2018,
         tags: ["Surrealismus", "Sammleredition", "Kunstgeschichte"],
         price: 1000,
-        currency: "€"
+        currency: "€",
+        summary: "Salvador Dalí, einer der Titanen der modernen Malerei, ist der Inbegriff des surrealistischen Künstlers, war aber auch Performer, Designer und Visionär. Diese Publikation präsentiert sein Werk in beispiellosem Format und Detailreichtum, mit einer Chronologie, die mit Fotos, Skizzen und Magazinseiten seinen Weg von Katalonien über Paris nach Hollywood und zurück nach Hause dokumentiert.",
+        info: "Hardcover, 36,7 x 50 cm, 438 Seiten; mit Goldschnitt, Ausklappseiten, Goldprägung auf Titel- und Kapitelseiten, sowie einem 40-seitigen Begleitheft mit Abbildungsverzeichnis, 22 x 28,9 cm; in einer Clamshell-Box, 41 x 56,2 cm, gebunden in schwarzem Samt mit Goldfolienprägung und Tip-In; plus Chronologie mit Leineneinband, 22 x 28,9 cm, 624 Seiten; Gesamtgewicht 16 kg"
     },
     {
         src: "assets/images/books/baskia11.png",
@@ -27,7 +31,9 @@ const artBooks = [
         publishedDate: 2010,
         tags: ["Surreale Kunst", "Neoexpressionismus", "Street-Art-Geschichte"],
         price: 175,
-        currency: "€"
+        currency: "€",
+        summary: "Umfassender Überblick über Jean-Michel Basquiats Werk, von frühen Zeichnungen über Graffiti-Phasen bis zu den wichtigsten Gemälden der Neoexpressionismus-Bewegung.",
+        info: "Hardcover, 28 x 36 cm, 2.2 kg, 240 Seiten"
     },
     {
         src: "assets/images/books/holler11.png",
@@ -36,7 +42,9 @@ const artBooks = [
         publishedDate: 2015,
         tags: ["Konzeptkunst", "Spiel & Wahrnehmung", "Interaktive Experimente"],
         price: 120,
-        currency: "€"
+        currency: "€",
+        summary: "Carsten Höller lädt zu 336 herrlich absurden Gedankenspielen ein. Jeder kann jederzeit antreten, allein oder in der Gruppe und ohne jegliches Material. Höller erklärt die Regeln, während Werke von Künstlern wie August Sander, Rineke Dijkstra und Salvador Dalí illustrieren, wie man spielerisch aus seiner Komfortzone tritt.",
+        info: "Hardcover, 17 x 22.1 cm, 1.63 kg, 760 Seiten"
     }
 ];
 
@@ -61,6 +69,16 @@ function showArtBooks() {
              </div>
         `;
     });
+
+    const allBooks = document.querySelectorAll(".a-book");
+    allBooks.forEach((bookEl, index) => {
+        bookEl.addEventListener("click", () => {
+            const book = artBooks[index];
+            localStorage.setItem("selectedBook", JSON.stringify(book));
+            window.location.href = "bookpage.html";
+        });
+    });
+
 }
 
 showArtBooks();
@@ -115,6 +133,16 @@ function renderBooks() {
             </div>
         `;
     });
+
+    const allBooks = document.querySelectorAll(".book");
+    allBooks.forEach((bookEl, index) => {
+        bookEl.addEventListener("click", () => {
+            const book = pageBooks[index];
+            localStorage.setItem("selectedBook", JSON.stringify(book));
+            window.location.href = "bookpage.html";
+        });
+    });
+
 }
 
 function filterBooks(category) {
@@ -174,16 +202,16 @@ let favorites = [];
 // -------------------------------------------------------------------------------------------------------------------------------------------
 // SHOW BOOK DESCRIPTION
 
-const allBooks = document.querySelectorAll(".book, .a-book");
+// const allBooks = document.querySelectorAll(".book, .a-book");
 
-allBooks.forEach((bookEl) => {
+// allBooks.forEach((bookEl) => {
 
-    bookEl.addEventListener("click", () => {
+//     bookEl.addEventListener("click", () => {
 
-        window.open("bookpage.html");
+//         window.open("bookpage.html");
 
-    });
-});
+//     });
+// });
 
 
 

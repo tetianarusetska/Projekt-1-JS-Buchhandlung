@@ -3,22 +3,24 @@
         "id": 0,
         "src": "assets/images/books/klein.webp",
         "name": "Yves Klein",
-        "author": "Yves Klein",
+        "author": "Hannah Weitemeiern",
         "category": "kunst",
         "tags": [
             "Moderne Kunst",
             "Monochrom",
             "Sammleredition"
         ],
-        "price": 170,
+        "price": 15,
         "currency": "€",
-        "publishedDate": "2016"
+        "publishedDate": "2016",
+        "summary": "Yves Klein, der Künstler, der für seinen eigenen patentierten Blauton und die Verwendung von „lebenden Pinseln“ weltberühmt wurde, kreierte im Laufe seiner kurzen, aber intensiven Schaffensphase über 1000 Bilder, die heute als Klassiker der modernen Kunst gelten.",
+        "info": "Hardcover, 21 x 26 cm, 0.56 kg, 96 Seiten"
     },
     {
         "id": 1,
         "src": "assets/images/books/shiele2.webp",
         "name": "Egon Schiele: Sämtliche Gemälde 1909–1918",
-        "author": "Egon Schiele",
+        "author": "Tobias G. Natter",
         "category": "kunst",
         "tags": [
             "Expressionismus",
@@ -27,13 +29,15 @@
         ],
         "price": 200,
         "currency": "€",
-        "publishedDate": "2013"
+        "publishedDate": "2021",
+        "summary": "Ein Jahrhundert nach seinem Tod fasziniert Egon Schiele immer noch mit ausgezehrten, überdehnten Gestalten und einer drastischen Darstellung der Sexualität. Ausgehend von TASCHENs erfolgreicher XXL-Ausgabe, für die viele Werke neu fotografiert wurden, enthält dieser Band den Gesamtkatalog seiner Gemälde aus den Jahren 1909-18, dem fruchtbaren letzten Jahrzehnts seines Lebens, mit fast 600 Illustrationen, Essays über sein Leben und Werk sowie Schieles persönlichen Schriften.",
+        "info": "Hardcover, 25 x 34 cm, 3.88 kg, 608 Seiten"
     },
     {
         "id": 2,
         "src": "assets/images/books/stoa.jpg",
         "name": "Stoa",
-        "author": "Various",
+        "author": "Hirmer Verlag GmbH",
         "category": "kunst",
         "tags": [
             "Architektur",
@@ -42,28 +46,32 @@
         ],
         "price": 45,
         "currency": "€",
-        "publishedDate": "2018"
+        "publishedDate": "2022",
+        "summary": "Eine Halle der Kunst mitten in der Natur, getragen von 121 individuell gestalteten Säulen, geschaffen von renommierten Künstlerinnen und Künstlern aus aller Welt: Diese Idee und ihre Verwirklichung verfolgt Bernd Zimmer seit über 30 Jahren. Reich bebildert dokumentiert der Band die Entstehung und zeigt alle Künstlersäulen in detailreichen Einzelaufnahmen. Bereits 1990 auf einer Reise durch Südindien und inspiriert durch die Säulenvorhallen der hinduistischen Tempel kam dem Maler Bernd Zimmer die Idee zu dem Vorhaben, das nun als STOA169 und permanente Kunstinstallation in Polling, Bayern realisiert ist. Kunstschaffende aller Kontinente wurden eingeladen, Pfeiler zu gestalten, die zusammen ein Dach tragen. Gemeinsam bilden die Säulen ein Kunst-Universum, welches für Solidarität, Völkerverständigung und Achtung der Natur steht.",
+        "info": "293/239/28 mm, 1648 g, 276 Seiten"
     },
     {
         "id": 3,
         "src": "assets/images/books/ntfs.webp",
         "name": "On NFTs – Collector's Edition",
-        "author": "Various",
+        "author": "Robert Alice",
         "category": "kunst",
         "tags": [
             "Digitale Kunst",
             "NFT",
             "Sammleredition"
         ],
-        "price": 2200,
+        "price": 750,
         "currency": "€",
-        "publishedDate": "2022"
+        "publishedDate": "2022",
+        "summary": "Von algorithmischer Kunst bis zu Avataren – der erste allumfassende kunsthistorische Überblick über das Ökosystem der NFTs enthält zehn Essays sowie die reich illustrierten Profile von 101 einflussreichen Künstlern. Neben einem tiefen Einblick in die Sphäre der non-fungible tokens verbindet dieser Band das disruptive zeitgenössische Medium mit seinem kunsthistorischen Kontext und kann auch mit Krypto erworben werden. Nummerierte Collector’s Edition (Nr. 1–2.500). Ebenfalls erhältlich in der nummerierten Hard Code Edition mit einem Edelstahlschuber und in vier limitierten Art Editions mit je einem NFT, einem nummerierten und signierten Print des NFTs und dem nummerierten Buch On NFTs im Edelstahlschuber.",
+        "info": "Hardcover im Schuber, 36 x 50 cm, 11,2 kg, 604 Seiten, mit einem Booklet, 21 x 29,7 cm, 24 Seiten"
     },
     {
         "id": 4,
         "src": "assets/images/books/munch.jpg",
         "name": "Edvard Munch",
-        "author": "Edvard Munch",
+        "author": "Hirmer Verlag GmbH",
         "category": "kunst",
         "tags": [
             "Expressionismus",
@@ -72,13 +80,15 @@
         ],
         "price": 130,
         "currency": "€",
-        "publishedDate": "2015"
+        "publishedDate": "2023",
+        "summary": "Edvard Munchs radikale Modernität der Malerei forderte die Zeitgenoss:innen heraus. Das gilt insbesondere für die Berliner Kunstszene um 1900, auf die der norwegische Symbolist großen Einfluss nahm, wo er aber auch Förderung erfuhr und sein Werk weiterentwickelte. Der Band erzählt bildreich und fundiert die Geschichte von Munch und Berlin. 1892 lud der Verein Berliner Künstler den noch unbekannten Edvard Munch (1863-1944) zu einer Ausstellung ein. Die Öffentlichkeit war geschockt von den farbgewaltigen, skizzenhaften Bildern. Der Künstler genoss dieses Aufsehen und zog an die Spree, wo er bis 1908 immer wieder lebte. In Berlin bedeuteten Munchs Werke nicht nur eine Initialzündung für die Moderne. Auch die Vorstellung vom »Zauber des Nordens« (Stefan Zweig) erfuhr einen Wandel. Statt mit romantischen oder naturalistischen Fjordlandschaften verband man damit nun Munchs psychisch verdichtete Bildwelten.",
+        "info": "287/228/32 mm, 1454 g, 304 Seiten"
     },
     {
         "id": 5,
         "src": "assets/images/books/dali.webp",
         "name": "Dalí: Baby Sumo",
-        "author": "Salvador Dalí",
+        "author": "Hans Werner Holzwarth",
         "category": "kunst",
         "tags": [
             "Surrealismus",
@@ -87,43 +97,49 @@
         ],
         "price": 3000,
         "currency": "€",
-        "publishedDate": "2018"
+        "publishedDate": "2018",
+        "summary": "Salvador Dalí, einer der Titanen der modernen Malerei, ist der Inbegriff des surrealistischen Künstlers, war aber auch Performer, Designer und Visionär. Diese Publikation präsentiert sein Werk in beispiellosem Format und Detailreichtum, mit einer Chronologie, die mit Fotos, Skizzen und Magazinseiten seinen Weg von Katalonien über Paris nach Hollywood und zurück nach Hause dokumentiert.",
+        "info": "Hardcover, 36,7 x 50 cm, 438 Seiten; mit Goldschnitt, Ausklappseiten, Goldprägung auf Titel- und Kapitelseiten, sowie einem 40-seitigen Begleitheft mit Abbildungsverzeichnis, 22 x 28,9 cm; in einer Clamshell-Box, 41 x 56,2 cm, gebunden in schwarzem Samt mit Goldfolienprägung und Tip-In; plus Chronologie mit Leineneinband, 22 x 28,9 cm, 624 Seiten; Gesamtgewicht 16 kg"
     },
     {
         "id": 6,
         "src": "assets/images/books/baselitz.webp",
         "name": "Georg Baselitz",
-        "author": "Georg Baselitz",
+        "author": "Hans Werner Holzwarth",
         "category": "kunst",
         "tags": [
             "Malerei",
             "Sammleredition",
             "Moderne Kunst"
         ],
-        "price": 2500,
+        "price": 1500,
         "currency": "€",
-        "publishedDate": "2021"
+        "publishedDate": "2021",
+        "summary": "Existenzialistische Gemälde und auf den Kopf gestellte Motive, grob gehauene Holzskulpturen und Remixe früherer Gemälde – die Kunst von Georg Baselitz ist stets eine Herausforderung. Mit über 400 Bildern von 1960 bis heute zeigt diese XXL-Monografie die ganze Breite seines Werks so eindringlich und detailgetreu wie nie zuvor.Collector’s Edition (No. 126–1.125), nummeriert und von Georg Baselitz signiert.Genius Down the Drain: Georg Baselitz as a Painter",
+        "info": "Hardcover in einer Schlagkassette, 33 x 44 cm, 604 Seiten, nummeriert und von Georg Baselitz signiert"
     },
     {
         "id": 7,
         "src": "assets/images/books/baskia2.webp",
         "name": "Basquiat",
-        "author": "Jean-Michel Basquiat",
+        "author": "Eleanor Nairne",
         "category": "kunst",
         "tags": [
             "Neoexpressionismus",
             "Street Art",
             "Moderne Kunst"
         ],
-        "price": 150,
+        "price": 175,
         "currency": "€",
-        "publishedDate": "2016"
+        "publishedDate": "2016",
+        "summary": "Diese XXL-Monografie bietet die Möglichkeit, Basquiats Werke in ihrer oftmals wilden und nicht leicht entschlüsselbaren Verschränkung von Bild und Text en détail zu studieren. Die Texte des Herausgebers Hans Werner Holzwarth sowie der Kuratorin und Kunsthistorikerin Eleanor Nairne stellen einen Künstler vor, dessen Werk heute noch so frisch und eindringlich wirkt wie vor dreißig Jahren.",
+        "info": "Hardcover, 29 x 39.5 cm, 4.93 kg, 500 pages, with 5 fold-outs"
     },
     {
         "id": 8,
         "src": "assets/images/books/giger.webp",
         "name": "HR Giger",
-        "author": "HR Giger",
+        "author": "Andreas J. Hirsch",
         "category": "kunst",
         "tags": [
             "Surrealismus",
@@ -132,13 +148,15 @@
         ],
         "price": 150,
         "currency": "€",
-        "publishedDate": "2015"
+        "publishedDate": "2015",
+        "summary": "Willkommen in der Welt von HR Giger, einem Reich von eindringlicher Kraft und düsterer Psychedelik. Diese Monografie umfasst Gigers Gemälde, Skulpturen, Filmarbeiten, ikonische Plattencover sowie sein einzigartiges Museum und enthält einen Essay von Andreas J. Hirsch und eine umfangreiche Biografie, die auf Gigers eigenen Texten basiert.",
+        "info": "Hardcover in einer Box, 29 x 39.5 cm, 5.95 kg, 506 Seiten"
     },
     {
         "id": 9,
         "src": "assets/images/books/weiwei.webp",
-        "name": "Ai Weiwei: The Silk Scarf Haircut",
-        "author": "Ai Weiwei",
+        "name": "Ai Weiwei: The Silk Scarf Haircut.The Silk Scarf ‘Haircut’",
+        "author": "TASCHEN",
         "category": "kunst",
         "tags": [
             "Moderne Kunst",
@@ -147,13 +165,15 @@
         ],
         "price": 1800,
         "currency": "€",
-        "publishedDate": "2019"
+        "publishedDate": "2019",
+        "summary": "Der Scherenschnitt ist eine traditionelle chinesische Kunstform, die 2.000 Jahre zurückreicht. Die farbigen, aufwendig geschnittenen Papiere dienen als Medium, um Geschichten zu erzählen – bei Festen, für Gebete sowie als alltägliche Dekoration. Der blaue Schal greift als Motiv einen Scherenschnitt auf, den Ai Weiwei als Teil seines 2019 bei TASCHEN erschienen Papercut Portfolio kreiert hat: Haircut das an seine Teilnahme an der documenta XII in Kassel erinnert, als er 1.001 chinesischen Landsleuten die Einreise in die deutsche Stadt ermöglichte.",
+        "info": "Blau-weißer Schal, 100% Seide, 90 x 90 cm, handgewebt und handgesiebt, mit handgerollten Kanten; in Seidenpapier eingewickelt und in einer Schachtel (26 x 26 cm) verpackt."
     },
     {
         "id": 10,
         "src": "assets/images/books/vermeer.webp",
         "name": "Vermeer: Das vollständige Werk",
-        "author": "Johannes Vermeer",
+        "author": "Karl Schütz",
         "category": "kunst",
         "tags": [
             "Barock",
@@ -162,37 +182,43 @@
         ],
         "price": 120,
         "currency": "€",
-        "publishedDate": "2014"
+        "publishedDate": "2014",
+        "summary": "Aus nur 35 Gemälden besteht das gesamte bekannte Werk des Johannes Vermeer, doch haben sie ihrem Schöpfer einen Platz unter den meistbewunderten und einflussreichsten Künstlern aller Zeiten gesichert. Diese Monographie ermöglicht es, Vermeers Talent für lebendig wirkende Genreszenen en détail zu studieren. Zahlreiche Ausschnittvergrößerungen offenbaren seine einzigartige Gabe, mit nur einer flu chtigen Geste, einem Blick eine ganze Geschichte zu erzählen. Zu seinen Lebzeiten war Johannes Vermeer (1632-1675) kaum über seinen Geburtsort Delft und einen kleinen Kreis von Mäzenen hinaus bekannt. Nach seinem Tod geriet sein Name rasch in Vergessenheit, und einige seiner Werke wurden gar anderen Künstlern zugeschrieben. Erst Mitte des 19. Jahrhunderts rückte Vermeer in den Fokus der internationalen Kunstwelt, die plötzlich die erzählerischen Details, die sorgfältig ausgearbeiteten Texturen und die grandiosen Lichtebenen seiner Werke wahrnahm und sein Genie entdeckte. Seine Werke waren Inspiration für Timothy Brooks Sachbuchbestseller Vermeers Hut und Tracy Chevaliers überaus erfolgreichen Roman Das Mädchen mit dem Perlenohrring, dessen Verfilmung mit Scarlett Johansson und Colin Firth zum Kinohit wurde. Vermeer-Ausstellungen erzielten von Amsterdam bis Washington Besucherrekorde. Im Mauritshuis in Den Haag mussten sogar spezielle Maßnahmen ergriffen werden, um den täglichen Ansturm der Kunstbegeisterten zu bändigen, die Vermeers `niederländische Mona Lisa` sehen wollten - das ebenso hinreißende wie rätselhafte Mädchen mit dem Perlenohrring. Dieser Gesamtkatalog der Werke Vermeers versammelt die ruhigen, aber fesselnden Gemälde, die in Museen und Galerien in Europa und den USA wie Schätze gehütet werden. Im großzügigen Format mit qualitativ unübertroffenen Reproduktionen entfaltet sich, besonders anschaulich auf drei Ausklappseiten, Vermeers begrenztes, aber atmosphärisch reichhaltiges Repertoire häuslicher Tätigkeiten: vom Briefeschreiben übers Musizieren bis hin zu Vorbereitungen in der Küche. Zahlreiche Details heben die überragende Fähigkeit des Künstlers hervor, sowohl die Trends und Moden des Goldenen Zeitalters der Niederlande festzuhalten als auch eine komplette Geschichte in nur einer flüchtigen Geste, Miene oder Erscheinung zu erzählen.",
+        "info": "348/264/38 mm, 2760 g, 258 Seiten"
     },
     {
         "id": 11,
         "src": "assets/images/books/bosch.webp",
         "name": "Bosch: Das vollständige Werk",
-        "author": "Hieronymus Bosch",
+        "author": "Stefan Fischer",
         "category": "kunst",
         "tags": [
             "Renaissance",
             "Malerei",
             "Kunstgeschichte"
         ],
-        "price": 130,
+        "price": 80,
         "currency": "€",
-        "publishedDate": "2014"
+        "publishedDate": "2014",
+        "summary": "Der niederländische Visionär Hieronymus Bosch schuf fantastische Szenarien, in denen die schlimmsten Fantasien des Menschen von Qual, Folter und Tod groteske Gestalt annahmen. Diese umfassende Monografie, die auf der XXL-Ausgabe basiert, für die TASCHEN erst kürzlich restaurierte Werke neu fotografieren ließ, zeigt die erstaunlichen Bildwelten des Malers im Detail – mit vielen ganzseitigen Abbildungen, Ausschnittvergrößerungen, einer Ausklappseite des Jüngsten Gerichts und Texten des Bosch-Experten Stefan Fischer.",
+        "info": "Hardcover mit Ausklappseite, 25 x 34 cm, 3.10 kg, 300 Seiten"
     },
     {
         "id": 12,
         "src": "assets/images/books/hopper.webp",
         "name": "Hopper",
-        "author": "Edward Hopper",
+        "author": "Rolf G. Renner",
         "category": "kunst",
         "tags": [
             "Moderne Kunst",
             "Malerei",
             "Amerikanische Kunst"
         ],
-        "price": 125,
+        "price": 15,
         "currency": "€",
-        "publishedDate": "2017"
+        "publishedDate": "2017",
+        "summary": "Edward Hopper, dessen bekanntestes Werk Nachtschwärmer eine unterschwellig beklemmende nächtliche Diner-Szene zeigt, entwickelte sich vom darbenden Künstler zum ikonischen Chronisten modernen Großstadtlebens. Dieses Buch führt ein in seine meisterlich-melancholischen Darstellungen atmosphärischer Orte.",
+        "info": "Hardcover, 21 x 26 cm, 0.56 kg, 96 Seiten"
     },
     {
         "id": 13,
@@ -205,15 +231,17 @@
             "Malerei",
             "Kunstgeschichte"
         ],
-        "price": 140,
+        "price": 20,
         "currency": "€",
-        "publishedDate": "2016"
+        "publishedDate": "2016",
+        "summary": "Vincent van Gogh gilt als Begründer der modernen Malerei und ist gleichzeitig eine der tragischsten Figuren der Kunstgeschichte. Diese umfassende Einführung verbindet eine detailreiche Schilderung seines Lebens mit einem vollständigen Werkkatalog seiner 871 Gemälde.",
+        "info": "Hardcover, 14 x 19.5 cm, 1.18 kg, 744 Seiten"
     },
     {
         "id": 14,
         "src": "assets/images/books/schiele.webp",
         "name": "Egon Schiele: Sämtliche Gemälde 1909–1918",
-        "author": "Egon Schiele",
+        "author": "Rudolf Leopold",
         "category": "kunst",
         "tags": [
             "Expressionismus",
@@ -222,7 +250,9 @@
         ],
         "price": 200,
         "currency": "€",
-        "publishedDate": "2013"
+        "publishedDate": "2013",
+        "summary": "Die von Rudolf Leopold 1972 verfasste Monografie Egon Schieles ist der Grundstein für Egon Schieles Weltruhm. Lange vergriffen, ist das wichtige Dokument der kunsthistorischen Literatur nun in der überarbeiteten Version mit umfassend bebildertem Werkverzeichnis wieder erhältlich. Gleichzeitig gewährt der prächtige Band durch Briefe, Skizzen und Dokumente Einblicke in das Leben des Künstlers. Rudolf Leopold erkannte in den 1950er-Jahren Schieles herausragende Bedeutung für die Kunst. Er war maßgeblich dafür verantwortlich, dass der Künstler den ihm gebührenden Platz in der Kunstgeschichte und öffentlichen Wahrnehmung erhielt. Die Monografie präsentiert Schieles Gemälde, Aquarelle und Zeichnungen. Ergänzt durch grundlegende Motivnachweise, Studien, Entwürfe und Dokumente gibt sie einen umfassenden Überblick. Die aktuelle Ausgabe ist eine Hommage an Leopolds Leistung.",
+        "info": "316/309/60 mm, 5502 g, 736 Seiten"
     },
     {
         "id": 15,
@@ -237,22 +267,26 @@
         ],
         "price": 220,
         "currency": "€",
-        "publishedDate": "2012"
+        "publishedDate": "2012",
+        "summary": "Leonardo da Vinci (1452–1519) ist selbst in der an Genies nicht armen Renaissance noch eine Ausnahmeerscheinung. Diese nach neuestem Forschungsstand aktualisierte Jubiläumsausgabe zu seinem 500. Todestag ist das umfassendste Buch, das je über den Jahrtausendkünstler erschienen ist, und umfasst sämtliche Gemälde und fast 700 Zeichnungen. In zahlreichen ganzseitigen Detailvergrößerungen kann der Leser die feinsten Nuancen der Pinselstriche, die die Kunst revolutionierten, buchstäblich en détail studieren.",
+        "info": "Hardcover, 21 x 26 cm, 2.88 kg, 704 Seiten"
     },
     {
         "id": 16,
         "src": "assets/images/books/beckmann.jpg",
-        "name": "Max Beckmann",
-        "author": "Max Beckmann",
+        "name": "Max wird Beckmann. Es begann in Braunschweig",
+        "author": "Thomas Döring, Thomas Richter, Andreas Uhr",
         "category": "kunst",
         "tags": [
             "Expressionismus",
             "Malerei",
             "Kunstgeschichte"
         ],
-        "price": 140,
+        "price": 50,
         "currency": "€",
-        "publishedDate": "2016"
+        "publishedDate": "2022",
+        "summary": "Max Beckmann (1884-1950), einer der bedeutendsten Maler des 20. Jahrhunderts, verbrachte seine Jugendjahre von 1895 bis 1900 in Braunschweig. Auch zu Studienzeiten kehrte er zeitweise hierhin zurück. Wie wurde aus dem Knaben ein Künstler? Woher nahm er seine Inspiration? Der Band beleuchtet diese Anfänge und ihre lebenslange Prägekraft für Beckmann anhand frühester und reifer Werke. Max Beckmann ist als ein Hauptmeister der Malerei der klassischen Moderne bekannt, als Schöpfer kraftvoller, zeitloser Werke. Doch wie verlief seine Entwicklung gegen alle familiär-gesellschaftlichen Widerstände vom halbwüchsigen Schulabbrecher zum früh erfolgreichen Maler? In Braunschweig entstanden seine frühesten Zeichnungen, Aquarelle und Ölgemälde, erste Begegnungen mit Alten Meistern fanden im Herzoglichen Museum zu Braunschweig statt: eine Zeit, die in seinem späteren Schaffen in Berlin, Frankfurt, Amsterdam und Amerika Nachhall fand.",
+        "info": "30/258/308 mm, 1998g, 304 Seiten"
     },
     {
         "id": 17,
@@ -267,13 +301,15 @@
         ],
         "price": 120,
         "currency": "€",
-        "publishedDate": "2010"
+        "publishedDate": "2010",
+        "summary": "Carsten Höller lädt zu 336 herrlich absurden Gedankenspielen ein. Jeder kann jederzeit antreten, allein oder in der Gruppe und ohne jegliches Material. Höller erklärt die Regeln, während Werke von Künstlern wie August Sander, Rineke Dijkstra und Salvador Dalí illustrieren, wie man spielerisch aus seiner Komfortzone tritt.",
+        "info": "Hardcover, 17 x 22.1 cm, 1.63 kg, 760 Seiten"
     },
     {
         "id": 18,
         "src": "assets/images/books/bergman1.webp",
         "name": "Das Ingmar Bergman Archiv",
-        "author": "Ingmar Bergman",
+        "author": "Erland Josephson",
         "category": "film",
         "tags": [
             "Film",
@@ -282,13 +318,15 @@
         ],
         "price": 85,
         "currency": "€",
-        "publishedDate": "2015"
+        "publishedDate": "2015",
+        "summary": "Eine Hommage an einen der vielseitigsten und einflussreichsten Regisseure der Filmgeschichte. Bergman selbst hatte noch an der Konzeption der preisgekrönten Originalausgabe mitgewirkt. Diese Neuausgabe stellt sein gesamtes filmisches Schaffen mit einer Fülle seltener Dokumente und Materialien dar. Zahlreiche Weggefährten Bergmans, Kritiker, Schauspieler und Filmhistoriker kommen zu Wort und zeichnen den Lebensweg eines kreativen Genies nach, das sich jeder Kategorisierung entzog.",
+        "info": "Hardcover, 33.7 x 24.6 cm, 3.45 kg, 452 Seiten"
     },
     {
         "id": 19,
         "src": "assets/images/books/chaplin.webp",
         "name": "Das Charlie Chaplin Archiv",
-        "author": "Charlie Chaplin",
+        "author": "Paul Duncan",
         "category": "film",
         "tags": [
             "Film",
@@ -297,13 +335,15 @@
         ],
         "price": 90,
         "currency": "€",
-        "publishedDate": "2015"
+        "publishedDate": "2015",
+        "summary": "Ausgehend von TASCHENs XXL-Ausgabe, für die in jahrelanger Arbeit das gesamte Material des umfangreichen Chaplin-Archivs gesichtet wurde, dokumentiert diese Neuauflage die Entstehung sämtlicher Chaplin-Filme. Anhand von persönlichen Briefen, Skizzen, Storyboards, Plakaten, Setfotos sowie Berichten einiger seiner engsten Weggefährten wird nachvollziehbar, wie Chaplin mit brillanten Spontaneinfällen sowie penibelster Planung zum ersten internationalen Filmstar wurde.",
+        "info": "Hardcover, 33.7 x 24.6 cm, 3.79 kg, 560 Seiten"
     },
     {
         "id": 20,
         "src": "assets/images/books/avangard.webp",
         "name": "Film Posters of the Russian Avant-Garde",
-        "author": "Unbekannt",
+        "author": "Susan Pack",
         "category": "film",
         "tags": [
             "Film",
@@ -312,13 +352,15 @@
         ],
         "price": 60,
         "currency": "€",
-        "publishedDate": "2014"
+        "publishedDate": "2014",
+        "summary": "Schon jetzt ein Standardwerk: 250 sowjetische Filmplakate aus den 1920er- und frühen 1930er-Jahren, geprägt von Fotomontage, Konstruktivismus und Dadaismus, eine Explosion an Kreativität, der erst der Sozialistische Realismus den Garaus machen sollte. Grelle Farben, dramatische Blickwinkel, kühne Montage-, Überblendungs- und Schnitttechniken und eine innovative Typographie – Sternstunden des Grafikdesigns von Avantgardisten wie Alexander Rodtschenko, den Stenberg-Brüdern und zahllosen anderen.",
+        "info": "Hardcover, 26 x 33.7 cm, 2.80 kg, 320 Seiten"
     },
     {
         "id": 21,
         "src": "assets/images/books/kubrick.webp",
         "name": "Das Stanley Kubrick Archiv",
-        "author": "Stanley Kubrick",
+        "author": "Alison Castle",
         "category": "film",
         "tags": [
             "Film",
@@ -327,28 +369,32 @@
         ],
         "price": 95,
         "currency": "€",
-        "publishedDate": "2016"
+        "publishedDate": "2016",
+        "summary": "Lolita, Barry Lyndon, 2001 – Odyssee im Weltraum oder Shining: Von der Eröffnungssequenz seines Frühwerks Der Tiger von New York bis zu den letzten Einstellungen von Eyes Wide Shut enthält diese bildgewaltige Sammlung einige der denkwürdigsten Aufnahmen aus Kubricks Œuvre, aufschlussreiche Interviews mit dem Ausnahmeregisseur und eine ungeheure Fülle an Archivmaterial – Szenenbildentwürfe, Drehbücher, Notizen, Schriftwechsel und Drehpläne.",
+        "info": "Hardcover, 14 x 19.5 cm, 1.13 kg, 704 Seiten"
     },
     {
         "id": 22,
         "src": "assets/images/books/hopper.webp",
         "name": "Dennis Hopper Photographs 1961–1967",
-        "author": "Dennis Hopper",
+        "author": "Jessica Hundley",
         "category": "film",
         "tags": [
             "Film",
             "Fotografie",
             "Hollywood"
         ],
-        "price": 70,
+        "price": 2500,
         "currency": "€",
-        "publishedDate": "2016"
+        "publishedDate": "2016",
+        "summary": "n den Sechzigerjahren hatte Dennis Hopper seine Kamera überall dabei. Sein Werk – fotografisch und filmisch zugleich – erzählt mit einer Vielzahl unvergesslicher Aufnahmen ergreifende Geschichten. Die umfangreiche Auswahl dieses Bandes versammelt die Höhepunkte seiner Karriere als Fotograf.",
+        "info": "Hardcover in einer Schlagkassette, 33 x 44 cm, 9.90 kg, 546 Seiten"
     },
     {
         "id": 23,
         "src": "assets/images/books/almodovar.webp",
         "name": "The Pedro Almodóvar Archives",
-        "author": "Pedro Almodóvar",
+        "author": "Paul Duncan",
         "category": "film",
         "tags": [
             "Film",
@@ -357,13 +403,15 @@
         ],
         "price": 80,
         "currency": "€",
-        "publishedDate": "2017"
+        "publishedDate": "2017",
+        "summary": "Sexy, subversiv, bunt, kontrovers: Almodóvars einzigartige Filmwelt macht ihn zum bedeutendsten spanischen Regisseur seit Buñuel. Seine Werke stehen für visuelle Opulenz, Experimentierfreude und die Erotik des Nach-Franco-Kinos. Diese aktualisierte Ausgabe verfolgt seinen Weg bis The Room Next Door (2024) und Bitter Christmas (2026).",
+        "info": "Hardcover, 33.7 x 24.6 cm, 3.47 kg, 576 Seiten"
     },
     {
         "id": 24,
         "src": "assets/images/books/sophia.webp",
         "name": "Sophia by Eisenstaedt",
-        "author": "Eisenstaedt",
+        "author": "TASCHEN",
         "category": "film",
         "tags": [
             "Film",
@@ -372,7 +420,9 @@
         ],
         "price": 120,
         "currency": "€",
-        "publishedDate": "2016"
+        "publishedDate": "2016",
+        "summary": "Alfred Eisenstaedt vom Magazin LIFE und die italienische Schauspielerin und Divina Sophia Loren hatten eine ganz besondere Verbindung, und „Eisie“ fotografierte sie von den frühen 1960er bis zu den späten 1970er Jahren immer wieder. Diese von Loren signierte Collector’s Edition enthält knapp zweihundert dieser Fotos, die größtenteils unveröffentlicht sind und die berühmte Schönheit am Filmset und mit ihrer Familie zeigen, auf Aufnahmen, die ihr spontanes und fabelhaftes Wesen einfangen.",
+        "info": "Hardcover in einer Schlagkassette, 28.6 x 38.8 cm, 7.51 kg, 268 Seiten"
     },
     {
         "id": 25,
@@ -387,7 +437,9 @@
         ],
         "price": 45,
         "currency": "€",
-        "publishedDate": "2018"
+        "publishedDate": "2001",
+        "summary": "The scripts of award-winning film director Ingmar Bergman have been among the most important documents in film history. Though his vision in such films as Wild Strawberries and The Seventh Seal has shaped our thinking about the cinema, none of his most recent films have been shown in U.S. theaters. This book brings to English readers for the first time some of the finest creations of Bergman's mature years.In these three scenarios of extraordinary frankness, even rawness, Bergman shows his tender yet realistic views on the world of theater, cinema, and acting, culminating with In the Presence of a Clown, where he returns to the character of his Uncle Carl, an irrepressible inventor who comes up with an early version of the talking film.These most recent scripts, in effect Bergman's own fifth act, add an important and moving chapter to his life work. A preface contextualizing the scripts within Bergman's oeuvre has been added by Lasse Bergstrom, a noted Swedish film critic as well as the publisher of Bergman's work in Sweden.",
+        "info": "216/145/17 mm, 295g, 160 Seiten"
     },
     {
         "id": 26,
@@ -402,7 +454,9 @@
         ],
         "price": 48,
         "currency": "€",
-        "publishedDate": "2018"
+        "publishedDate": "2018",
+        "summary": "»Was für ein Schriftsteller, dieser Regisseur! « Jean-Marie Gustave Le ClézioIngmar Bergmans Leben in Rückblenden und assoziativ montiert: Die grandiose Erzählung ist ein rückhaltloses Bekenntnis zu seinen großen Leidenschaften Theater, Film und Frauen. Radikal offen schildert er seine Kindheit im streng protestantischen Pfarrhaus und die prägenden Begegnungen mit Sexualität, Liebe und Tod, seine Krisen, Triumphe und Misserfolge und verliert dabei nie das Gefühl für Dramaturgie. Bergman ist Vorbild sowohl für Schriftsteller wie Karl Ove Knausgård als auch für Filmemacher wie Woody Allen, Michael Haneke, Lars von Trier oder Wim Wenders.»The voice of genius! « Woody Allen",
+        "info": "216/137/25 mm, 448 g, 377 Seiten"
     },
     {
         "id": 27,
@@ -417,37 +471,43 @@
         ],
         "price": 35,
         "currency": "€",
-        "publishedDate": "2017"
+        "publishedDate": "2011",
+        "summary": "Das Buch zur Retrospektive der Berlinale: Die großen Bergmanschen Themen `Suche`, `Künstler`, `Glaube` und `Beziehungen` sowie die enge Verflochtenheit von `Leben und Arbeit` werden in fünf Miniaturen - fünf einführenden Essays - von Marion Löhndorf beleuchtet. Zeitgenössische Kritiken dokumentieren die Vielfalt und Lebendigkeit der schwedischen, deutschen und englischsprachigen Bergman-Rezeption und damit die enorme Wirkung eines Filmwerkes, für das Ingmar Bergman immer wieder auf ein bewährtes Team von Künstlern und Technikern zurückgriff. Das Prinzip der Kontinuität spielte für den Regisseur auch thematisch eine große Rolle. So lassen sich Bergmans Filmarbeiten auch als ein Gesamtprojekt lesen - ein einzigartiges filmisches Gewebe `aus bewußt sich wiederholenden Motiven und verborgenen Querverweisen` (Löhndorf), aus selbstreferenziellen Zitaten, Spiegelungen und Umkehrungen. Mit umfassenden filmografischen Angaben sowie seltenen Werk- und Szenenfotos.",
+        "info": "1174 g, 240 Seiten"
     },
     {
         "id": 28,
         "src": "assets/images/books/rheims.webp",
         "name": "Bettina Rheims & Serge Bramly: Rose – Art Edition No. 1–100",
-        "author": "Bettina Rheims & Serge Bramly",
+        "author": "TASCHEN",
         "category": "fotografie",
         "tags": [
             "Porträt",
             "Sammleredition",
             "Künstlerbuch"
         ],
-        "price": 1800,
+        "price": 2000,
         "currency": "€",
-        "publishedDate": "2019"
+        "publishedDate": "2019",
+        "summary": "Diese Multimedia-Detektivgeschichte von Bettina Rheims und Serge Bramly, eine erotisch angehauchte Elegie an Paris, enthält einen Film in Spielfilmlänge, ein Booklet, einige verdächtige Gegenstände (oder handelt es sich etwa um Beweisstücke?) und einen Fotoband, verpackt in einem nostalgischen Aktenkoffer. Ergänzt wird die limitierte Ausgabe durch den gleichnamigen Print Rose, c’est Paris.",
+        "info": "C-Print auf Harman Foto-Barythpapier, 30 x 40 cm, Hardcover, 29 x 40,5 cm, 332 Seiten, Begleitheft, DVD, Print und weitere Objekte in einem Koffer"
     },
     {
         "id": 29,
         "src": "assets/images/books/beard.webp",
         "name": "Peter Beard",
-        "author": "Peter Beard",
+        "author": "Owen Edwards, Steven M. L. Aronson",
         "category": "fotografie",
         "tags": [
             "Tierfotografie",
             "Natur",
             "Reise"
         ],
-        "price": 85,
+        "price": 125,
         "currency": "€",
-        "publishedDate": "2017"
+        "publishedDate": "2017",
+        "summary": "Peter Beard machte sein Leben auf dem afrikanischen Kontinent zum Gesamtkunstwerk: eine Collage aus Fotografie, Umweltaktivismus und Tagebuch. Diese XL-Ausgabe präsentiert die gesamte Welt des Künstlers – ein Werk, in dem Haute-Couture-Models unter der kenianischen Sonne Giraffen füttern und Elefantenkadaver Zeugnis für die Zerstörung der Natur durch den Menschen ablegen.",
+        "info": "Hardcover, 25.8 x 37.4 cm, 5.29 kg, 770 Seiten"
     },
     {
         "id": 30,
@@ -460,15 +520,17 @@
             "Porträt",
             "Schwarz-Weiß"
         ],
-        "price": 120,
+        "price": 80,
         "currency": "€",
-        "publishedDate": "2018"
+        "publishedDate": "2018",
+        "summary": "Folgen Sie Peter Lindbergh durch vier Jahrzehnte bahnbrechender Modefotografie. In zahllosen Kollaborationen mit den Größen der Branche etablierte der deutsche Fotograf ein neues Verständnis von weiblicher Schönheit. Lindberghs unvergleichliche Gabe, mit Bildern Geschichten zu erzählen, und sein humanistischer Ansatz schufen ikonische Aufnahmen, die zugleich introspektiv und ansprechend sind. Dieses Buch enthält mehr als 300 zum Teil unveröffentlichte Fotos sowie eine aktualisierte Einführung, in der Lindbergh sich zur „sogenannten Modefotografie“ äußert.",
+        "info": "Hardcover, 23.9 x 34 cm, 3.21 kg, 440 Seiten"
     },
     {
         "id": 31,
         "src": "assets/images/books/newton1.webp",
         "name": "Helmut Newton: SUMO – 20th Anniversary Edition",
-        "author": "Helmut Newton",
+        "author": "Matthias Harder",
         "category": "fotografie",
         "tags": [
             "Modefotografie",
@@ -477,13 +539,15 @@
         ],
         "price": 150,
         "currency": "€",
-        "publishedDate": "2019"
+        "publishedDate": "2019",
+        "summary": "Helmut Newtons SUMO war ein titanisches Buch, das meterhoch über allem stand, was auf dem Buchmarkt je zuvor versucht worden war. Diese aus Anlass des 20. Jahrestages von seiner Frau June Newton aktualisierte XL-Ausgabe enthält 394 Bilder und ein Beiheft, das uns durch die Entstehungsgeschichte dieses publizistischen Großereignisses führt – eine atemberaubende Hommage an den überlebensgroßen Fotografen.",
+        "info": "Hardcover mit Begleitheft im Schuber, 26.7 x 37.4 cm, 6.05 kg, 464 Seiten"
     },
     {
         "id": 32,
         "src": "assets/images/books/lindberg22.webp",
         "name": "Peter Lindbergh: Azzedine Alaïa",
-        "author": "Peter Lindbergh",
+        "author": "TASCHEN",
         "category": "fotografie",
         "tags": [
             "Modefotografie",
@@ -492,13 +556,15 @@
         ],
         "price": 80,
         "currency": "€",
-        "publishedDate": "2020"
+        "publishedDate": "2020",
+        "summary": "Peter Lindbergh und Azzedine Alaïa, den Fotografen und den Couturier, verband ihre gemeinsame Liebe zur Farbe Schwarz, die sie auf ihre ganz persönliche Weise interpretierten – in legendären Fotografien und in atemberaubenden Kleidern. Als Begleitband zur Ausstellung Peter Lindbergh. Azzedine Alaïa in der Fondation Azzedine Alaïa in Paris feiert dieses Buch eine einzigartige künstlerische Partnerschaft.",
+        "info": "Hardcover, 24 x 32.7 cm, 1.47 kg, 240 Seiten"
     },
     {
         "id": 33,
         "src": "assets/images/books/newton2.webp",
         "name": "Helmut Newton: Berlin, Berlin",
-        "author": "Helmut Newton",
+        "author": "Matthias Harder",
         "category": "fotografie",
         "tags": [
             "Stadtfotografie",
@@ -507,28 +573,32 @@
         ],
         "price": 85,
         "currency": "€",
-        "publishedDate": "2017"
+        "publishedDate": "2017",
+        "summary": "Berlin hatte einen großen Einfluss auf Helmut Newton und sein fotografisches Werk von den 1930er-Jahren bis ins 21. Jahrhundert. Viele seiner ikonischen Fotografien zeugen von seiner lebenslangen Faszination für die Stadt: Nachtschwärmer in den angesagten Clubs, Aktaufnahmen in den Alt-Berliner Pensionen seiner Jugend sowie die Berliner Filmszene.",
+        "info": "Hardcover, 21 x 27.5 cm, 1.72 kg, 244 Seiten"
     },
     {
         "id": 34,
         "src": "assets/images/books/leibovitz1.webp",
         "name": "Annie Leibovitz",
-        "author": "Annie Leibovitz",
+        "author": "TASCHEN",
         "category": "fotografie",
         "tags": [
             "Porträt",
             "Celebrity",
             "Fotografie"
         ],
-        "price": 100,
+        "price": 1500,
         "currency": "€",
-        "publishedDate": "2020"
+        "publishedDate": "2020",
+        "summary": "TASCHEN präsentiert die limitierte Art Edition des XXL-Bands Annie Leibovitz, zusammen mit dem signierten, nummerierten und gerahmten ChromaLuxe-Print Patti Smith, New Orleans, 1978, limitiert auf nur 275 Exemplare.",
+        "info": "Hardcover im Schuber, 27,1 x 37,4 cm, 5,8 kg, 556 Seiten, mit einem signierten, nummerierten und gerahmten Farbsublimationsprint auf ChromaLuxe-Aluminum-Panel, fertig zum Aufhängen, 45,2 x 60,7 cm"
     },
     {
         "id": 35,
         "src": "assets/images/books/salgado1.webp",
         "name": "Sebastião Salgado: Genesis – 45th Edition",
-        "author": "Sebastião Salgado",
+        "author": "Lélia Wanick Salgado",
         "category": "fotografie",
         "tags": [
             "Natur",
@@ -537,13 +607,15 @@
         ],
         "price": 90,
         "currency": "€",
-        "publishedDate": "2021"
+        "publishedDate": "2021",
+        "summary": "Sebastião Salgados eindringliche Schwarz-Weiß-Fotografien aus dem Projekt Genesis zeigen Völker und Landschaften, die vom verheerenden Ansturm moderner Gesellschaft und Entwicklung unberührt blieben. Die Aufnahmen, entstanden im Verlauf einer epischen Acht-Jahres-Expedition, sind in sechs umfassende geografische Kapitel aufgeteilt: Planet South, Sanctuaries, Africa, Northern Spaces, Amazonia und Pantanal.",
+        "info": "Hardcover mit 17 Ausklappseiten, 24.3 x 35.5 cm, 3.85 kg, 520 Seiten"
     },
     {
         "id": 36,
         "src": "assets/images/books/salgado2.webp",
         "name": "Sebastião Salgado: Amazonia – 45th Edition",
-        "author": "Sebastião Salgado",
+        "author": "Lélia Wanick Salgado",
         "category": "fotografie",
         "tags": [
             "Natur",
@@ -552,13 +624,15 @@
         ],
         "price": 95,
         "currency": "€",
-        "publishedDate": "2021"
+        "publishedDate": "2021",
+        "summary": "Sebastião Salgado bereiste sechs Jahre lang das brasilianische Amazonasgebiet und fotografierte die unvergleichliche Schönheit dieser einzigartigen Region: den Regenwald, die Flüsse, die Berge, die Menschen, die dort leben – ein unersetzlicher Schatz der Menschheit, in dem die ungeheure Kraft der Natur wie nirgendwo sonst auf der Erde zu spüren ist.",
+        "info": "Hardcover, 35.8 x 26 cm, 4.28 kg, 528 Seiten"
     },
     {
         "id": 37,
         "src": "assets/images/books/newton3.webp",
         "name": "Helmut Newton: Legacy",
-        "author": "Helmut Newton",
+        "author": "Philippe Garner",
         "category": "fotografie",
         "tags": [
             "Modefotografie",
@@ -567,28 +641,32 @@
         ],
         "price": 120,
         "currency": "€",
-        "publishedDate": "2021"
+        "publishedDate": "2021",
+        "summary": "Das Werk Helmut Newtons (1920–2004), das mehr als fünf Jahrzehnte umspannt, entzieht sich jeder Einordnung. Newtons fotografisches Schaffen ist nicht nur einzigartig, sondern in seiner Bandbreite auch nahezu ohnegleichen und hat durch Magazine wie Vogue und Elle Millionen Leserinnen und Leser erreicht. Helmut Newton. Legacy präsentiert Highlights und Wiederentdeckungen eines fotografischen Œuvres, das als eines der meistveröffentlichten aller Zeiten gilt. Newton war ein ungemein produktiver Schöpfer von Bildern und ein wahrer Visionär. Dieses Buch zollt ihm und seinem bleibenden Einfluss auf die moderne Fotografie und bildende Kunst Tribut.",
+        "info": "Hardcover, 24 x 34 cm, 3.49 kg, 424 Seiten"
     },
     {
         "id": 38,
         "src": "assets/images/books/nasa.webp",
         "name": "Das NASA-Archiv – 60 Jahre im All",
-        "author": "NASA",
+        "author": "Piers Bizony",
         "category": "fotografie",
         "tags": [
             "Weltraum",
             "Archiv",
             "Fotografie"
         ],
-        "price": 80,
+        "price": 100,
         "currency": "€",
-        "publishedDate": "2018"
+        "publishedDate": "2018",
+        "summary": "Von der an Eroberungsmetaphern reichen Frühgeschichte der 1958 gegründeten US-Raumfahrtbehörde, dem Wettlauf ins All mit der UdSSR und der Apollo-Ära mit der Mondlandung über die Voyager-Flüge, Skylab und das Spaceshuttle-Programm bis zu den aktuellen Marsprojekten und zukünftigen Missionen: Mehr als 400 Fotos und selten gezeigte Originaldokumente erzählen die Geschichte der National Aeronautics and Space Administration, die es immer wieder versteht, Raumfahrt und Forschung als spektakuläres Medienevent zu inszenieren.",
+        "info": "Hardcover, 33 x 33 cm, 5.61 kg, 468 pages"
     },
     {
         "id": 39,
         "src": "assets/images/books/lindberg2.webp",
         "name": "Peter Lindbergh: Untold Stories",
-        "author": "Peter Lindbergh",
+        "author": "Felix Krämer",
         "category": "fotografie",
         "tags": [
             "Modefotografie",
@@ -597,13 +675,15 @@
         ],
         "price": 95,
         "currency": "€",
-        "publishedDate": "2019"
+        "publishedDate": "2019",
+        "summary": "Dieser Band dokumentiert die erste, von Peter Lindbergh selbst kuratierte Werkschau, die er kurz vor seinem Tod fertigstellte. Gezeigt werden über 150 Aufnahmen aus den frühen 1980er Jahren bis in die Gegenwart, die neue, ganz unerwartete Einblicke in das Werk des legendären Fotografen bieten. Ergänzt wird die Auswahl durch ein ausführliches Gespräch über die Entstehung der Ausstellung sowie eine Hommage von Wim Wenders an seinen Freund Peter Lindbergh.",
+        "info": "Hardcover, 27 x 36 cm, 1.91 kg, 320 Seiten"
     },
     {
         "id": 40,
         "src": "assets/images/books/doisneu.webp",
         "name": "Robert Doisneau: Paris",
-        "author": "Robert Doisneau",
+        "author": "Jean Claude Gautrand",
         "category": "fotografie",
         "tags": [
             "Streetfotografie",
@@ -612,13 +692,15 @@
         ],
         "price": 70,
         "currency": "€",
-        "publishedDate": "2016"
+        "publishedDate": "2016",
+        "summary": "Diese Monografie über Robert Doisneau bietet einen umfassenden Überblick über das Leben und Werk des wohl populärsten französischen Fotografen. Der Autor Jean Claude Gautrand war ein langjähriger Freund des Künstlers und konnte für dieses Buch auf Doisneaus umfangreiches Bildarchiv zurückgreifen.",
+        "info": "Hardcover, 25 x 34 cm, 3.35 kg, 440 Seiten"
     },
     {
         "id": 41,
         "src": "assets/images/books/smith.jpg",
         "name": "Lynn Goldsmith: Patti Smith – Before Easter After",
-        "author": "Lynn Goldsmith",
+        "author": "TASCHEN",
         "category": "fotografie",
         "tags": [
             "Musik",
@@ -627,13 +709,15 @@
         ],
         "price": 2200,
         "currency": "€",
-        "publishedDate": "2020"
+        "publishedDate": "2020",
+        "summary": "Die Fotografin Lynn Goldsmith gewährt intime Einblicke ins Leben der unvergleichlichen Patti Smith – und verewigt eine goldene Ära des Rock’n’Roll. Mit Hunderten von bislang unveröffentlichten Fotos und Texten dokumentiert diese signierte Ausgabe eine entscheidende Phase in Patti Smiths Karriere und feiert zwei Ausnahmekünstlerinnen, deren kreative Partnerschaft bis heute anhält.",
+        "info": "Hardcover in einer Schlagkassette, 26.9 x 37.3 cm, 6.38 kg, 296 Seiten"
     },
     {
         "id": 42,
         "src": "assets/images/books/salgado4.webp",
         "name": "Sebastião Salgado: Kuwait – Eine Wüste in Flammen",
-        "author": "Sebastião Salgado",
+        "author": "Lélia Wanick Salgado",
         "category": "fotografie",
         "tags": [
             "Kriegsfotografie",
@@ -642,22 +726,26 @@
         ],
         "price": 100,
         "currency": "€",
-        "publishedDate": "2015"
+        "publishedDate": "2015",
+        "summary": "Als die irakischen Truppen 1991 auf ihrem Rückzug aus Kuwait die Ölfelder des Landes in Brand setzten, fotografierte Sebastião Salgado die verzweifelten Bemühungen der Löschtrupps, das Inferno der brennenden Wüste einzudämmen. 1992 erhielt Salgado für diese Arbeiten den Oskar Barnack Award der World Press Photo Foundation.",
+        "info": "Hardcover, 31.8 x 29 cm, 2.25 kg, 208 Seiten"
     },
     {
         "id": 43,
         "src": "assets/images/books/sophia.webp",
         "name": "Sophia by Eisenstaedt",
-        "author": "Alfred Eisenstaedt",
+        "author": "TASCHEN",
         "category": "fotografie",
         "tags": [
             "Film",
             "Portrait",
             "Klassik"
         ],
-        "price": 70,
+        "price": 850,
         "currency": "€",
-        "publishedDate": "2016"
+        "publishedDate": "2016",
+        "summary": "Alfred Eisenstaedt vom Magazin LIFE und die italienische Schauspielerin und Divina Sophia Loren hatten eine ganz besondere Verbindung, und „Eisie“ fotografierte sie von den frühen 1960er bis zu den späten 1970er Jahren immer wieder. Diese von Loren signierte Collector’s Edition enthält knapp zweihundert dieser Fotos, die größtenteils unveröffentlicht sind und die berühmte Schönheit am Filmset und mit ihrer Familie zeigen, auf Aufnahmen, die ihr spontanes und fabelhaftes Wesen einfangen.",
+        "info": "Hardcover in einer Schlagkassette, 28.6 x 38.8 cm, 7.51 kg, 268 Seiten"
     },
     {
         "id": 44,
@@ -672,7 +760,9 @@
         ],
         "price": 37,
         "currency": "€",
-        "publishedDate": "1831"
+        "publishedDate": "1831",
+        "summary": "Warum setzen sich manchmal die schlechteren Argumente durch? Schopenhauer beantwortet diese Frage mit einer systematischen Sammlung von Mitteln, mit denen Menschen ihr Gegenüber in Diskussionen zu überlisten versuchen. Die Kunstgriffe sind klarsichtig, provokant und oft überraschend modern. `Die Kunst, Recht zu behalten` bietet nicht nur einen Einblick in die Psychologie des Streitens, sondern auch einen kritischen Blick auf die menschliche Eitelkeit - ein lebendiger Text, der Denkvermögen und Selbstreflexion schärft. Hier als Taschenbuch-Neuausgabe in gut lesbarer Schriftgröße. Die Rechtschreibung wurde beibehalten, offensichtliche Druckfehler wurden korrigiert.",
+        "info": "220/160/4 mm, 102 g, 252 Seiten"
     },
     {
         "id": 45,
@@ -687,7 +777,9 @@
         ],
         "price": 38,
         "currency": "€",
-        "publishedDate": "1926"
+        "publishedDate": "1926",
+        "summary": "Jeder Versuch, ins Schloss zu gelangen, misslingt; so bleibt es nah und fern zugleich; seine Hierarchie fordert Gehorsam, aber die Weisungen bleiben dunkel und unverständlich. Das Schloß, Kafkas letzter großer Roman, erzählt von K. , der vom Grafen eines ländlich gelegenen Schlosses als Landvermesser beauftragt wird. Doch K. s Versuche, ins Schloß zu gelangen, scheitern ebenso wie sein Bemühen, im Dorf seinen Platz zu finden; und sein Kampf gegen die allgegenwärtige, anonyme und undurchdringliche Bürokratie der Schloßverwaltung endet für ihn in einem Dickicht aus Geheimnissen und Erniedrigungen.",
+        "info": "177/111/23 mm, 261g, 423 Seiten"
     },
     {
         "id": 46,
@@ -702,7 +794,9 @@
         ],
         "price": 35,
         "currency": "€",
-        "publishedDate": "1883-1885"
+        "publishedDate": "1883-1885",
+        "summary": "Friedrich Nietzsche gilt heute als einer der wichtigsten Zeugen der Suche des modernen Menschen nach einem neuen Selbstverständnis. Trotz seiner kraftvollen Sprache, seines polemischscharfen, aphoristischen Stils und seiner glänzenden kulturkritischen Analysen erfährt sein Werk erst in der zweiten Hälfte des 20. Jahrhunderts eine ihm angemessene Aufnahme.",
+        "info": "192/133/32 mm, 388g, 325 Seiten"
     },
     {
         "id": 47,
@@ -717,7 +811,9 @@
         ],
         "price": 36,
         "currency": "€",
-        "publishedDate": "1943"
+        "publishedDate": "1943",
+        "summary": "Auch mehr als fünfzig Jahre nach seiner Erstveröffentlichung in Deutschland vermittelt dieses Hauptwerk französischer Philosophie neue Denkimpulse. `Das Sein und das Nichts` stellt eindrucksvoll die unverminderte Aktualität Sartres auch im veränderten geistigen Kontext unter Beweis.",
+        "info": "189/116/54 mm, 687g, 1668 Seiten"
     },
     {
         "id": 48,
@@ -732,7 +828,9 @@
         ],
         "price": 30,
         "currency": "€",
-        "publishedDate": "1886"
+        "publishedDate": "1886",
+        "summary": "One of the most iconoclastic philosophers of all time, Nietzsche dramatically rejected notions of good and evil, truth and God. Beyond Good and Evil demonstrates that the world is steeped in false piety and infected with a 'slave morality'. With wit and subversive energy, Nietzsche demands that the individual impose their own 'will to power' upon the world.",
+        "info": "178/112/31 mm, 333 g, 352 Seiten"
     },
     {
         "id": 49,
@@ -747,7 +845,9 @@
         ],
         "price": 38,
         "currency": "€",
-        "publishedDate": "1915"
+        "publishedDate": "1915",
+        "summary": "Franz Kafka hat mit seinem Werk weltweite Beachtung gefunden und zählt zu den Klassikern der Moderne. `Die Verwandlung`, erstmals erschienen 1915, handelt von Gregor Samsa, dessen plötzliche Verwandlung in ein Ungeziefer seine familiäre, berufliche und soziale Stellung verlieren lässt, bis hin zur völligen Isolation und Ausgrenzung.",
+        "info": "193/134/15 mm, 162 g, 280 Seiten"
     },
     {
         "id": 50,
@@ -762,7 +862,9 @@
         ],
         "price": 46,
         "currency": "€",
-        "publishedDate": "1946"
+        "publishedDate": "1946",
+        "summary": "Kaum ein Text Sartres trug so sehr zur Verbreitung seines Denkens bei wie `Der Existentialismus ist ein Humanismus`, doch kaum einer war zugleich so vielen Mißverständnissen ausgesetzt. Er gehört zu den wenigen, von denen sich Sartre später distanzierte. Weiterhin enthalten: `Materialismus` und `Revolution`, der Sartres Gegensatz zum zeitgenössischen dogmatischen Marxismus bezeugt. Eine adäquate Zusammenfassung seines damaligen Denkens, wie es in «Das Sein und das Nichts» seinen systematischen Ausdruck gefunden hat, bietet Sartres Vortrag «Selbstbewußtsein und Selbsterkenntnis».",
+        "info": "193/115/23 mm, 252 g, 336 Seiten"
     },
     {
         "id": 51,
@@ -777,7 +879,9 @@
         ],
         "price": 38,
         "currency": "€",
-        "publishedDate": "1925"
+        "publishedDate": "1925",
+        "summary": "Franz Kafka hat mit seinem Werk weltweite Beachtung gefunden und zählt zu den Klassikern der Moderne.»Der Prozess«, der erst postum veröffentlicht wurde, handelt vom ausweglosen Kampf gegen ein anonymes, bürokratisches System, das augenscheinlich willkürlich über seine Bürger herrschen und gebieten kann.",
+        "info": "193/137/27 mm, 387 g, 288 Seiten"
     },
     {
         "id": 52,
@@ -792,7 +896,9 @@
         ],
         "price": 42,
         "currency": "€",
-        "publishedDate": "1947"
+        "publishedDate": "1947",
+        "summary": "Pierre, der Revolutionär, und Eve, eine Dame der Gesellschaft, sterben zu gleicher Stunde durch Gewalt, begegnen sich in einer Welt der Schatten und verlieben sich leidenschaftlich ineinander: `Ich gäbe meine Seele, wenn ich deinetwillen noch einmal leben dürfte.` Der Wunsch wird Realität und die Uhr des Schicksals zurückgedreht. Aber die Vergangenheit stellt ihre Forderungen . . .",
+        "info": "190/113/15 mm, 124 g, 144 Seiten"
     },
     {
         "id": 53,
@@ -807,7 +913,9 @@
         ],
         "price": 35,
         "currency": "€",
-        "publishedDate": "1886"
+        "publishedDate": "1886",
+        "summary": "Friedrich Nietzsche gilt heute als einer der wichtigsten Zeugen der Suche des modernen Menschen nach einem neuen Selbstverständnis. Trotz seiner kraftvollen Sprache, seines polemischscharfen, aphoristischen Stils und seiner glänzenden kulturkritischen Analysen erfährt sein Werk erst in der zweiten Hälfte des 20. Jahrhunderts eine ihm angemessene Aufnahme. »Jenseits von Gut und Böse« dokumentiert Nietzsches Grundgedanken und -konzeptionen und vermittelt einen Eindruck seiner inhaltlichen und formalen Qualität und Sprengkraft.",
+        "info": "190/132/22 mm, 322 g, 223 Seiten"
     },
     {
         "id": 54,
@@ -822,7 +930,9 @@
         ],
         "price": 40,
         "currency": "€",
-        "publishedDate": "1946"
+        "publishedDate": "1946",
+        "summary": "In scharfsinnigen Analysen entlarvte Sartre die Ideologie und das Herrschafts- und Ausbeutungssystem des Kolonialismus und Neokolonialismus als ein System, das in einem bestimmten Moment zwangsläufig zum totalen Krieg der Kolonialmacht gegen die Kolonisierten führt und sich damit selbst zerstört. Der Höhepunkt seines Engagements lag in seinem Protest gegen den Algerienkrieg von 1954 bis 1962; wie viele andere riskierte er dabei Strafverfolgung, ja sogar sein Leben. `Es ist noch nicht lange her, da zählte die Erde zwei Milliarden Einwohner, das heißt 500 Millionen Menschen und eine Milliarde 500 Millionen Eingeborene. Die ersten verfügten über das Wort, die anderen entliehen es. Das war das Goldene Zeitalter. Es ging zu Ende: die Münder öffneten sich allein; die gelben und schwarzen Stimmen sprachen zwar noch von unserem Humanismus, aber nur um uns unsere Unmenschlichkeit vorzuwerfen.` (Jean-Paul Sartre)",
+        "info": "200/125/23 mm, 195g, 320 Seiten"
     },
     {
         "id": 55,
@@ -837,7 +947,9 @@
         ],
         "price": 39,
         "currency": "€",
-        "publishedDate": "1957"
+        "publishedDate": "1957",
+        "summary": "Sartres Schrift Fragen der Methode nimmt eine Schlüsselstellung in seiner philosophischen Entwicklung ein. Sartre kritisiert in diesem Essay den dogmatisch erstarrten Marxismus, reflektiert die Aufgaben der Soziologie und der Psychoanalyse und entwickelt eine progressiv-regressive Methode, die er am Beispiel der Französischen Revolution überprüft. Die Ausgabe wird auf der Grundlage des überarbeiteten französischen Originals in neuer Übersetzung vorgelegt.",
+        "info": "191/116/19 mm, 230 g, 224 Seiten"
     },
     {
         "id": 56,
@@ -852,7 +964,9 @@
         ],
         "price": 48,
         "currency": "€",
-        "publishedDate": "1781"
+        "publishedDate": "1781",
+        "summary": "Die Kritik der reinen Vernunft wird gemeinhin als das Hauptwerk des großen Philosophen gesehen. Es gehört zu den erkenntnistheoretischen Schriften und stellt die Basis für seine Ausführungen zur Transzendentalphilosophie dar. Viele Kritiker sehen diese Schrift sogar als den Beginn der modernen Philosophie.",
+        "info": "210/140/35 mm, 480 g, 856 Seiten"
     },
     {
         "id": 57,
@@ -867,7 +981,9 @@
         ],
         "price": 56,
         "currency": "€",
-        "publishedDate": "1637"
+        "publishedDate": "1637",
+        "summary": "Der «Discours de la méthode», mit vollem Titel «Discours de la méthode pour bien conduire sa raison et chercher la verité dans les sciences» (dt. «Abhandlung über die Methode, seine Vernunft gut zu gebrauchen und die Wahrheit in den Wissenschaften zu suchen») ist ein philosophisches und autobiographisches Werk des französischen Philosophen René Descartes. Es erschien erstmals 1637 anonym in Leiden in französischer Sprache und war daher auch philosophischen Laien zugänglich. Der Discours beinhaltet Descartes' Auseinandersetzung mit Skeptizismus und dem Aristotelismus der Scholastik. Ausgehend von einem allgemeinen Zweifel an überlieferten Wahrheiten, aber auch am eigenen Urteil ist es Descartes Ziel, unwiderlegbare wahre Sätze zu finden. Umrahmt von Schilderungen seiner intellektuellen Autobiographie beschreibt Descartes dabei detailliert eines der frühesten Programme zur wissenschaftlichen Naturforschung. Der Discours gilt daher als einer der Ursprünge der Wissenschaftsphilosophie.",
+        "info": "190/120/18 mm, 180 g, 240 Seiten"
     },
     {
         "id": 58,
@@ -882,7 +998,9 @@
         ],
         "price": 69,
         "currency": "€",
-        "publishedDate": "1943"
+        "publishedDate": "1943",
+        "summary": "Weil es für Hesse keinen Fortschritt gibt ohne die Verwirklichung von Utopien, hat er inmitten von Chaos und Anarchie mit der Pädagogischen Provinz Kastalien das Modell eines an Ordnung, Vernunft und Maß orientierten Bildungssystems entworfen. Die in Kastalien entwickelte und praktizierte Technik des Glasperlenspiels zielt darüber hinaus auf eine interdisziplinäre Vernetzung von Kunst und Wissenschaft. Mathematik und Musik und die durch fortschreitende Spezialisierung auseinanderdriftenden Disziplinen der Geistes- und Naturwissenschaften können mit Hilfe der universellen Zeichensprache des Glasperlenspiels wieder verbunden und ihrer gemeinsamen Struktur bewußt werden. Diese so aktuelle wie zukunftsorientierte Synopse von abendländischer und asiatischer Geistesgeschichte, aktiver und kontemplativer Lebenspraxis verliert ihren utopischen Charakter am Beispiel der Biographie von Josef Knecht, der die Pädagogische Provinz in dem Augenblick verläßt, sobald sie wie jede Institution in Bürokratie, Orthodoxie und unsozialem Selbstzweck zu erstarren droht.",
+        "info": "184/110/34 mm, 368 g, 615 Seiten"
     },
     {
         "id": 59,
@@ -897,7 +1015,9 @@
         ],
         "price": 15,
         "currency": "€",
-        "publishedDate": "1941"
+        "publishedDate": "1941",
+        "summary": "»Und jedem Anfang wohnt ein Zauber inne, / der uns beschützt und der uns hilft zu leben. «Die vorliegende Gedichtauswahl wurde von Hermann Hesse selbst ein Jahr vor seinem Tod zusammengestellt. Neben »Stufen« - dem beliebtesten Gedicht der Deutschen - präsentiert der Band die schönsten Verse aus seinem Gesamtwerk.",
+        "info": "186/115/25 mm, 240 g, 239 Seiten"
     },
     {
         "id": 60,
@@ -912,7 +1032,9 @@
         ],
         "price": 18,
         "currency": "€",
-        "publishedDate": "1949"
+        "publishedDate": "1949",
+        "summary": "Unbekümmert um alle moralischen und formalen Schranken und mitgerissen von der Sturzflut der Erinnerung, hat Miller in diesem «obszönsten seiner Bücher» (New York Times) ein Stück seines turbulenten Lebens aufgearbeitet: «Sexus» ist ein orgiastischer Hymnus auf die körperliche Liebe und ein befreites Leben, Zeugnis einer Aufrichtigkeit, die keine Kompromisse kennt. «Der Roman ist natürlich die schamloseste und schönste Kundmachung eines hemmungslosen, genüsslich antigesellschaftlichen Individualismus, die in diesem Jahrhundert vorgelegt wurde.»",
+        "info": "186/115/25 mm, 240 g, 239 Seiten"
     },
     {
         "id": 61,
@@ -927,7 +1049,9 @@
         ],
         "price": 18,
         "currency": "€",
-        "publishedDate": "1969"
+        "publishedDate": "1969",
+        "summary": "`Henry, der Geld brauchte, schlug mir vor, er werde für mich verkäufliche Texte schreiben. Ich bot ihm ein Honorar von einem Dollar pro Seite, dafür erhielt ich alle Rechte . . . Ich bezahlte immer bar, wie ausgemacht. Nach wenigen Monaten ergaben die angesammelten Seiten ein komplettes Buch, dem er den Titel OPUS PISTORUM gab` (Milton Luboviski, Buchhändler in Hollywood, 1983 in einer eidesstattlichen Erklärung). Diese spät entdeckten Erotica des großen Autors sind für Kenner - und nicht nur für diese - eine literarische Sensation.",
+        "info": "190/115/25 mm, 359 g, 352 Seiten"
     },
     {
         "id": 62,
@@ -942,7 +1066,9 @@
         ],
         "price": 17,
         "currency": "€",
-        "publishedDate": "1945"
+        "publishedDate": "1945",
+        "summary": "Man beraubt sie der Früchte ihrer Arbeit, sperrt sie ein, beutet sie aus. Die Tiere auf dem Gutshof haben genug und proben den Aufstand - für eine bessere Welt, in der alle Tiere gleich und frei sind. Doch bald zeigt sich: Gleich heißt nicht gleich, und Freiheit ist ein kurzer Traum . . . George Orwells berühmte Allegorie über den Aufstand der Tiere ist bis heute der vielleicht klarste literarische Weckruf vor dem korrumpierenden Effekt von Macht. Wie schnell sich unsere Visionen von einer besseren Welt in einen totalitären Albtraum verwandeln können, das ist die zeitlose Warnung dieser Fabel.",
+        "info": "126/190/18 mm, 206 g, 140 Seiten"
     },
     {
         "id": 63,
@@ -957,7 +1083,9 @@
         ],
         "price": 19,
         "currency": "€",
-        "publishedDate": "1949"
+        "publishedDate": "1949",
+        "summary": "London, 1984: Winston Smith, Geschichtsfälscher im Staatsdienst, verliebt sich in die schöne und geheimnisvolle Julia. Gemeinsam beginnen sie, die totalitäre Welt infrage zu stellen, als Teil derer sie bisher funktioniert haben. Doch bereits ihre Gedanken sind Verbrechen, und der Große Bruder richtet seinen stets wachsamen Blick auf jeden potenziellen Dissidenten. George Orwells Vision eines totalitären Staats, in dem Cyberüberwachung, Geschichtsrevisionismus und Gedankenpolizei den Alltag gläserner Bürger bestimmen, hat wie keine andere Dystopie bis heute nur an Brisanz gewonnen.",
+        "info": "192/131/38 mm, 398 g, 399 Seiten"
     },
     {
         "id": 64,
@@ -972,7 +1100,9 @@
         ],
         "price": 22,
         "currency": "€",
-        "publishedDate": "1942"
+        "publishedDate": "1942",
+        "summary": "»Die Welt von Gestern - Erinnerungen eines Europäers« ist die autobiografische Rückschau des österreichischen Schriftstellers Stefan Zweig, verfasst im Exil kurz vor seinem Tod (posthum 1942 veröffentlicht). In dem Werk beschreibt Zweig das kulturelle, gesellschaftliche und politische Leben Europas - besonders Wiens - vom ausgehenden 19. Jahrhundert bis zum Beginn des Zweiten Weltkriegs. Zweig schildert mit großer Nostalgie die »Welt von gestern« - das liberale, humanistische Europa vor dem Ersten Weltkrieg - und kontrastiert sie mit dem Niedergang durch Nationalismus, Faschismus und Krieg. Das Buch ist zugleich persönliche Lebenserinnerung, Zeitzeugnis und ein Abschied von einem untergegangenen Zeitalter. Es gilt als eines der wichtigsten Werke zur europäischen Geistesgeschichte des frühen 20. Jahrhunderts.",
+        "info": "190/130/37 mm, 525g, 448 Seiten"
     },
     {
         "id": 65,
@@ -987,7 +1117,9 @@
         ],
         "price": 21,
         "currency": "€",
-        "publishedDate": "1925"
+        "publishedDate": "1925",
+        "summary": "Der Kampf mit dem Dämon - Stefan Zweigs fesselnde Charakterstudien dreier außergewöhnlicher Geister: Hölderlin, Kleist und Nietzsche. In diesem zweiten Teil seines unvollendeten Zyklus 'Die Baumeister der Welt. Versuch einer Typologie des Geistes' widmet sich Stefan Zweig drei schöpferischen Genies, deren Leben von inneren Dämonen geprägt war. Mit seiner unvergleichlichen Einfühlungsgabe ergründet er die Persönlichkeiten von Friedrich Hölderlin, Heinrich von Kleist und Friedrich Nietzsche, die von ihren Zeitgenossen unverstanden blieben und in Wahnsinn oder Selbstmord endeten. Zweig, von Sigmund Freud für seine `Vollkommenheit der Einfühlung` gerühmt, zeichnet ein facettenreiches Bild dieser drei Dichter und Denker. Er offenbart die Abgründe ihrer Seelen und die Zerrissenheit zwischen schöpferischer Leidenschaft und innerer Qual. Der Kampf mit dem Dämon ist eine eindringliche psychologische Studie und ein Meisterwerk der literarischen Biographie. Die beiden anderen vollendeten Teile des Zyklus sind 'Drei Meister. Balzac, Dickens, Dostojewski' und 'Drei Dichter ihres Lebens. Casanova, Stendhal, Tolstoi'.",
+        "info": "185/111/25 mm, 319 g, 284 Seiten"
     },
     {
         "id": 66,
@@ -1002,7 +1134,9 @@
         ],
         "price": 18,
         "currency": "€",
-        "publishedDate": "1985"
+        "publishedDate": "1985",
+        "summary": "Vor einer Million Jahre - 1986, um genau zu sein - ist die Welt, wie wir sie kennen, dem Untergang geweiht. Erst brechen die Finanzmärkte der Erde zusammen, dann das Klima und schließlich sorgt eine Pandemie dafür, dass alle Frauen unfruchtbar werden. Alle bis auf diejenigen, die sich an Bord des Kreuzfahrtschiffes Bahia de Darwin auf dem Weg zu den Galapagos-Inseln befinden. Plötzlich sind die Passagiere die letzte Hoffnung der Menschheit. Doch damit die Menschen als Spezies überleben können, muss sie die Evolution von dem befreien, was sie beinahe in den Untergang geführt hätte: ihren übergroßen Gehirnen.",
+        "info": "132/203/32 mm, 404 g, 334 Seiten"
     },
     {
         "id": 67,
@@ -1017,7 +1151,9 @@
         ],
         "price": 18,
         "currency": "€",
-        "publishedDate": "1959"
+        "publishedDate": "1959",
+        "summary": "Als Winston Niles Rumfoord sein Raumschiff in ein chrono-synklastisches Infidibulum flog, wurde er in pure Energie verwandelt. Er wird nur dann wieder stofflich, wenn seine Energiewelle einen Planeten kreuzt - also materialisiert er sich alle 59 Tage in seiner Heimat Newport, Rhode Island, und das auch nur für eine Stunde. Aber immerhin weiß er jetzt alles über alles, was je geschehen ist und je geschehen wird . . .große Klassiker der modernen amerikanischen Science-Fiction Literatur, neu überarbeitet und mit einem Vorwort von Denis Scheck",
+        "info": "201/135/35 mm, 420g, 352 Seiten"
     },
     {
         "id": 68,
@@ -1032,7 +1168,9 @@
         ],
         "price": 14,
         "currency": "€",
-        "publishedDate": "1995"
+        "publishedDate": "1995",
+        "summary": "Translated and with an introduction by Jack Zipes. A collection of twenty-two fairy tales by the Nobel Prize-winning novelist, most translated into English for the first time, show the influence of German Romanticism, psychoanalysis, and Eastern religion on his development as an author. Praise for The Fairy Tales of Hermann Hesse. `Sometimes lush and lyrical, sometimes in the simple language of the parable, these tales elaborate Hesse's concerns with mortality, the unity of life and the isolation of the artist. . . . Quirky and evocative, Hesse's fairy tales stand alone, but also amplify the ideas and utopian longings of such counterculture avatars as Siddhartha and Steppenwolf.`-Publishers Weekly. `Hesse unerringly creates the feel of a fairy tale. . . . Lay readers will enjoy this as much as literary specialists.`-Library Journal",
+        "info": "211/133/19 mm, 341g, 305 Seiten"
     },
     {
         "id": 69,
@@ -1047,7 +1185,9 @@
         ],
         "price": 13,
         "currency": "€",
-        "publishedDate": "1930"
+        "publishedDate": "1930",
+        "summary": "'One of his masterpieces ...without doubt a great novel' Guardian One of Hermann Hesse's greatest novels, Narcissus and Goldmund is an extraordinary recreation of the Middle Ages, contrasting the careers of two friends, one of whom shuns life in a monastery and goes on the road, tangled in the extremes of life in a world dominated by sin, plague and war, the other staying in the monastery and struggling, with equal difficulty, to lead a life of spiritual denial. An superb feat of imagination, Narcissus and Goldmund can only be compared to such films set in medieval Europe as Bergman's The Seventh Seal and Tarkovsky's Andrei Rublev. It is a gripping, profound reading experience - as startling, in its different way, as Hesse's Siddhartha and Steppenwolf.",
+        "info": "195/127/23 mm, 234g, 311 Seiten"
     },
     {
         "id": 70,
@@ -1062,7 +1202,9 @@
         ],
         "price": 12,
         "currency": "€",
-        "publishedDate": "1922"
+        "publishedDate": "1922",
+        "summary": "Siddhartha, die Legende von der Selbstbefreiung eines jungen Menschen aus familiärer und gesellschaftlicher Fremdbestimmung zu einem selbständigen Leben, zeigt, dass Erkenntnis nicht durch Lehren zu vermitteln ist, sondern nur durch eigene Erfahrung erworben werden kann.",
+        "info": "175/112/13 mm, 111 g, 128 Seiten"
     },
     {
         "id": 71,
@@ -1077,7 +1219,9 @@
         ],
         "price": 16,
         "currency": "€",
-        "publishedDate": "1953"
+        "publishedDate": "1953",
+        "summary": "Dieses Buch, Autobiographie, Tagebuch intimsten Erlebens, leidenschaftlicher Selbsterkenntnis, erzählt von Millers Jugend in New York. Unter Außenseitern und kleinbürgerlichen Existenzen lebt er mit seiner Gefährtin Mona ein Leben, das auf nichts gestellt ist, nur auf die einzige kühne Sicherheit: die Gewißheit seiner Berufung. Die aufregende Chronik der Selbstbefreiung einer dynamischen Individualität.",
+        "info": "190/125/33 mm, 521g, 474 Seiten"
     },
     {
         "id": 72,
@@ -1092,7 +1236,9 @@
         ],
         "price": 15,
         "currency": "€",
-        "publishedDate": "1957"
+        "publishedDate": "1957",
+        "summary": "In his great triptych `The Millennium` Bosch used oranges and other fruits to symbolize the delights of Paradise. Whence Henry Miller's title for this, one of his most appealing books; first published in 1957, it tells the story of Miller's life on the Big Sur, a section of the California coast where he lived for fifteen years. Big Sur is the portrait of a place-one of the most colorful in the United States-and of the extraordinary people Miller knew there: writers (and writers who did not write), mystics seeking truth in meditation (and the not-so-saintly looking for sex-cults or celebrity), sophisticated children and adult innocents; geniuses, cranks and the unclassifiable, like Conrad Moricand, the `Devil in Paradise` who is one of Miller's greatest character studies. Henry Miller writes with a buoyancy and brimming energy that are infectious. He has a fine touch for comedy. But this is also a serious book-the testament of a free spirit who has broken through the restraints and clichés of modern life to find within himself his own kind of paradise.",
+        "info": "203/133/25 mm, 386g, 504 Seiten"
     },
     {
         "id": 73,
@@ -1107,7 +1253,9 @@
         ],
         "price": 18,
         "currency": "€",
-        "publishedDate": "1959"
+        "publishedDate": "1959",
+        "summary": "In 1958, when Henry Miller was elected to membership in the American Institute of Arts and Letters, the citation described him as: `The veteran author of many books whose originality and richness of technique are matched by the variety and daring of his subject matter. His boldness of approach and intense curiosity concerning man and nature are unequalled in the prose literature of our times.` It is most fitting that this anthology of the best of Henry Miller should have been assembled by one of the first among Miller's contemporaries to recognize his genius, the eminent British writer Lawrence Durrell. Drawing material from a dozen different books Durrell has traced the main line and principal themes of the `single, endless autobiography` which is Henry Miller's life work. `I suspect,` writes Durrell in his Introduction, `that Miller's final place will be among those towering anomalies of authorship like Whitman or Blake who have left us, not simply works of art, but a corpus of ideas which motivate and influence a whole cultural pattern.` Earlier, H. L. Mencken had said, `his is one of the most beautiful prose styles today,` and the late Sir Herbert Read had written that `what makes Miller distinctive among modern writers is his ability to combine, without confusion, the aesthetic and prophetic functions.` Included are stories, portraits of persons and places, philosophical essays, and aphorisms. For each selection Miller himself prepared a brief commentary which fits the piece into its place in his life story. This framework is supplemented by a chronology from Miller's birth in 1891 up to the spring of 1959, a bibliography, and, as an appendix, an open letter to the Supreme Court of Norway written in protest of the ban on Sexus, a part of which appears in this volume.",
+        "info": "204/134/28 mm, 458 g, 397 Seiten"
     },
     {
         "id": 74,
@@ -1122,7 +1270,9 @@
         ],
         "price": 14,
         "currency": "€",
-        "publishedDate": "1936"
+        "publishedDate": "1936",
+        "summary": "Continuing the subversive self-revelation begun in Tropic of Cancer and Tropic of Capricorn, Henry Miller takes readers along a mad, free-associating journey from the damp grime of his Brooklyn youth to the sun-splashed cafes and squalid flats of Paris. With incomparable glee, Miller shifts effortlessly from Virgil to venereal disease, from Rabelais to Roquefort. In this seductive technicolor swirl of Paris and New York, he captures like no one else the blending of people and the cities they inhabit.",
+        "info": "204/134/28 mm, 458 g, 243 Seiten"
     },
     {
         "id": 75,
@@ -1137,7 +1287,9 @@
         ],
         "price": 13,
         "currency": "€",
-        "publishedDate": "1934"
+        "publishedDate": "1934",
+        "summary": "Shocking, banned and the subject of obscenity trials, Henry Miller's first novel Tropic of Cancer is one of the most scandalous and influential books of the twentieth century -- new to Penguin Modern Classics with a cover by Tracey Emin. Tropic of Cancer redefined the novel. Set in Paris in the 1930s, it features a starving American writer who lives a bohemian life among prostitutes, pimps, and artists. Banned in the US and the UK for more than thirty years because it was considered pornographic, Tropic of Cancer continued to be distributed in France and smuggled into other countries. When it was first published in the US in 1961, it led to more than 60 obscenity trials until a historic ruling by the Supreme Court defined it as a work of literature. Long hailed as a truly liberating book, daring and uncompromising, Tropic of Cancer is a cornerstone of modern literature that asks us to reconsider everything we know about art, freedom, and morality. 'At last an unprintable book that is fit to read' Ezra Pound. 'A momentous event in the history of modern writing' Samuel Beckett. 'The book that forever changed the way American literature would be written' Erica Jong",
+        "info": "195/128/20 mm, 207g, 255 Seiten"
     },
     {
         "id": 76,
@@ -1152,7 +1304,9 @@
         ],
         "price": 13,
         "currency": "€",
-        "publishedDate": "1939"
+        "publishedDate": "1939",
+        "summary": "A cult modern classic, Tropic of Capricorn is as daring, frank and influential as Henry Miller first novel, Tropic of Cancer -- new to Penguin Modern Classics with a cover by Tracey Emin. A story of sexual and spiritual awakening, Tropic of Capricorn shocked readers when it was published in 1939. A mixture of fiction and autobiography, it is the story of Henry V. Miller who works for the Cosmodemonic telegraph company in New York in the 1920s and tries to write the most important work of literature that was ever published. Tropic of Capricorn paints a dazzling picture of the life of the writer and of New York City between the wars: the skyscrapers and the sewers, the lust and the dejection, the smells and the sounds of a city that is perpetually in motion, threatening to swallow everyone and everything.'Literature begins and ends with the meaning of what Miller has done' Lawrence Durrell. 'The only imaginative prose-writer of the slightest value who has appeared among the English-speaking races for some years past' George Orwell. 'The greatest American writer' Bob Dylan. Henry Miller (1891-1980) is one of the most important American writers of the 20th century. His best-known novels include Tropic of Cancer (1934), Tropic of Capricorn (1939), and the Rosy Crucifixion trilogy (Sexus, 1949, Plexus, 1953, and Nexus, 1959), all published in France and banned in the US and the UK until 1964. He is widely recognised as an irreverent, risk-taking writer who redefined the novel and made the link between the European avant-garde and the American Beat generation.",
+        "info": "195/128/27 mm, 242g, 320 Seiten"
     },
     {
         "id": 77,
@@ -1167,7 +1321,9 @@
         ],
         "price": 10,
         "currency": "€",
-        "publishedDate": "1941"
+        "publishedDate": "1941",
+        "summary": "'The feeling that the very concept of objective truth is fading out of the world . . . this prospect frightens me much more than bombs'. On the 70th anniversary of George Orwell's death, a new collection of his brilliant essays written during the Second World War. Fascism and Democracy collects five brilliant examples of Orwell's writing during the darkest days of World War Two. Grappling with the principles of democracy and the potential of reform, the meaning of literature and free speech in times of violence, and the sustainability of objective truth, Orwell offers a compelling portrayal of a nation where norms and ideals can no longer be taken for granted. Like the best of Orwell's writing, these essays also serve as timeless reminders of the fragility of freedom.",
+        "info": "195/128/27 mm, 242g, 320 Seiten"
     },
     {
         "id": 78,
@@ -1182,7 +1338,9 @@
         ],
         "price": 9,
         "currency": "€",
-        "publishedDate": "1946"
+        "publishedDate": "1946",
+        "summary": "Beginning with a dilemma about whether he spends more money on reading or smoking, George Orwell's entertaining and uncompromising essays go on to explore everything from the perils of second-hand bookshops to the dubious profession of being a critic, from freedom of the press to what patriotism really means.",
+        "info": "181/111/25 mm, 94g, 130 Seiten"
     },
     {
         "id": 79,
@@ -1197,7 +1355,9 @@
         ],
         "price": 11,
         "currency": "€",
-        "publishedDate": "1936"
+        "publishedDate": "1936",
+        "summary": "This outstanding collection brings together Orwell's longer, major essays and a fine selection of shorter pieces that includes `Shooting an Elephant`, `My Country Right or Left`, `Decline of an English Murder` and `A Hanging`. With great originality and wit Orwell unfolds his views on subjects ranging from a revaluation of Charles Dickens to a spirited defence of English cooking. Displaying an almost unrivalled mastery of English plain prose style, Orwell's essays challenge, move and entertain. 'Shooting an Elephant' is Orwell's searing and painfully honest account of his experience as a police officer in imperial Burma; killing an escaped elephant in front of a crowd 'solely to avoid looking a fool'. The other masterly essays in this collection include classics such as 'My Country Right or Left', 'How the Poor Die' and 'Such, Such were the Joys', his memoir of the horrors of public school, as well as discussions of Shakespeare, sleeping rough, boys' weeklies and a spirited defence of English cooking. Opinionated, uncompromising, provocative and hugely entertaining, all show Orwell's unique ability to get to the heart of any subject. A collection of witty and incisive non-fiction, George Orwell's Shooting an Elephant includes an introduction by Jeremy Paxman in Penguin Modern Classics. Inhaltsverzeichnis. Why I write; the spike; a hanging; shooting an elephant; bookshop memories; Charles Dickens; boy's weeklies; my country right or left; looking back on the Spanish War; n defense of English cooking; good bad books; the sporting spirit; nonsense poetry; the prevention of literature; books versus cigarettes; decline of the English murder; some thoughts on the common toad; confessions of a book reviewer; politics versus literature - an examination of `Gulliver's Travels`; how the poor die; such, such were the joys; reflections on Gandhi.",
+        "info": "181/111/25 mm, 94g, 300 Seiten"
     },
     {
         "id": 80,
@@ -1212,13 +1372,10 @@
         ],
         "price": 17,
         "currency": "€",
-        "publishedDate": "1960"
+        "publishedDate": "1960",
+        "summary": "Nexus - Henry Millers meisterhaftes Porträt des pulsierenden Lebens in New York. In Nexus nimmt Henry Miller die Fäden wieder auf, die er in Plexus angesponnen hat. Unvergessene Gestalten erscheinen erneut, neue treten hinzu. Ausgeprägte Charaktere mit unverkennbarer Physiognomie tauchen auf aus dem unergründlichen New Yorker Menschenmeer der ersten Hälfte des 20. Jahrhunderts. Beschworen von der Gewalt der Erinnerungen und Millers einzigartiger Sprachkraft, gewinnen sie farbiges, inständiges, vitales und geistiges Leben. Millers autobiografisch inspirierter Roman fängt die Essenz einer Epoche und einer Metropole ein. Dieses Meisterwerk der klassischen Belletristik, ursprünglich als skandalös betrachtet, besticht durch die lebendige und detailreiche Schilderung einer Zeit und ihrer Menschen. Nexus ist ein Muss für Liebhaber von Henry Millers Werken wie Opus Pistorum, Wendekreis und Stille Tage in Clichy sowie für alle, die in die pulsierende Welt des New Yorks der Vergangenheit eintauchen möchten.",
+        "info": "181/111/25 mm, 94g, 320 Seiten"
     },
-
-
-
-
-
     {
         "id": 81,
         "src": "assets/images/books/caroll.jpg",
@@ -1232,7 +1389,9 @@
         ],
         "price": 24,
         "currency": "€",
-        "publishedDate": "1865"
+        "publishedDate": "1865",
+        "summary": "Lewis Carroll's `Alice im Wunderland` erschien erstmals 1865 und zählt zu den Klassikern der Weltliteratur. Erzählt wird die Geschichte von einem jungen Mädchen namens Alice, das durch ein Kaninchenloch in eine unterirdische Fantasiewelt fällt, die von eigenartigen, anthropomorphen Kreaturen bevölkert ist. Die Rahmenhandlung spielt in einer solchen Art und Weise mit Logik, dass sich die Geschichte sowohl bei Erwachsenen als auch bei Kindern gleichermaßen nachhaltiger Beliebtheit erfreut. Ungekürzte Ausgabe mit sämtlichen Illustrationen von John Tenniel.",
+        "info": "200/130/20 mm, 260 g, 300 Seiten"
     },
     {
         "id": 82,
@@ -1247,7 +1406,9 @@
         ],
         "price": 16,
         "currency": "€",
-        "publishedDate": "1902"
+        "publishedDate": "1902",
+        "summary": "Seit Jahrhunderten lastet ein Fluch auf den Baskervilles: Ein riesiger Hund treibt im Dartmoor sein Unwesen und hetzt die männlichen Nachkommen der Familie zu Tode. Dr. Watson und Sherlock Holmes gehen der Sache auf den Grund . . .",
+        "info": "190/125/16 mm, 180 g, 220 Seiten"
     },
     {
         "id": 83,
@@ -1262,7 +1423,9 @@
         ],
         "price": 15,
         "currency": "€",
-        "publishedDate": "1817"
+        "publishedDate": "1817",
+        "summary": "Ein finsteres Familiengeheimnis oder doch nur blühende Phantasie? Catherine Morland liest gerne Schauerromane. Als ihr gebildeter Verehrer sie seiner Familie vorstellt, ist diese not amused. Die Aura des alten Landsitzes 'Northanger Abbey' beflügelt Catherines Phantasie so sehr, dass sie bald glaubt, einem Familiengeheimnis auf der Spur zu sein.", 
+        "info": "190/125/18 mm, 200 g, 250 Seiten"
     },
     {
         "id": 84,
@@ -1277,7 +1440,9 @@
         ],
         "price": 22,
         "currency": "€",
-        "publishedDate": "1814"
+        "publishedDate": "1814",
+        "summary": "Ein schmuckes Herrenhaus mit Park und Stallungen in der stillen Landschaft von Northamptonshire: das ist «Mansfield Park», der Schauplatz dieses bewegten Familienromans. Im Kreis ihrer begüterten Verwandten hat die scheue Fanny kein leichtes Leben. Doch triumphiert zuletzt Charakterstärke über Geltungssucht, und Treue zu sich selbst wird in reichem Maße belohnt. In hochsommerlicher Hitze bricht eine Gruppe ausgelassener junger Menschen zu einem Reitausflug auf. Freunde sind zu Besuch im herrschaftlichen «Mansfield Park», und die Söhne und Töchter des Hauses wollen den Gästen die reizvolle Umgebung zeigen. Einzig zurück bleibt - wie so oft - die stille Fanny. Als Kind verarmter Verwandter kann sie sich glücklich schätzen, bei den wohlhabenden Bertrams Aufnahme gefunden zu haben. Doch immer wieder bekommt sie zu spüren, dass man sie nicht als ebenbürtiges Mitglied der Familie betrachtet. Jane Austens vierter Roman zeigt einen Wandel im Schaffen der großen englischen Autorin an. Der Kreis der Personen weitet sich, und das Augenmerk der Autorin gilt vermehrt auch der Darstellung unterschiedlicher sozialer Milieus. Das dichte Beziehungsgeflecht zwischen den Personen ist aufs kunstvollste gewoben. Die Charakterschilderungen erreichen ein Höchstmaß an Verfeinerung und Nuanciertheit. Dem bunten Reigen der Eitelkeiten, die Jane Austen mit gewohnt treffsicherer Ironie entlarvt, setzt sie mit Fanny eine fast unscheinbare Heldin entgegen. Dank ihrer Menschenkenntnis und Standfestigkeit entpuppt diese sich als prägende Figur des populären, mehrfach verfilmten Romans.",
+        "info": "200/130/22 mm, 280 g, 350 Seiten"
     },
     {
         "id": 85,
@@ -1292,7 +1457,9 @@
         ],
         "price": 18,
         "currency": "€",
-        "publishedDate": "1853"
+        "publishedDate": "1853",
+        "summary": "A new edition of this classic from one of the greatest writers of the nineteenth century. Features the definitive Clarendon edition of Villette which is sourced from the earliest printings of Brontë's great work. The text is supplemented with a newly commissioned introduction, which gives a thorough and in depth analysis of the context of this fine example of the nineteenth century novel. Lucy Snowe, in flight from an unhappy past, leaves England and finds work as a teacher in Madame Beck's school in 'Villette'. Strongly drawn to the fiery autocratic schoolmaster Monsieur Paul Emanuel, Lucy is compelled by Madame Beck's jealous interference to assert her right to love and be loved. Based in part on Charlotte Bronte's experience in Brussels ten years earlier, Villette (1853) is a cogent and dramatic exploration of a woman's response to the challenge of a constricting social environment. Its deployment of imagery comparable in power to that of Emily Bronte's Wuthering Heights, and its use of comedy, ironic or exuberant, in the service of an ultimately sombre vision, make Villette especially appealing to the modern reader.",
+        "info": "200/130/24 mm, 300 g, 400 Seiten"
     },
     {
         "id": 86,
@@ -1307,7 +1474,9 @@
         ],
         "price": 23,
         "currency": "€",
-        "publishedDate": "1838"
+        "publishedDate": "1838",
+        "summary": "Als Findelkind im Armenhaus einer englischen Kleinstadt aufgewachsen, flüchtet sich der junge Oliver Twist aus den Fängen seines brutalen Lehrherrn nach London. Doch im Moloch der Großstadt gerät er bald an den skrupellosen Hehler Fagin, der ein seltsames Interesse daran zu haben scheint, Oliver in die Welt des Verbrechens hineinzuziehen . . . Wegen seiner präzisen Milieuschilderungen und seines entwaffnenden Sinns für skurrile Komik zählt Oliver Twist bis heute zu den bedeutendsten und beliebtesten Romanen der englischsprachigen Literatur.",
+        "info": "200/130/22 mm, 270 g, 350 Seiten"
     },
     {
         "id": 87,
@@ -1322,7 +1491,9 @@
         ],
         "price": 20,
         "currency": "€",
-        "publishedDate": "1888"
+        "publishedDate": "1888",
+        "summary": "Diese prachtvolle Neuausgabe versammelt alle neun Erzählungen aus Oscar Wildes Der glückliche Prinz und Ein Granatapfelhaus, von Julia Plath meisterhaft illustriert. Ihre kunstvollen Bilder lassen die magische, manchmal melancholische Atmosphäre von Wildes Geschichten lebendig werden. Eine Schwalbe opfert sich für einen Prinzen aus Gold, ein Riese erkennt zu spät, dass er sich selbst das Paradies verwehrt hat, und eine Nachtigall gibt ihr Leben für die wahre Liebe - Oscar Wildes Märchen, »geschrieben teils für Kinder und teils für jene, die sich die kindliche Fähigkeit zu Staunen und Freude bewahrt haben«, sind voller poetischer Kraft, Ironie und Weisheit. Ein literarischer Schatz, der mit seinen berührenden Themen - Liebe, Mitgefühl und menschliches Schicksal - Generationen begeistert und in dieser besonderen Ausgabe neu erstrahlt.",
+        "info": "190/125/16 mm, 180 g, 220 Seiten"
     },
     {
         "id": 88,
@@ -1337,7 +1508,9 @@
         ],
         "price": 22,
         "currency": "€",
-        "publishedDate": "1813"
+        "publishedDate": "1813",
+        "summary": "Jane Austens populärster Roman, die unvergessliche Liebesgeschichte von Elizabeth Bennet und Fitzwilliam DarcyMr. Bennet aus dem Hause Longbourn hat fünf Töchter, aber sein Besitz kann nur an einen männlichen Erben weitergegeben werden. Auch seine Frau hat keinen Erben, sodass seine Familie nach seinem Tod mittellos sein wird. So ist es zwingend notwendig, dass zumindest eines der Mädchen erfolgreich verheiratet wird, um die anderen zu unterstützen, was aber kein leichtes Unterfangen ist.",
+        "info": "190/125/20 mm, 240 g, 320 Seiten"
     },
     {
         "id": 89,
@@ -1352,7 +1525,9 @@
         ],
         "price": 17,
         "currency": "€",
-        "publishedDate": "1847"
+        "publishedDate": "1847",
+        "summary": "Auf Thornfield Hall gehen nachts seltsame Dinge vor, über die niemand reden mag. Jane, eine eher unscheinbare, aber recht intelligente junge Frau, arbeitet seit kurzer Zeit hier als Gouvernante. Bald verliebt sie sich heimlich in den düsteren, jähzornigen Mr. Rochester, den Besitzer des Anwesens. Er jedoch scheint sich nur für die schöne Blanche zu interessieren. . .",
+        "info": "200/130/22 mm, 290 g, 380 Seiten"
     },
     {
         "id": 90,
@@ -1367,7 +1542,9 @@
         ],
         "price": 24,
         "currency": "€",
-        "publishedDate": "1890"
+        "publishedDate": "1890",
+        "summary": "Das Leben des Dorian Gray ist mehr als die Biographie eines Einzelwesens, es ist die Geschichte einer ganzen verderbten Gesellschaft, die ihr höchstes Ziel im Genuss sucht, die fühlt, dass sie dem Verfall preisgegeben ist und gewissermaßen im Todeskampf die üppigsten Blüten der Gefallsucht und eines übertriebenen Protzentums treibt. Und gerade darum verdient dieses Werk Oscar Wildes auch heute gelesen zu werden, weil wohl selten die Verfallserscheinungen einer überlebten Gesellschaft deutlicher gegeißelt wurden und weil es den Menschen unserer Tage gut tut, wenn ihnen die Augen geöffnet werden. Die reife Übersetzung von Peter Rauhof hat die Eigentümlichkeiten der Wildeschen Ausdrucksweise ins Deutsche übertragen und kommt damit dem Geiste des Originals so nahe, wie man das von einer Übersetzung nur verlangen kann.",
+        "info": "190/125/18 mm, 210 g, 260 Seiten"
     },
     {
         "id": 91,
@@ -1382,7 +1559,9 @@
         ],
         "price": 18,
         "currency": "€",
-        "publishedDate": "1815"
+        "publishedDate": "1815",
+        "summary": "Zwischen Matchmaking und Selbstentdeckung. Mit ihrer unvollkommenen, aber charmanten Emma hat Jane Austen eine Heldin erschaffen, die sich in das romantische Leben anderer einmischt und damit für allerlei Verstrickungen sorgt. Scharfsinnig und mit Humor schreibt Austen über die Sorgen und Schwierigkeiten vornehmer Frauen im georgianischen England - ein Roman voller Ballabende, Parkspaziergänge und geistreicher Dialoge. - Mit einem Nachwort von Christian Grawe und einer kompakten Biographie der Autorin. Jane Austen - ein zeitloser Klassiker. Seit 250 Jahren verzaubert Jane Austen ihre Leserinnen und Leser. Ihre Romane gehören längst zum literarischen Kanon. Mit Ironie, feiner Satire und intensiven Charakterzeichnungen gibt sie ein Bild der Gesellschaft, das bis heute fasziniert. Ihre Geschichten zählen zu den erfolgreichsten Liebesromanen der Weltliteratur - doch sie erzählen auch von Selbstbestimmung, Mut und der Suche nach dem eigenen Platz in der Welt.",
+        "info": "190/125/20 mm, 230 g, 300 Seiten"
     },
     {
         "id": 92,
@@ -1397,7 +1576,9 @@
         ],
         "price": 25,
         "currency": "€",
-        "publishedDate": "1850"
+        "publishedDate": "1850",
+        "summary": "«David Copperfield» war Charles Dickens der liebste Roman, es ist auch sein persönlichster. Das Buch hat Generationen von Lesenden in seinen Bann geschlagen, vielen war und ist es prägende Jugendlektüre, große Autorinnen und Autoren - Leo Tolstoi, Virginia Woolf, Vladimir Nabokov, Elias Canetti - verehrten ihn ein Leben lang. Es ist zunächst eine Leidensgeschichte im viktorianischen England. Nach dem Tod des Vaters geboren und nach einer unseligen Neuvermählung der Mutter muss der junge David eine höllenhafte Schulzeit durchleiden, wird bereits als Zehnjähriger zur Arbeit gezwungen und kann sich den unmenschlichen Bedingungen des frühindustriellen Fabrikwesens nur durch Flucht entziehen. Seine Tante Betsey nimmt ihn herzlich auf. Langsam scheint sich das Blatt zu wenden. Wie Dickens wird David selbst Anwaltsgehilfe, Reporter und schließlich erfolgreicher Schriftsteller. «Geschichte und Erfahrungen David Copperfields des Jüngeren» erschien 1849/50: ein Werk voller Humor und Tragik, einer der großen Kindheits- und Jugendromane der Weltliteratur. Der große englische Bildungsroman ist neben «Oliver Twist» das bekannteste Buch des Autors. Auch wenn diverse Ausgaben des Klassikers existieren, ist die letzte deutsche Fassung inzwischen ein Dreivierteljahrhundert alt. Nun liegt eine würdige und lesbare Übersetzung für das 21. Jahrhundert vor, seit Langem ein Desiderat von Dickens-Fans und Leser:innen großer Klassiker: meisterhaft übersetzt von Melanie Walz, deren «Middlemarch» bereits ganz großes Kritikerlob einheimste.",
+        "info": "210/140/28 mm, 480 g, 800 Seiten"
     },
     {
         "id": 93,
@@ -1412,7 +1593,9 @@
         ],
         "price": 16,
         "currency": "€",
-        "publishedDate": "1891"
+        "publishedDate": "1891",
+        "summary": "Dieser Essay Wildes ist das ungewöhnliche Plädoyer für einen Sozialismus, der die Beschäftigung mit 'dem Schönen' nicht ausschließen soll. Wildes soziale Utopie entwirft gesellschaftliche Bedingungen, die es jedem erlauben sollen, ein individualistisch geprägtes, ja egoistisches Leben zu führen - der Künstler verkörpert dabei den freien Menschen par excellence.",
+        "info": "180/110/12 mm, 130 g, 120 Seiten"
     },
     {
         "id": 94,
@@ -1427,7 +1610,9 @@
         ],
         "price": 18,
         "currency": "€",
-        "publishedDate": "1847"
+        "publishedDate": "1847",
+        "summary": "Read Emily Brontë powerful tale of love and obsession that inspired the new film. 'May you not rest, as long as I am living. You said I killed you - haunt me, then'. Wuthering Heights is the tale of two families both joined and riven by love and hate. Cathy is a beautiful and wilful young woman torn between her soft-hearted husband and Heathcliff, the passionate and resentful man who has loved her since childhood. The power of their bond creates a maelstrom of cruelty and violence which will leave one of them dead and cast a shadow over the lives of their children. Emily Brontë's novel remains a stunningly original and shocking exploration of obsessive passion. VINTAGE CLASSICS BRONTË SERIES: beautiful editions, three iconic stories, three extraordinary women.",
+        "info": "200/130/20 mm, 260 g, 300 Seiten"
     },
     {
         "id": 95,
@@ -1442,6 +1627,8 @@
         ],
         "price": 23,
         "currency": "€",
-        "publishedDate": "1861"
+        "publishedDate": "1861",
+        "summary": "Charles Dickens schönster und reifster Roman liegt nun in brillanter Neuübersetzung vor. Der Waisenjunge Pip erlernt das Handwerk des Schmieds, dann stiftet ihm ein unbekannter Wohltäter ein Vermögen, damit er sich in London zum Gentleman ausbilden kann. Es geht um Kindheit und Erwachsenwerden, um Arm und Reich, um Klug und Dumm, um Gut und Böse. Melanie Walz hat in ihrer Neuübersetzung den unverwechselbaren, leicht ironischen Ton Dickens' perfekt getroffen. Im Nachwort erklärt sie die Entstehungsgeschichte des Buches.",
+        "info": "200/130/24 mm, 300 g, 400 Seiten"
     }
 ]
