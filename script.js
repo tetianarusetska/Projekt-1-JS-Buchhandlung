@@ -70,6 +70,13 @@ function showArtBooks() {
         `;
     });
 
+    document.querySelectorAll(".like-Button").forEach((btn, index) => {
+        btn.addEventListener("click", (e) => {
+            e.stopPropagation();
+            saveFavorite(artBooks[index]);
+        });
+    });
+
     const allBooks = document.querySelectorAll(".a-book");
     allBooks.forEach((bookEl, index) => {
         bookEl.addEventListener("click", () => {
@@ -135,7 +142,8 @@ function renderBooks() {
     });
 
     document.querySelectorAll(".like-Button").forEach((btn, index) => {
-        btn.addEventListener("click", () => {
+        btn.addEventListener("click", (e) => {
+            e.stopPropagation();
             saveFavorite(pageBooks[index]);
         });
     });
@@ -221,7 +229,7 @@ function saveFavorite(book) {
     } else {
         favorites = favorites.filter(b => b.id !== book.id);
     }
-    
+
     console.log(favorites);
     localStorage.setItem("favorites", JSON.stringify(favorites));
 }
@@ -242,42 +250,19 @@ function saveFavorite(book) {
 
 
 
-// -------------------------------------------------------------------------------------------------------------------------------------------
-// NEUE START MIT API
+const textPath = document.querySelector("#animatedText textPath");
+const textEl = document.getElementById("animatedText");
 
-// const pageWithBooks = document.getElementById("pageWithBooks");
+textEl.setAttribute("fill", "red");
 
-// async function getBooks(query) {
+let offset = 0;
+const speed = 0.2;
 
-//     const response = await fetch(`https://openlibrary.org/search.json?q=${query}`);
-//     const data = await response.json();
+function animate() {
+    offset += speed;
+    if (offset > 100) offset = 0;
+    textPath.setAttribute("startOffset", offset + "%");
+    requestAnimationFrame(animate);
+}
 
-//     console.log(data);
-//     renderBooks(data);
-
-// }
-
-// getBooks("love");
-
-// function renderBooks(data) {
-//     pageWithBooks.innerHTML = "";
-
-//     data.docs.forEach(book => {
-//         if (!book.title || !book.first_publish_year || !book.cover_i) return;
-
-//         const coverUrl = `https://covers.openlibrary.org/b/id/${book.cover_i}-M.jpg`;
-//         const authors = book.author_name ? book.author_name.join(", ") : "Неизвестно";
-
-//         pageWithBooks.innerHTML += `
-//             <div class="book">
-//                 <img src="${coverUrl}" alt="${book.title}" class="booksImage">
-//                 <p class="booksName">${book.title}</p>
-//                 <p class="booksAuthor">${authors}, ${book.first_publish_year}</p>
-//                 <div class="actionButtons">
-//                     <button class="like-Button"></button>
-//                     <button class="card-Button"></button>
-//                 </div>
-//             </div>
-//         `;
-//     });
-// }
+animate();

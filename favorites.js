@@ -21,8 +21,10 @@ function generateFavorites() {
             </div>
     `;
     });
-        favoritesContainer.querySelectorAll(".like-Button").forEach((btn, index) => {
+
+    favoritesContainer.querySelectorAll(".like-Button").forEach((btn, index) => {
         btn.addEventListener("click", (e) => {
+            e.stopPropagation();
             const bookId = favorites[index].id;
             favorites = favorites.filter(book => book.id !== bookId);
             localStorage.setItem("favorites", JSON.stringify(favorites));

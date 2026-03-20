@@ -3,8 +3,7 @@
     padding: 0;
 }
 
-/* ------------------------------------------------------------------------------------------------------------------------------ */
-/* HEADER */
+/* -------------------------------------------- HEADER --------------------------------------------------------------- */
 
 header {
     margin: 0px 80px;
@@ -144,13 +143,41 @@ header {
 
 /* HERO SECTION */
 
-/* IMAGE */
+/* IMAGES */
 
 .heroImage {
     object-fit: cover;
     width: 89%;
     height: 500px;
     margin: 40px 80px;
+}
+
+.heroImage2 {
+    object-fit: cover;
+    width: 89%;
+    height: 500px;
+    margin-top: 80px;
+    margin-right: 80px;
+    margin-left: 80px;
+    display: block;
+    transform: translateY(-42px);
+}
+
+.heroText1,
+.heroText2 {
+    font-family: var(--mainFont);
+    width: 89%;
+    margin: 12px 80px;
+}
+
+.heroText1 {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.heroText2 {
+
+    font-size: 21px;
 }
 
 /* ----------------------------------------------------------SECTION 2----------------------------------------------------------------------- */
@@ -333,7 +360,7 @@ header {
 }
 
 .roman-pagination {
-    margin-top: 40px;
+    margin-top: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -723,7 +750,7 @@ input[type="radio"]:checked~.title {
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------ */
-/* BÜCHER BESCHREIBUNG SEITE */
+/* BOOKS DESCRIPTION SEITE */
 
 .description {
     margin: 90px 80px;
@@ -794,4 +821,54 @@ input[type="radio"]:checked~.title {
     color: var(--secondaryColor);
     background-color: var(--accentColor);
     box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, var(--accentColor) 0 -3px 0 inset;
+}
+
+/* ------------------------------------------------ FOOTER ------------------------------------------------------------- */
+
+
+#animatedSvg {
+    margin-top: -40px;                
+    transform: translateY(-20px);     
+}
+
+footer {
+    margin: 0 80px; 
+}
+
+footer .materials ul {
+    list-style-type: none;
+    transform: translateY(-360px);
+}
+
+footer .materials li{
+    font-family: var(--mainFont);
+}
+
+.footerText {
+    margin-bottom: 9px;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+footer .materials a {
+    color: red;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    list-style-type: none;
+    font-family: var(--mainFont);
+    font-size: 17px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: var(--primaryColor);
 }
