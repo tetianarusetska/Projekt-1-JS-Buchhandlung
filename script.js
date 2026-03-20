@@ -127,11 +127,17 @@ function renderBooks() {
                 <p class="booksTags">${book.tags.join(", ")}</p>
                 <p class="booksPrice">${book.price}${book.currency}</p>
                 <div class="actionButtons">
-                    <button id="likeButton" class="like-Button"></button>
+                    <button class="like-Button"></button>
                     <button id="cardButton" class="card-Button"></button>
                 </div>
             </div>
         `;
+    });
+
+    document.querySelectorAll(".like-Button").forEach((btn, index) => {
+        btn.addEventListener("click", () => {
+            saveFavorite(pageBooks[index]);
+        });
     });
 
     const allBooks = document.querySelectorAll(".book");
@@ -195,9 +201,30 @@ searchInput.addEventListener("input", (e) => {
 
 let favorites = [];
 
+const favoritesString = localStorage.getItem("favorites");
 
+if (!favoritesString) {
+    localStorage.setItem("favorites", JSON.stringify([]));
+} else {
+    favorites = JSON.parse(favoritesString);
+}
 
+function saveFavorite(book) {
 
+    console.log(book);
+    console.log(favorites);
+
+    let favorites = JSON.parse(localStorage.getItem("favorites"));
+
+    if (!favorites.some(b => b.id === book.id)) {
+        favorites.push(book);
+    } else {
+        favorites = favorites.filter(b => b.id !== book.id);
+    }
+    
+    console.log(favorites);
+    localStorage.setItem("favorites", JSON.stringify(favorites));
+}
 
 // -------------------------------------------------------------------------------------------------------------------------------------------
 // SHOW BOOK DESCRIPTION
