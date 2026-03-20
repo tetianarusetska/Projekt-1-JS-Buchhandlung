@@ -164,9 +164,8 @@ header {
 }
 
 .heroText1,
-.heroText2 {
+.heroText2, .hero-Text2  {
     font-family: var(--mainFont);
-    width: 89%;
     margin: 12px 80px;
 }
 
@@ -175,9 +174,16 @@ header {
     font-size: 25px;
 }
 
-.heroText2 {
-
+.heroText2, .hero-Text2  {
     font-size: 21px;
+}
+
+.heroText2 {
+    width: 69%;
+}
+
+.hero-Text2 {
+    width: 89%;
 }
 
 /* ----------------------------------------------------------SECTION 2----------------------------------------------------------------------- */
