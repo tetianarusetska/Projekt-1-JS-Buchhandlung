@@ -1,7 +1,7 @@
 [
     {
         "id": 0,
-        "src": "assets/images/books/klein.webp",
+        "src": "/assets/images/books/klein.webp",
         "name": "Yves Klein",
         "author": "Hannah Weitemeiern",
         "category": "kunst",
@@ -18,7 +18,7 @@
     },
     {
         "id": 1,
-        "src": "assets/images/books/shiele2.webp",
+        "src": "/assets/images/books/shiele2.webp",
         "name": "Egon Schiele: Sämtliche Gemälde 1909–1918",
         "author": "Tobias G. Natter",
         "category": "kunst",
@@ -35,7 +35,7 @@
     },
     {
         "id": 2,
-        "src": "assets/images/books/stoa.jpg",
+        "src": "/assets/images/books/stoa.jpg",
         "name": "Stoa",
         "author": "Hirmer Verlag GmbH",
         "category": "kunst",
@@ -52,7 +52,7 @@
     },
     {
         "id": 3,
-        "src": "assets/images/books/ntfs.webp",
+        "src": "/assets/images/books/ntfs.webp",
         "name": "On NFTs – Collector's Edition",
         "author": "Robert Alice",
         "category": "kunst",
@@ -69,7 +69,7 @@
     },
     {
         "id": 4,
-        "src": "assets/images/books/munch.jpg",
+        "src": "/assets/images/books/munch.jpg",
         "name": "Edvard Munch",
         "author": "Hirmer Verlag GmbH",
         "category": "kunst",
@@ -86,7 +86,7 @@
     },
     {
         "id": 5,
-        "src": "assets/images/books/dali.webp",
+        "src": "/assets/images/books/dali.webp",
         "name": "Dalí: Baby Sumo",
         "author": "Hans Werner Holzwarth",
         "category": "kunst",
@@ -103,7 +103,7 @@
     },
     {
         "id": 6,
-        "src": "assets/images/books/baselitz.webp",
+        "src": "/assets/images/books/baselitz.webp",
         "name": "Georg Baselitz",
         "author": "Hans Werner Holzwarth",
         "category": "kunst",
@@ -120,7 +120,7 @@
     },
     {
         "id": 7,
-        "src": "assets/images/books/baskia2.webp",
+        "src": "/assets/images/books/baskia2.webp",
         "name": "Basquiat",
         "author": "Eleanor Nairne",
         "category": "kunst",
@@ -137,7 +137,7 @@
     },
     {
         "id": 8,
-        "src": "assets/images/books/giger.webp",
+        "src": "/assets/images/books/giger.webp",
         "name": "HR Giger",
         "author": "Andreas J. Hirsch",
         "category": "kunst",
@@ -154,7 +154,7 @@
     },
     {
         "id": 9,
-        "src": "assets/images/books/weiwei.webp",
+        "src": "/assets/images/books/weiwei.webp",
         "name": "Ai Weiwei: The Silk Scarf Haircut.The Silk Scarf ‘Haircut’",
         "author": "TASCHEN",
         "category": "kunst",
@@ -171,7 +171,7 @@
     },
     {
         "id": 10,
-        "src": "assets/images/books/vermeer.webp",
+        "src": "/assets/images/books/vermeer.webp",
         "name": "Vermeer: Das vollständige Werk",
         "author": "Karl Schütz",
         "category": "kunst",
@@ -188,7 +188,7 @@
     },
     {
         "id": 11,
-        "src": "assets/images/books/bosch.webp",
+        "src": "/assets/images/books/bosch.webp",
         "name": "Bosch: Das vollständige Werk",
         "author": "Stefan Fischer",
         "category": "kunst",
@@ -205,7 +205,7 @@
     },
     {
         "id": 12,
-        "src": "assets/images/books/hopper.webp",
+        "src": "/assets/images/books/hopper.webp",
         "name": "Hopper",
         "author": "Rolf G. Renner",
         "category": "kunst",
@@ -222,7 +222,7 @@
     },
     {
         "id": 13,
-        "src": "assets/images/books/gogh.webp",
+        "src": "/assets/images/books/gogh.webp",
         "name": "Van Gogh: Sämtliche Gemälde",
         "author": "Vincent van Gogh",
         "category": "kunst",
@@ -239,7 +239,7 @@
     },
     {
         "id": 14,
-        "src": "assets/images/books/schiele.webp",
+        "src": "/assets/images/books/schiele.webp",
         "name": "Egon Schiele: Sämtliche Gemälde 1909–1918",
         "author": "Rudolf Leopold",
         "category": "kunst",
@@ -256,7 +256,7 @@
     },
     {
         "id": 15,
-        "src": "assets/images/books/leonardo.webp",
+        "src": "/assets/images/books/leonardo.webp",
         "name": "Leonardo: Sämtliche Gemälde und Zeichnungen",
         "author": "Leonardo da Vinci",
         "category": "kunst",
@@ -273,7 +273,7 @@
     },
     {
         "id": 16,
-        "src": "assets/images/books/beckmann.jpg",
+        "src": "/assets/images/books/beckmann.jpg",
         "name": "Max wird Beckmann. Es begann in Braunschweig",
         "author": "Thomas Döring, Thomas Richter, Andreas Uhr",
         "category": "kunst",
@@ -290,7 +290,7 @@
     },
     {
         "id": 17,
-        "src": "assets/images/books/holler.webp",
+        "src": "/assets/images/books/holler.webp",
         "name": "Carsten Höller: Book of Games",
         "author": "Carsten Höller",
         "category": "kunst",
@@ -307,7 +307,7 @@
     },
     {
         "id": 18,
-        "src": "assets/images/books/bergman1.webp",
+        "src": "/assets/images/books/bergman1.webp",
         "name": "Das Ingmar Bergman Archiv",
         "author": "Erland Josephson",
         "category": "film",
@@ -324,7 +324,7 @@
     },
     {
         "id": 19,
-        "src": "assets/images/books/chaplin.webp",
+        "src": "/assets/images/books/chaplin.webp",
         "name": "Das Charlie Chaplin Archiv",
         "author": "Paul Duncan",
         "category": "film",
@@ -341,7 +341,7 @@
     },
     {
         "id": 20,
-        "src": "assets/images/books/avangard.webp",
+        "src": "/assets/images/books/avangard.webp",
         "name": "Film Posters of the Russian Avant-Garde",
         "author": "Susan Pack",
         "category": "film",
@@ -358,7 +358,7 @@
     },
     {
         "id": 21,
-        "src": "assets/images/books/kubrick.webp",
+        "src": "/assets/images/books/kubrick.webp",
         "name": "Das Stanley Kubrick Archiv",
         "author": "Alison Castle",
         "category": "film",
@@ -375,7 +375,7 @@
     },
     {
         "id": 22,
-        "src": "assets/images/books/hopper.webp",
+        "src": "/assets/images/books/hopper.webp",
         "name": "Dennis Hopper Photographs 1961–1967",
         "author": "Jessica Hundley",
         "category": "film",
@@ -392,7 +392,7 @@
     },
     {
         "id": 23,
-        "src": "assets/images/books/almodovar.webp",
+        "src": "/assets/images/books/almodovar.webp",
         "name": "The Pedro Almodóvar Archives",
         "author": "Paul Duncan",
         "category": "film",
@@ -409,7 +409,7 @@
     },
     {
         "id": 24,
-        "src": "assets/images/books/sophia.webp",
+        "src": "/assets/images/books/sophia.webp",
         "name": "Sophia by Eisenstaedt",
         "author": "TASCHEN",
         "category": "film",
@@ -426,7 +426,7 @@
     },
     {
         "id": 25,
-        "src": "assets/images/books/bookbergman1.jpg",
+        "src": "/assets/images/books/bookbergman1.jpg",
         "name": "Ingmar Bergman – The Fifth Act",
         "author": "Ingmar Bergman",
         "category": "film",
@@ -443,7 +443,7 @@
     },
     {
         "id": 26,
-        "src": "assets/images/books/bookbergman2.jpg",
+        "src": "/assets/images/books/bookbergman2.jpg",
         "name": "Ingmar Bergman – Laterna Magica",
         "author": "Ingmar Bergman",
         "category": "film",
@@ -460,7 +460,7 @@
     },
     {
         "id": 27,
-        "src": "assets/images/books/bookbergman3.jpg",
+        "src": "/assets/images/books/bookbergman3.jpg",
         "name": "Ingmar Bergman",
         "author": "Ingmar Bergman",
         "category": "film",
@@ -477,7 +477,7 @@
     },
     {
         "id": 28,
-        "src": "assets/images/books/rheims.webp",
+        "src": "/assets/images/books/rheims.webp",
         "name": "Bettina Rheims & Serge Bramly: Rose – Art Edition No. 1–100",
         "author": "TASCHEN",
         "category": "fotografie",
@@ -494,7 +494,7 @@
     },
     {
         "id": 29,
-        "src": "assets/images/books/beard.webp",
+        "src": "/assets/images/books/beard.webp",
         "name": "Peter Beard",
         "author": "Owen Edwards, Steven M. L. Aronson",
         "category": "fotografie",
@@ -511,7 +511,7 @@
     },
     {
         "id": 30,
-        "src": "assets/images/books/lindberg1.webp",
+        "src": "/assets/images/books/lindberg1.webp",
         "name": "Peter Lindbergh: On Fashion Photography",
         "author": "Peter Lindbergh",
         "category": "fotografie",
@@ -528,7 +528,7 @@
     },
     {
         "id": 31,
-        "src": "assets/images/books/newton1.webp",
+        "src": "/assets/images/books/newton1.webp",
         "name": "Helmut Newton: SUMO – 20th Anniversary Edition",
         "author": "Matthias Harder",
         "category": "fotografie",
@@ -545,7 +545,7 @@
     },
     {
         "id": 32,
-        "src": "assets/images/books/lindberg22.webp",
+        "src": "/assets/images/books/lindberg22.webp",
         "name": "Peter Lindbergh: Azzedine Alaïa",
         "author": "TASCHEN",
         "category": "fotografie",
@@ -562,7 +562,7 @@
     },
     {
         "id": 33,
-        "src": "assets/images/books/newton2.webp",
+        "src": "/assets/images/books/newton2.webp",
         "name": "Helmut Newton: Berlin, Berlin",
         "author": "Matthias Harder",
         "category": "fotografie",
@@ -579,7 +579,7 @@
     },
     {
         "id": 34,
-        "src": "assets/images/books/leibovitz1.webp",
+        "src": "/assets/images/books/leibovitz1.webp",
         "name": "Annie Leibovitz",
         "author": "TASCHEN",
         "category": "fotografie",
@@ -596,7 +596,7 @@
     },
     {
         "id": 35,
-        "src": "assets/images/books/salgado1.webp",
+        "src": "/assets/images/books/salgado1.webp",
         "name": "Sebastião Salgado: Genesis – 45th Edition",
         "author": "Lélia Wanick Salgado",
         "category": "fotografie",
@@ -613,7 +613,7 @@
     },
     {
         "id": 36,
-        "src": "assets/images/books/salgado2.webp",
+        "src": "/assets/images/books/salgado2.webp",
         "name": "Sebastião Salgado: Amazonia – 45th Edition",
         "author": "Lélia Wanick Salgado",
         "category": "fotografie",
@@ -630,7 +630,7 @@
     },
     {
         "id": 37,
-        "src": "assets/images/books/newton3.webp",
+        "src": "/assets/images/books/newton3.webp",
         "name": "Helmut Newton: Legacy",
         "author": "Philippe Garner",
         "category": "fotografie",
@@ -647,7 +647,7 @@
     },
     {
         "id": 38,
-        "src": "assets/images/books/nasa.webp",
+        "src": "/assets/images/books/nasa.webp",
         "name": "Das NASA-Archiv – 60 Jahre im All",
         "author": "Piers Bizony",
         "category": "fotografie",
@@ -664,7 +664,7 @@
     },
     {
         "id": 39,
-        "src": "assets/images/books/lindberg2.webp",
+        "src": "/assets/images/books/lindberg2.webp",
         "name": "Peter Lindbergh: Untold Stories",
         "author": "Felix Krämer",
         "category": "fotografie",
@@ -681,7 +681,7 @@
     },
     {
         "id": 40,
-        "src": "assets/images/books/doisneu.webp",
+        "src": "/assets/images/books/doisneu.webp",
         "name": "Robert Doisneau: Paris",
         "author": "Jean Claude Gautrand",
         "category": "fotografie",
@@ -698,7 +698,7 @@
     },
     {
         "id": 41,
-        "src": "assets/images/books/smith.jpg",
+        "src": "/assets/images/books/smith.jpg",
         "name": "Lynn Goldsmith: Patti Smith – Before Easter After",
         "author": "TASCHEN",
         "category": "fotografie",
@@ -715,7 +715,7 @@
     },
     {
         "id": 42,
-        "src": "assets/images/books/salgado4.webp",
+        "src": "/assets/images/books/salgado4.webp",
         "name": "Sebastião Salgado: Kuwait – Eine Wüste in Flammen",
         "author": "Lélia Wanick Salgado",
         "category": "fotografie",
@@ -732,7 +732,7 @@
     },
     {
         "id": 43,
-        "src": "assets/images/books/sophia.webp",
+        "src": "/assets/images/books/sophia.webp",
         "name": "Sophia by Eisenstaedt",
         "author": "TASCHEN",
         "category": "fotografie",
@@ -749,7 +749,7 @@
     },
     {
         "id": 44,
-        "src": "assets/images/books/schop1.jpg",
+        "src": "/assets/images/books/schop1.jpg",
         "name": "Die Kunst, Recht zu behalten",
         "author": "Arthur Schopenhauer",
         "category": "philosophie",
@@ -766,7 +766,7 @@
     },
     {
         "id": 45,
-        "src": "assets/images/books/kafka3.jpg",
+        "src": "/assets/images/books/kafka3.jpg",
         "name": "Das Schloß",
         "author": "Franz Kafka",
         "category": "philosophie",
@@ -783,7 +783,7 @@
     },
     {
         "id": 46,
-        "src": "assets/images/books/nietzsche2.jpg",
+        "src": "/assets/images/books/nietzsche2.jpg",
         "name": "Also sprach Zarathustra",
         "author": "Friedrich Nietzsche",
         "category": "philosophie",
@@ -800,7 +800,7 @@
     },
     {
         "id": 47,
-        "src": "assets/images/books/sartre.jpg",
+        "src": "/assets/images/books/sartre.jpg",
         "name": "Das Sein und das Nichts",
         "author": "Jean-Paul Sartre",
         "category": "philosophie",
@@ -817,7 +817,7 @@
     },
     {
         "id": 48,
-        "src": "assets/images/books/nietzsche1.jpg",
+        "src": "/assets/images/books/nietzsche1.jpg",
         "name": "Beyond Good and Evil",
         "author": "Friedrich Nietzsche",
         "category": "philosophie",
@@ -834,7 +834,7 @@
     },
     {
         "id": 49,
-        "src": "assets/images/books/kafka1.jpg",
+        "src": "/assets/images/books/kafka1.jpg",
         "name": "Die Verwandlung",
         "author": "Franz Kafka",
         "category": "philosophie",
@@ -851,7 +851,7 @@
     },
     {
         "id": 50,
-        "src": "assets/images/books/sartr.jpg",
+        "src": "/assets/images/books/sartr.jpg",
         "name": "Der Existentialismus ist ein Humanismus",
         "author": "Jean-Paul Sartre",
         "category": "philosophie",
@@ -868,7 +868,7 @@
     },
     {
         "id": 51,
-        "src": "assets/images/books/kafka2.jpg",
+        "src": "/assets/images/books/kafka2.jpg",
         "name": "Der Prozeß",
         "author": "Franz Kafka",
         "category": "philosophie",
@@ -885,7 +885,7 @@
     },
     {
         "id": 52,
-        "src": "assets/images/books/sartre.jpg",
+        "src": "/assets/images/books/sartre.jpg",
         "name": "Das Spiel ist aus",
         "author": "Jean-Paul Sartre",
         "category": "philosophie",
@@ -902,7 +902,7 @@
     },
     {
         "id": 53,
-        "src": "assets/images/books/nietzsche4.jpg",
+        "src": "/assets/images/books/nietzsche4.jpg",
         "name": "Jenseits von Gut und Böse",
         "author": "Friedrich Nietzsche",
         "category": "philosophie",
@@ -919,7 +919,7 @@
     },
     {
         "id": 54,
-        "src": "assets/images/books/sartre1.jpg",
+        "src": "/assets/images/books/sartre1.jpg",
         "name": "Wir sind alle Mörder",
         "author": "Jean-Paul Sartre",
         "category": "philosophie",
@@ -936,7 +936,7 @@
     },
     {
         "id": 55,
-        "src": "assets/images/books/sartre2.jpg",
+        "src": "/assets/images/books/sartre2.jpg",
         "name": "Fragen der Methode",
         "author": "Jean-Paul Sartre",
         "category": "philosophie",
@@ -953,7 +953,7 @@
     },
     {
         "id": 56,
-        "src": "assets/images/books/kant.jpeg",
+        "src": "/assets/images/books/kant.jpeg",
         "name": "Kritik der reinen Vernunft",
         "author": "Immanuel Kant",
         "category": "philosophie",
@@ -970,7 +970,7 @@
     },
     {
         "id": 57,
-        "src": "assets/images/books/descartes.jpeg",
+        "src": "/assets/images/books/descartes.jpeg",
         "name": "Diskurs über die Methode",
         "author": "René Descartes",
         "category": "philosophie",
@@ -987,7 +987,7 @@
     },
     {
         "id": 58,
-        "src": "assets/images/books/hesse1.jpg",
+        "src": "/assets/images/books/hesse1.jpg",
         "name": "Das Glasperlenspiel",
         "author": "Hermann Hesse",
         "category": "literatur",
@@ -1004,7 +1004,7 @@
     },
     {
         "id": 59,
-        "src": "assets/images/books/hesse2.jpg",
+        "src": "/assets/images/books/hesse2.jpg",
         "name": "Stufen",
         "author": "Hermann Hesse",
         "category": "literatur",
@@ -1021,7 +1021,7 @@
     },
     {
         "id": 60,
-        "src": "assets/images/books/miller1.jpg",
+        "src": "/assets/images/books/miller1.jpg",
         "name": "Sexus",
         "author": "Henry Miller",
         "category": "literatur",
@@ -1038,7 +1038,7 @@
     },
     {
         "id": 61,
-        "src": "assets/images/books/miller2.jpg",
+        "src": "/assets/images/books/miller2.jpg",
         "name": "Opus Pistorum",
         "author": "Henry Miller",
         "category": "literatur",
@@ -1055,7 +1055,7 @@
     },
     {
         "id": 62,
-        "src": "assets/images/books/orwell2.jpg",
+        "src": "/assets/images/books/orwell2.jpg",
         "name": "Farm der Tiere",
         "author": "George Orwell",
         "category": "literatur",
@@ -1072,7 +1072,7 @@
     },
     {
         "id": 63,
-        "src": "assets/images/books/orwell1.jpg",
+        "src": "/assets/images/books/orwell1.jpg",
         "name": "1984",
         "author": "George Orwell",
         "category": "literatur",
@@ -1089,7 +1089,7 @@
     },
     {
         "id": 64,
-        "src": "assets/images/books/zweig1.jpg",
+        "src": "/assets/images/books/zweig1.jpg",
         "name": "Die Welt von Gestern",
         "author": "Stefan Zweig",
         "category": "literatur",
@@ -1106,7 +1106,7 @@
     },
     {
         "id": 65,
-        "src": "assets/images/books/zweig2.jpg",
+        "src": "/assets/images/books/zweig2.jpg",
         "name": "Der Kampf mit dem Dämon",
         "author": "Stefan Zweig",
         "category": "literatur",
@@ -1123,7 +1123,7 @@
     },
     {
         "id": 66,
-        "src": "assets/images/books/kurt1.jpg",
+        "src": "/assets/images/books/kurt1.jpg",
         "name": "Galapagos",
         "author": "Kurt Vonnegut",
         "category": "literatur",
@@ -1140,7 +1140,7 @@
     },
     {
         "id": 67,
-        "src": "assets/images/books/kurt2.jpg",
+        "src": "/assets/images/books/kurt2.jpg",
         "name": "Die Sirenen des Titan",
         "author": "Kurt Vonnegut",
         "category": "literatur",
@@ -1157,7 +1157,7 @@
     },
     {
         "id": 68,
-        "src": "assets/images/books/hesse10.jpg",
+        "src": "/assets/images/books/hesse10.jpg",
         "name": "The Fairy Tales of Hermann Hesse",
         "author": "Hermann Hesse",
         "category": "literatur",
@@ -1174,7 +1174,7 @@
     },
     {
         "id": 69,
-        "src": "assets/images/books/hesse11.jpg",
+        "src": "/assets/images/books/hesse11.jpg",
         "name": "Narcissus and Goldmund",
         "author": "Hermann Hesse",
         "category": "literatur",
@@ -1191,7 +1191,7 @@
     },
     {
         "id": 70,
-        "src": "assets/images/books/hesse12.jpg",
+        "src": "/assets/images/books/hesse12.jpg",
         "name": "Siddhartha",
         "author": "Hermann Hesse",
         "category": "literatur",
@@ -1208,7 +1208,7 @@
     },
     {
         "id": 71,
-        "src": "assets/images/books/miller10.jpg",
+        "src": "/assets/images/books/miller10.jpg",
         "name": "Plexus",
         "author": "Henry Miller",
         "category": "literatur",
@@ -1225,7 +1225,7 @@
     },
     {
         "id": 72,
-        "src": "assets/images/books/miller11.jpg",
+        "src": "/assets/images/books/miller11.jpg",
         "name": "Big Sur and the Oranges of Hieronymus Bosch",
         "author": "Henry Miller",
         "category": "literatur",
@@ -1242,7 +1242,7 @@
     },
     {
         "id": 73,
-        "src": "assets/images/books/miller12.jpg",
+        "src": "/assets/images/books/miller12.jpg",
         "name": "The Henry Miller Reader",
         "author": "Henry Miller",
         "category": "literatur",
@@ -1259,7 +1259,7 @@
     },
     {
         "id": 74,
-        "src": "assets/images/books/miller13.jpg",
+        "src": "/assets/images/books/miller13.jpg",
         "name": "Black Spring",
         "author": "Henry Miller",
         "category": "literatur",
@@ -1276,7 +1276,7 @@
     },
     {
         "id": 75,
-        "src": "assets/images/books/miller14.jpg",
+        "src": "/assets/images/books/miller14.jpg",
         "name": "Tropic of Cancer",
         "author": "Henry Miller",
         "category": "literatur",
@@ -1293,7 +1293,7 @@
     },
     {
         "id": 76,
-        "src": "assets/images/books/miller15.jpg",
+        "src": "/assets/images/books/miller15.jpg",
         "name": "Tropic of Capricorn",
         "author": "Henry Miller",
         "category": "literatur",
@@ -1310,7 +1310,7 @@
     },
     {
         "id": 77,
-        "src": "assets/images/books/orwell10.jpg",
+        "src": "/assets/images/books/orwell10.jpg",
         "name": "Fascism and Democracy",
         "author": "George Orwell",
         "category": "literatur",
@@ -1327,7 +1327,7 @@
     },
     {
         "id": 78,
-        "src": "assets/images/books/orwell11.jpg",
+        "src": "/assets/images/books/orwell11.jpg",
         "name": "Books v. Cigarettes",
         "author": "George Orwell",
         "category": "literatur",
@@ -1344,7 +1344,7 @@
     },
     {
         "id": 79,
-        "src": "assets/images/books/orwell12.jpg",
+        "src": "/assets/images/books/orwell12.jpg",
         "name": "A Shooting an Elephant",
         "author": "George Orwell",
         "category": "literatur",
@@ -1361,7 +1361,7 @@
     },
     {
         "id": 80,
-        "src": "assets/images/books/miller16.jpg",
+        "src": "/assets/images/books/miller16.jpg",
         "name": "Nexus",
         "author": "Henry Miller",
         "category": "literatur",
@@ -1378,7 +1378,7 @@
     },
     {
         "id": 81,
-        "src": "assets/images/books/caroll.jpg",
+        "src": "/assets/images/books/caroll.jpg",
         "name": "Alice im Wunderland",
         "author": "Lewis Carroll",
         "category": "viktorianisch",
@@ -1395,7 +1395,7 @@
     },
     {
         "id": 82,
-        "src": "assets/images/books/doyle.jpg",
+        "src": "/assets/images/books/doyle.jpg",
         "name": "Der Hund der Baskervilles",
         "author": "Arthur Conan Doyle",
         "category": "viktorianisch",
@@ -1412,7 +1412,7 @@
     },
     {
         "id": 83,
-        "src": "assets/images/books/austen1.jpg",
+        "src": "/assets/images/books/austen1.jpg",
         "name": "Northanger Abbey",
         "author": "Jane Austen",
         "category": "viktorianisch",
@@ -1429,7 +1429,7 @@
     },
     {
         "id": 84,
-        "src": "assets/images/books/austen6.jpg",
+        "src": "/assets/images/books/austen6.jpg",
         "name": "Mansfield Park",
         "author": "Jane Austen",
         "category": "viktorianisch",
@@ -1446,7 +1446,7 @@
     },
     {
         "id": 85,
-        "src": "assets/images/books/bronte1.jpg",
+        "src": "/assets/images/books/bronte1.jpg",
         "name": "Villette",
         "author": "Charlotte Brontë",
         "category": "viktorianisch",
@@ -1463,7 +1463,7 @@
     },
     {
         "id": 86,
-        "src": "assets/images/books/dickens2.jpg",
+        "src": "/assets/images/books/dickens2.jpg",
         "name": "Oliver Twist",
         "author": "Charles Dickens",
         "category": "viktorianisch",
@@ -1480,7 +1480,7 @@
     },
     {
         "id": 87,
-        "src": "assets/images/books/wilde2.jpg",
+        "src": "/assets/images/books/wilde2.jpg",
         "name": "Märchen",
         "author": "Oscar Wilde",
         "category": "viktorianisch",
@@ -1497,7 +1497,7 @@
     },
     {
         "id": 88,
-        "src": "assets/images/books/austen2.jpg",
+        "src": "/assets/images/books/austen2.jpg",
         "name": "Stolz und Vorurteil",
         "author": "Jane Austen",
         "category": "viktorianisch",
@@ -1514,7 +1514,7 @@
     },
     {
         "id": 89,
-        "src": "assets/images/books/bronte2.jpg",
+        "src": "/assets/images/books/bronte2.jpg",
         "name": "Jane Eyre",
         "author": "Charlotte Brontë",
         "category": "viktorianisch",
@@ -1531,7 +1531,7 @@
     },
     {
         "id": 90,
-        "src": "assets/images/books/wilde.jpg",
+        "src": "/assets/images/books/wilde.jpg",
         "name": "Das Bildnis des Dorian Gray",
         "author": "Oscar Wilde",
         "category": "viktorianisch",
@@ -1548,7 +1548,7 @@
     },
     {
         "id": 91,
-        "src": "assets/images/books/austen3.jpg",
+        "src": "/assets/images/books/austen3.jpg",
         "name": "Emma",
         "author": "Jane Austen",
         "category": "viktorianisch",
@@ -1565,7 +1565,7 @@
     },
     {
         "id": 92,
-        "src": "assets/images/books/dickens3.jpg",
+        "src": "/assets/images/books/dickens3.jpg",
         "name": "David Copperfield",
         "author": "Charles Dickens",
         "category": "viktorianisch",
@@ -1582,7 +1582,7 @@
     },
     {
         "id": 93,
-        "src": "assets/images/books/wilde3.jpg",
+        "src": "/assets/images/books/wilde3.jpg",
         "name": "Der Sozialismus und die Seele des Menschen",
         "author": "Oscar Wilde",
         "category": "viktorianisch",
@@ -1599,7 +1599,7 @@
     },
     {
         "id": 94,
-        "src": "assets/images/books/ebronte.jpg",
+        "src": "/assets/images/books/ebronte.jpg",
         "name": "Wuthering Heights",
         "author": "Emily Brontë",
         "category": "viktorianisch",
@@ -1616,7 +1616,7 @@
     },
     {
         "id": 95,
-        "src": "assets/images/books/dickens1.jpg",
+        "src": "/assets/images/books/dickens1.jpg",
         "name": "Große Erwartungen",
         "author": "Charles Dickens",
         "category": "viktorianisch",

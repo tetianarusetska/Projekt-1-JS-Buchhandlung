@@ -3,7 +3,7 @@
 
 const artBooks = [
     {
-        src: "assets/images/books/schiele11.png",
+        src: "/assets/images/books/schiele11.png",
         name: "Egon Schiele Werkverzeichnis",
         author: "Rudolf Leopold",
         publishedDate: 1990,
@@ -14,7 +14,7 @@ const artBooks = [
         info: "Hardcover, 25 x 34 cm, 3.88 kg, 608 Seiten"
     },
     {
-        src: "assets/images/books/dali11.png",
+        src: "/assets/images/books/dali11.png",
         name: "Dalí. BABY SUMO",
         author: "Hans Werner Holzwarth",
         publishedDate: 2018,
@@ -25,7 +25,7 @@ const artBooks = [
         info: "Hardcover, 36,7 x 50 cm, 438 Seiten; mit Goldschnitt, Ausklappseiten, Goldprägung auf Titel- und Kapitelseiten, sowie einem 40-seitigen Begleitheft mit Abbildungsverzeichnis, 22 x 28,9 cm; in einer Clamshell-Box, 41 x 56,2 cm, gebunden in schwarzem Samt mit Goldfolienprägung und Tip-In; plus Chronologie mit Leineneinband, 22 x 28,9 cm, 624 Seiten; Gesamtgewicht 16 kg"
     },
     {
-        src: "assets/images/books/baskia11.png",
+        src: "/assets/images/books/baskia11.png",
         name: "Jean-Michel Basquiat",
         author: "Hans Werner Holzwarth",
         publishedDate: 2010,
@@ -36,7 +36,7 @@ const artBooks = [
         info: "Hardcover, 28 x 36 cm, 2.2 kg, 240 Seiten"
     },
     {
-        src: "assets/images/books/holler11.png",
+        src: "/assets/images/books/holler11.png",
         name: "Carsten Höller. Book of Games",
         author: "Carsten Höller",
         publishedDate: 2015,
@@ -106,7 +106,7 @@ let booksPerPage = 9;
 
 async function getBooks() {
 
-    const response = await fetch("books.json");
+    const response = await fetch("/books.json");
     books = await response.json();
 
     currentBooks = books;
