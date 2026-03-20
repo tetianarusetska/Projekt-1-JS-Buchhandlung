@@ -849,7 +849,7 @@ footer .materials a {
 
 .footer,
 .impressumFooter,
-.kontaktFooter {
+.kontaktFooter, .profileFooter {
     display: flex;
     flex-direction: row;
     gap: 70px;
@@ -861,11 +861,56 @@ footer .materials a {
     margin-bottom: 20px;
 }
 
-.footer a {
+.footer a, .profileFooter a {
     text-decoration: none;
     color: var(--primaryColor);
 }
 
+.aboutShop {
+    transform: translateY(-200px);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    justify-content: flex-end;
+    max-width: 600px;     
+    margin-left: auto;   
+    margin-right: 80px;
+    font-family: var(--mainFont);
+}
+
+.abc {
+    font-family: "Aktura";
+    font-size: 44px;
+    color: red;
+}
+
+.about {
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.abc1 {
+    font-family: "Aktura";
+    font-size: 44px;
+    color: var(--primaryColor);
+}
+
+.contact {
+    transform: translateY(40px);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    justify-content: flex-start;
+    max-width: 600px;      
+    margin-left: 80px;
+    font-family: var(--mainFont);
+}
+
+.profileFooter {
+    margin-top: 270px;
+}
 /* ------------------------------------- IMPRESSUM, DATENSHUTZ, KONTAKT SEITE ---------------------------------------------------- */
 
 .impressum {
