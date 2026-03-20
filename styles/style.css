@@ -181,9 +181,8 @@ header {
 }
 
 /* ----------------------------------------------------------SECTION 2----------------------------------------------------------------------- */
+/* ---------------------------------------------------------- BOOKS. KUNST ----------------------------------------------------------------------- */
 
-/* BOOKS */
-/* !!!!! KUNST */
 
 .mainBooks {
     margin: 80px 80px;
@@ -260,9 +259,7 @@ header {
 
 
 /* ----------------------------------------------------------SECTION 3----------------------------------------------------------------------- */
-
-/* BOOKS */
-/* PAGE WITH BOOKS */
+/* ------------------------------------------------------ BOOKS. PAGE WITH BOOKS -------------------------------------------------------- */
 
 .booksPage {
     display: grid;
@@ -350,8 +347,7 @@ header {
     font-size: 16px;
 }
 
-/* ------------------------------------------------------------------------------------------------------------------------------ */
-/* PAGINATION */
+/* ----------------------------------------------------- PAGINATION ------------------------------------------------------------------------- */
 
 .pagesWithPagination {
     display: flex;
@@ -391,8 +387,7 @@ input[type="radio"]:checked~.title {
     margin-left: -16px;
 }
 
-/* ------------------------------------------------------------------------------------------------------------------------------ */
-/* LIKE SYSTEM + ADD TO CARD SYSTEM */
+/* -------------------------------------------- LIKE SYSTEM + ADD TO CARD SYSTEM --------------------------------------------------------- */
 
 .actionButtons {
     display: flex;
@@ -461,8 +456,7 @@ input[type="radio"]:checked~.title {
     border: 1px solid var(--accentColor);
 }
 
-/* ------------------------------------------------------------------------------------------------------------------------------ */
-/* PROFILE PAGE */
+/* ----------------------------------------------- PROFILE PAGE ------------------------------------------------------------------------ */
 
 .profileWrapper {
     display: flex;
@@ -698,8 +692,7 @@ input[type="radio"]:checked~.title {
     transform: translateY(-1px);
 }
 
-/* ------------------------------------------------------------------------------------------------------------------------------ */
-/* FAVORITES SEITE */
+/* -------------------------------------------------- FAVORITES SEITE -------------------------------------------------------------------- */
 
 .favoritesPage {
     display: flex;
@@ -726,8 +719,7 @@ input[type="radio"]:checked~.title {
     height: 600px;
 }
 
-/* ------------------------------------------------------------------------------------------------------------------------------ */
-/* WARENKORB SEITE */
+/* ---------------------------------------------------- WARENKORB SEITE --------------------------------------------------------------- */
 
 .card-section {
     display: flex;
@@ -749,8 +741,7 @@ input[type="radio"]:checked~.title {
     background-color: blue;
 }
 
-/* ------------------------------------------------------------------------------------------------------------------------------ */
-/* BOOKS DESCRIPTION SEITE */
+/* -----------------------------------------------  BOOKS DESCRIPTION PAGE------------------------------------------------------------------------------- */
 
 .description {
     margin: 90px 80px;
@@ -827,12 +818,12 @@ input[type="radio"]:checked~.title {
 
 
 #animatedSvg {
-    margin-top: -40px;                
-    transform: translateY(-20px);     
+    margin-top: -40px;
+    transform: translateY(-20px);
 }
 
 footer {
-    margin: 0 80px; 
+    margin: 0 80px;
 }
 
 footer .materials ul {
@@ -840,7 +831,7 @@ footer .materials ul {
     transform: translateY(-360px);
 }
 
-footer .materials li{
+footer .materials li {
     font-family: var(--mainFont);
 }
 
@@ -856,7 +847,9 @@ footer .materials a {
     text-decoration: none;
 }
 
-.footer {
+.footer,
+.impressumFooter,
+.kontaktFooter {
     display: flex;
     flex-direction: row;
     gap: 70px;
@@ -870,5 +863,56 @@ footer .materials a {
 
 .footer a {
     text-decoration: none;
+    color: var(--primaryColor);
+}
+
+/* ------------------------------------- IMPRESSUM, DATENSHUTZ, KONTAKT SEITE ---------------------------------------------------- */
+
+.impressum {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--mainFont);
+}
+
+.impressumTitel {
+    font-weight: 500;
+    font-size: 33px !important;
+    margin-bottom: 10px;
+}
+
+.impressumUntertitel {
+    font-weight: 500;
+}
+
+.impressum p {
+    text-align: left;
+    max-width: 620px;
+    width: 100%;
+    font-size: 17px;
+}
+
+.impressumFooter a {
+    text-decoration: none;
+    color: var(--primaryColor);
+}
+
+.impressumFooter {
+    margin-top: 40px;
+}
+
+.kontaktFooter {
+    margin-top: 300px;
+}
+
+.kontaktFooter a {
+    color: var(--primaryColor);
+    text-decoration: none;
+}
+
+.impressum p a {
     color: var(--primaryColor);
 }
