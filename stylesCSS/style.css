@@ -3,6 +3,20 @@
     padding: 0;
 }
 
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
 /* -------------------------------------------- HEADER --------------------------------------------------------------- */
 
 header {
@@ -164,7 +178,8 @@ header {
 }
 
 .heroText1,
-.heroText2, .hero-Text2  {
+.heroText2,
+.hero-Text2 {
     font-family: var(--mainFont);
     margin: 12px 80px;
 }
@@ -174,7 +189,8 @@ header {
     font-size: 25px;
 }
 
-.heroText2, .hero-Text2  {
+.heroText2,
+.hero-Text2 {
     font-size: 21px;
 }
 
@@ -448,6 +464,13 @@ input[type="radio"]:checked~.title {
     border: 1px solid var(--accentColor);
 }
 
+.like-Button.liked {
+    background-image: url("/assets/icons/heartnew.png") !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid var(--accentColor);
+}
+
 .book:hover .like-Button {
     background-image: url("/assets/icons/heart5.png");
     background-size: cover;
@@ -704,12 +727,14 @@ input[type="radio"]:checked~.title {
     display: flex;
     flex-direction: column;
     gap: 18px;
-    margin: 60px 430px;
+    margin: 20px 80px;
+    justify-content: center;
 }
 
 .favTitel {
     font-size: 22px;
     font-family: var(--mainFont);
+    margin: 0 auto;
 }
 
 .favIcon1 {
@@ -719,33 +744,45 @@ input[type="radio"]:checked~.title {
 }
 
 .favoritesContainer {
-    margin-top: 40px;
+    margin-top: 50px;
     border: var(--accentColor);
-    width: 600px;
-    height: 600px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 32px;
+    text-align: center;
+    align-items: start;
+    justify-content: center !important;
 }
+
+
 
 /* ---------------------------------------------------- WARENKORB SEITE --------------------------------------------------------------- */
 
-.card-section {
+.cart-section {
     display: flex;
     flex-direction: column;
     gap: 18px;
-    margin: 60px 430px;
+    margin: 60px 80px;
+    justify-content: center;
+    align-items: center;
 }
 
-.cardTitel {
+.cartTitel {
     font-size: 22px;
     font-family: var(--mainFont);
 }
 
-.cardContainer {
+.cartContainer {
     margin-top: 40px;
     border: var(--accentColor);
-    width: 600px;
-    height: 600px;
-    background-color: blue;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 32px;
+    text-align: center;
+    align-items: start;
+    justify-content: center !important;
 }
+
 
 /* -----------------------------------------------  BOOKS DESCRIPTION PAGE------------------------------------------------------------------------------- */
 
@@ -820,6 +857,17 @@ input[type="radio"]:checked~.title {
     box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, var(--accentColor) 0 -3px 0 inset;
 }
 
+.description-like-Button.liked {
+    background-color: var(--primaryColor);
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, var(--primaryColor) 0 -3px 0 inset;
+}
+
+.description-card-Button.clicked {
+    color: var(--secondaryColor);
+    background-color: var(--accentColor);
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, var(--accentColor) 0 -3px 0 inset;
+}
+
 /* ------------------------------------------------ FOOTER ------------------------------------------------------------- */
 
 
@@ -855,7 +903,8 @@ footer .materials a {
 
 .footer,
 .impressumFooter,
-.kontaktFooter, .profileFooter {
+.kontaktFooter,
+.profileFooter {
     display: flex;
     flex-direction: row;
     gap: 70px;
@@ -867,7 +916,8 @@ footer .materials a {
     margin-bottom: 20px;
 }
 
-.footer a, .profileFooter a {
+.footer a,
+.profileFooter a {
     text-decoration: none;
     color: var(--primaryColor);
 }
@@ -879,8 +929,8 @@ footer .materials a {
     flex-direction: column;
     gap: 18px;
     justify-content: flex-end;
-    max-width: 600px;     
-    margin-left: auto;   
+    max-width: 600px;
+    margin-left: auto;
     margin-right: 80px;
     font-family: var(--mainFont);
 }
@@ -909,14 +959,16 @@ footer .materials a {
     flex-direction: column;
     gap: 9px;
     justify-content: flex-start;
-    max-width: 600px;      
+    max-width: 600px;
     margin-left: 80px;
     font-family: var(--mainFont);
 }
 
 .profileFooter {
-    margin-top: 270px;
+   margin-top: 0;
 }
+
+
 /* ------------------------------------- IMPRESSUM, DATENSHUTZ, KONTAKT SEITE ---------------------------------------------------- */
 
 .impressum {
@@ -967,3 +1019,4 @@ footer .materials a {
 .impressum p a {
     color: var(--primaryColor);
 }
+

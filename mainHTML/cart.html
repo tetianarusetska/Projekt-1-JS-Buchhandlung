@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="/stylesCSS/fonts.css">
     <link rel="stylesheet" href="/stylesCSS/root.css">
     <link rel="stylesheet" href="/stylesCSS/style.css">
-    <script src="/JS/script.js" defer></script>
-    <title>Card Page</title>
+    <script src="/JS/cart.js" defer></script>
+    <title>Cart Page</title>
 </head>
 
 <body>
@@ -46,7 +46,7 @@
         <div class="icons">
             <a href="favorites.html"><img class="icon2" src="/assets/icons/heart.svg" alt="icon2"></a>
             <a href="profile.html"><img class="icon1" src="/assets/icons/profile2.svg" alt="icon1"></a>
-            <a href="card.html"><img class="icon3" src="/assets/icons/basket.png" alt="icon4"></a>
+            <a href="cart.html"><img class="icon3" src="/assets/icons/basket.png" alt="icon4"></a>
         </div>
 
     </header>
@@ -54,9 +54,10 @@
     <!------------------------ MAIN --------------------------->
 
     <main>
-        <section id="cardSection" class="card-section">
-            <p class="cardTitel">Ihr Warenkorb</p>
-            <div class="cardContainer" id="card-container"></div>
+        <section id="cartSection" class="cart-section">
+            <p class="cartTitel">Ihr Warenkorb</p>
+            <div id="cart-box" class="cartBox"></div>
+            <p>Ihre Bücher:</p><div class="cartContainer" id="cart-container"></div>
         </section>
     </main>
 

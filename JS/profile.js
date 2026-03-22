@@ -92,3 +92,23 @@ registrationForm.addEventListener("submit", (e) => {
     showSection("profile");
 
 });
+
+const searchButton = document.getElementById("searchIcon");
+const searchContainer = document.getElementById("searchContainer");
+const searchInput = document.querySelector("#searchContainer input");
+
+if (searchButton && searchInput) {
+    searchButton.addEventListener("click", () => {
+        searchContainer.classList.toggle('active');
+    });
+
+    searchInput.addEventListener("input", () => {
+        const query = searchInput.value.toLowerCase();
+        favorites = allFavorites.filter(book =>
+            book.name.toLowerCase().includes(query) ||
+            book.author.toLowerCase().includes(query) ||
+            book.tags.some(tag => tag.toLowerCase().includes(query))
+        );
+        generateFavorites();
+    });
+}

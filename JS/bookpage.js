@@ -2,7 +2,7 @@ const descriptionContainer = document.getElementById("descriptionContainer");
 
 const book = JSON.parse(localStorage.getItem("selectedBook"));
 
-showDescription();
+
 
 function showDescription() {
 
@@ -25,6 +25,62 @@ function showDescription() {
             </div>
         `;
     }
+}
+
+showDescription();
+
+const likeBtn = descriptionContainer.querySelector(".description-like-Button");
+const cardBtn = descriptionContainer.querySelector(".description-card-Button");
+
+let favorites = JSON.parse(localStorage.getItem("favorites") || "[]");
+if (favorites.some(b => b.id === book.id)) likeBtn.classList.add("liked");
+
+likeBtn.addEventListener("click", () => {
+    let favorites = JSON.parse(localStorage.getItem("favorites") || "[]");
+    if (!favorites.some(b => b.id === book.id)) {
+        favorites.push(book);
+        likeBtn.classList.add("liked");
+    } else {
+        favorites = favorites.filter(b => b.id !== book.id);
+        likeBtn.classList.remove("liked");
+    }
+    localStorage.setItem("favorites", JSON.stringify(favorites));
+});
+
+let cart = JSON.parse(localStorage.getItem("cart") || "[]");
+if (cart.some(b => b.id === book.id)) cardBtn.classList.add("clicked");
+
+cardBtn.addEventListener("click", () => {
+    let cart = JSON.parse(localStorage.getItem("cart") || "[]");
+    if (!cart.some(b => b.id === book.id)) {
+        cart.push(book);
+        cardBtn.classList.add("clicked");
+    } else {
+        cart = cart.filter(b => b.id !== book.id);
+        cardBtn.classList.remove("clicked");
+    }
+    localStorage.setItem("cart", JSON.stringify(cart));
+});
+
+
+const searchButton = document.getElementById("searchIcon");
+const searchContainer = document.getElementById("searchContainer");
+const searchInput = document.querySelector("#searchContainer input");
+
+if (searchButton && searchInput) {
+    searchButton.addEventListener("click", () => {
+        searchContainer.classList.toggle('active');
+    });
+
+    searchInput.addEventListener("input", () => {
+        const query = searchInput.value.toLowerCase();
+        favorites = allFavorites.filter(book =>
+            book.name.toLowerCase().includes(query) ||
+            book.author.toLowerCase().includes(query) ||
+            book.tags.some(tag => tag.toLowerCase().includes(query))
+        );
+        generateFavorites();
+    });
 }
 
 

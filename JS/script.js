@@ -3,6 +3,7 @@
 
 const artBooks = [
     {
+        id: 96,
         src: "/assets/images/books/schiele11.png",
         name: "Egon Schiele Werkverzeichnis",
         author: "Rudolf Leopold",
@@ -14,6 +15,7 @@ const artBooks = [
         info: "Hardcover, 25 x 34 cm, 3.88 kg, 608 Seiten"
     },
     {
+        id: 97,
         src: "/assets/images/books/dali11.png",
         name: "Dalí. BABY SUMO",
         author: "Hans Werner Holzwarth",
@@ -25,6 +27,7 @@ const artBooks = [
         info: "Hardcover, 36,7 x 50 cm, 438 Seiten; mit Goldschnitt, Ausklappseiten, Goldprägung auf Titel- und Kapitelseiten, sowie einem 40-seitigen Begleitheft mit Abbildungsverzeichnis, 22 x 28,9 cm; in einer Clamshell-Box, 41 x 56,2 cm, gebunden in schwarzem Samt mit Goldfolienprägung und Tip-In; plus Chronologie mit Leineneinband, 22 x 28,9 cm, 624 Seiten; Gesamtgewicht 16 kg"
     },
     {
+        id: 98,
         src: "/assets/images/books/baskia11.png",
         name: "Jean-Michel Basquiat",
         author: "Hans Werner Holzwarth",
@@ -36,6 +39,7 @@ const artBooks = [
         info: "Hardcover, 28 x 36 cm, 2.2 kg, 240 Seiten"
     },
     {
+        id: 99,
         src: "/assets/images/books/holler11.png",
         name: "Carsten Höller. Book of Games",
         author: "Carsten Höller",
@@ -52,48 +56,53 @@ const artBooksElement = document.getElementById("artBooks");
 
 function showArtBooks() {
 
-    artBooksElement.innerHTML = "";
+    artBooksElement.innerHTML = artBooks.map(book => `
+        <div class="a-book">
+            <img class="a-booksImage" src="${book.src}">
+            <p class="a-name">${book.name}</p>
+            <p class="a-author">${book.author}, ${book.publishedDate}</p>
+            <p class="a-tags">${book.tags.join(",  ")}</p>
+            <p class="a-price">${book.price}${book.currency}</p>
+            <div class="actionButtons">
+                <button id="likeButton" class="like-Button"></button>
+                <button id="cardButton" class="card-Button"></button>
+            </div>
+        </div>
+    `).join("");
 
-    artBooks.forEach((book) => {
-        artBooksElement.innerHTML += `
-            <div class="a-book">
-                <img class="a-booksImage" src="${book.src}">
-                <p class="a-name">${book.name}</p>
-                <p class="a-author">${book.author}, ${book.publishedDate}</p>
-                <p class="a-tags">${book.tags.join(",  ")}</p>
-                <p class="a-price">${book.price}${book.currency}</p>
-                <div class="actionButtons">
-                    <button id="likeButton" class="like-Button"></button>
-                    <button id="cardButton" class="card-Button"></button>
-                </div>
-             </div>
-        `;
-    });
-
-    document.querySelectorAll(".like-Button").forEach((btn, index) => {
+    artBooksElement.querySelectorAll(".like-Button").forEach((btn, index) => {
         btn.addEventListener("click", (e) => {
             e.stopPropagation();
+            btn.classList.toggle("liked");
             saveFavorite(artBooks[index]);
         });
     });
 
-    const allBooks = document.querySelectorAll(".a-book");
-    allBooks.forEach((bookEl, index) => {
+    artBooksElement.querySelectorAll(".card-Button").forEach((btn, index) => {
+        btn.addEventListener("click", (e) => {
+            e.stopPropagation();
+            btn.classList.toggle("clicked");
+            buyBooks(artBooks[index]);
+        });
+    });
+
+    artBooksElement.querySelectorAll(".a-book").forEach((bookEl, index) => {
         bookEl.addEventListener("click", () => {
             const book = artBooks[index];
             localStorage.setItem("selectedBook", JSON.stringify(book));
             window.location.href = "bookpage.html";
         });
     });
-
 }
 
-showArtBooks();
+if (artBooksElement) {
+    showArtBooks();
+}
 
 
 // -------------------------------------------------------------------------------------------------------------------------------------------
-// SECTION 3 
-// SHOW AND FILTER ALL BOOKS
+// SHOW SECTION 3 - ALL BOOKS
+// + PAGINATION, CATEGORISATION
 
 const pageWithBooks = document.getElementById("pageWithBooks");
 
@@ -104,9 +113,11 @@ let currentBooks = [];
 let currentPage = 1;
 let booksPerPage = 9;
 
+
+
 async function getBooks() {
 
-    const response = await fetch("/books.json");
+    const response = await fetch("/books.json")
     books = await response.json();
 
     currentBooks = books;
@@ -115,7 +126,11 @@ async function getBooks() {
     renderBooks(books);
 }
 
-getBooks();
+if (pageWithBooks) {
+    getBooks();
+}
+
+
 
 function renderBooks() {
 
@@ -125,31 +140,37 @@ function renderBooks() {
     const end = start + booksPerPage;
     const pageBooks = currentBooks.slice(start, end);
 
-    pageBooks.forEach(book => {
-        pageWithBooks.innerHTML += `
-            <div class="book">
-                <img src="${book.src}" alt="${book.name}" class="booksImage">
-                <p class="booksName">${book.name}</p>
-                <p class="booksAuthor">${book.author}, ${book.publishedDate}</p>
-                <p class="booksTags">${book.tags.join(", ")}</p>
-                <p class="booksPrice">${book.price}${book.currency}</p>
-                <div class="actionButtons">
-                    <button class="like-Button"></button>
-                    <button id="cardButton" class="card-Button"></button>
-                </div>
+    pageWithBooks.innerHTML = pageBooks.map(book => `
+        <div class="book">
+            <img src="${book.src}" alt="${book.name}" class="booksImage">
+            <p class="booksName">${book.name}</p>
+            <p class="booksAuthor">${book.author}, ${book.publishedDate}</p>
+            <p class="booksTags">${book.tags.join(", ")}</p>
+            <p class="booksPrice">${book.price}${book.currency}</p>
+            <div class="actionButtons">
+                <button class="like-Button"></button>
+                <button id="cardButton" class="card-Button"></button>
             </div>
-        `;
-    });
+        </div>
+    `).join("");
 
-    document.querySelectorAll(".like-Button").forEach((btn, index) => {
+    pageWithBooks.querySelectorAll(".like-Button").forEach((btn, index) => {
         btn.addEventListener("click", (e) => {
             e.stopPropagation();
+            btn.classList.toggle("liked");
             saveFavorite(pageBooks[index]);
         });
     });
 
-    const allBooks = document.querySelectorAll(".book");
-    allBooks.forEach((bookEl, index) => {
+    pageWithBooks.querySelectorAll(".card-Button").forEach((btn, index) => {
+        btn.addEventListener("click", (e) => {
+            e.stopPropagation();
+            btn.classList.toggle("clicked");
+            buyBooks(pageBooks[index]);
+        });
+    });
+
+    pageWithBooks.querySelectorAll(".book").forEach((bookEl, index) => {
         bookEl.addEventListener("click", () => {
             const book = pageBooks[index];
             localStorage.setItem("selectedBook", JSON.stringify(book));
@@ -162,18 +183,18 @@ function renderBooks() {
 function filterBooks(category) {
 
     currentPage = 1;
-
     currentBooks = books.filter(book =>
         book.category.toLowerCase() === category.toLowerCase()
     );
-
     renderBooks();
+
 }
 
 function changePage(page) {
 
     currentPage = page;
     renderBooks();
+
 }
 
 // -------------------------------------------------------------------------------------------------------------------------------------------
@@ -183,26 +204,50 @@ const searchButton = document.getElementById("searchIcon");
 const searchContainer = document.getElementById("searchContainer");
 const searchInput = document.querySelector("#searchContainer input");
 
-searchButton.addEventListener("click", () => {
-    searchContainer.classList.toggle('active');
-});
+// searchButton.addEventListener("click", () => {
+//     searchContainer.classList.toggle('active');
+// });
 
-searchInput.addEventListener("input", (e) => {
+// searchInput.addEventListener("input", (e) => {
 
-    e.preventDefault();
+//     e.preventDefault();
 
-    const query = searchInput.value.toLowerCase();
+//     const query = searchInput.value.toLowerCase();
 
-    currentBooks = books.filter(book =>
-        book.name.toLowerCase().includes(query) ||
-        book.author.toLowerCase().includes(query) ||
-        book.tags.some(tag => tag.toLowerCase().includes(query))
-    );
+//     currentBooks = books.filter(book =>
+//         book.name.toLowerCase().includes(query) ||
+//         book.author.toLowerCase().includes(query) ||
+//         book.tags.some(tag => tag.toLowerCase().includes(query))
+//     );
 
-    currentPage = 1;
-    renderBooks();
+//     currentPage = 1;
+//     renderBooks();
 
-});
+// });
+
+if (searchButton && searchInput) {
+
+    searchButton.addEventListener("click", () => {
+        searchContainer.classList.toggle('active');
+    });
+
+    searchInput.addEventListener("input", (e) => {
+
+        e.preventDefault();
+
+        const query = searchInput.value.toLowerCase();
+
+        currentBooks = books.filter(book =>
+            book.name.toLowerCase().includes(query) ||
+            book.author.toLowerCase().includes(query) ||
+            book.tags.some(tag => tag.toLowerCase().includes(query))
+        );
+
+        currentPage = 1;
+        renderBooks();
+
+    });
+}
 
 // -------------------------------------------------------------------------------------------------------------------------------------------
 // LIKE SYSTEM
@@ -222,7 +267,6 @@ function saveFavorite(book) {
     console.log(book);
     console.log(favorites);
 
-    let favorites = JSON.parse(localStorage.getItem("favorites"));
 
     if (!favorites.some(b => b.id === book.id)) {
         favorites.push(book);
@@ -235,34 +279,55 @@ function saveFavorite(book) {
 }
 
 // -------------------------------------------------------------------------------------------------------------------------------------------
-// SHOW BOOK DESCRIPTION
-
-// const allBooks = document.querySelectorAll(".book, .a-book");
-
-// allBooks.forEach((bookEl) => {
-
-//     bookEl.addEventListener("click", () => {
-
-//         window.open("bookpage.html");
-
-//     });
-// });
+// CARt SYSTEM
 
 
+let  cart = [];
+
+const cartString = localStorage.getItem("cart");
+
+if (!cartString) {
+    localStorage.setItem("cart", JSON.stringify([]));
+} else {
+    cart = JSON.parse(cartString);
+}
+
+function buyBooks(book) {
+
+    console.log(book);
+    console.log(cart);
+
+
+    if (!cart.some(b => b.id === book.id)) {
+        cart.push(book);
+    } else {
+        cart = cart.filter(b => b.id !== book.id);
+    }
+
+    console.log(cart);
+    localStorage.setItem("cart", JSON.stringify(cart));
+}
+
+
+
+// -------------------------------------------------------------------------------------------------------------------------------------------
+// DECORATION - ANIMATION
 
 const textPath = document.querySelector("#animatedText textPath");
 const textEl = document.getElementById("animatedText");
 
-textEl.setAttribute("fill", "red");
+if (textEl && textPath) {
+    textEl.setAttribute("fill", "red");
 
-let offset = 0;
-const speed = 0.2;
+    let offset = 0;
+    const speed = 0.2;
 
-function animate() {
-    offset += speed;
-    if (offset > 100) offset = 0;
-    textPath.setAttribute("startOffset", offset + "%");
-    requestAnimationFrame(animate);
+    function animate() {
+        offset += speed;
+        if (offset > 100) offset = 0;
+        textPath.setAttribute("startOffset", offset + "%");
+        requestAnimationFrame(animate);
+    }
+
+    animate();
 }
-
-animate();

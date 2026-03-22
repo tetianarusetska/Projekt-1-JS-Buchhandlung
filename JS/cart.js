@@ -1,18 +1,18 @@
-const favoritesContainer = document.getElementById("favorites-container");
+const cartContainer = document.getElementById("cart-container");
 
-let favorites = JSON.parse(localStorage.getItem("favorites") || "[]");
-console.log(favorites);
+let cart = JSON.parse(localStorage.getItem("cart") || "[]");
+console.log(cart);
 
-generateFavorites();
+generateCart();
 
-function generateFavorites() {
+function generateCart() {
 
-    if (!favorites || favorites.length === 0) {
-        favoritesContainer.innerHTML = `<p class="noBooks">Keine Bücher</p>`;
+    if (!cart || cart.length === 0) {
+        cartContainer.innerHTML = `<p class="noBooks">Keine Bücher</p>`;
         return;
     }
 
-    favoritesContainer.innerHTML = favorites.map((book) => `
+    cartContainer.innerHTML = cart.map((book) => `
             <div class="book">
                 <img src="${book.src}" alt="${book.name}" class="booksImage">
                 <p class="booksName">${book.name}</p>
@@ -26,19 +26,20 @@ function generateFavorites() {
             </div>
      `).join("");
 
-    favoritesContainer.querySelectorAll(".like-Button").forEach((btn, index) => {
+    cartContainer.querySelectorAll(".card-Button").forEach((btn, index) => {
 
-        btn.classList.add("liked");
+        btn.classList.add("clicked");
         
         btn.addEventListener("click", (e) => {
             e.stopPropagation();
-            const bookId = favorites[index].id;
-            favorites = favorites.filter(book => book.id !== bookId);
-            localStorage.setItem("favorites", JSON.stringify(favorites));
-            generateFavorites();
+            const bookId = cart[index].id;
+            cart = cart.filter(book => book.id !== bookId);
+            localStorage.setItem("cart", JSON.stringify(cart));
+            generateCart();
         });
     });
 }
+
 
 const searchButton = document.getElementById("searchIcon");
 const searchContainer = document.getElementById("searchContainer");
@@ -59,4 +60,3 @@ if (searchButton && searchInput) {
         generateFavorites();
     });
 }
-
