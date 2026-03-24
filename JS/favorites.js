@@ -21,7 +21,7 @@ function generateFavorites() {
                 <p class="booksPrice">${book.price}${book.currency}</p>
                 <div class="actionButtons">
                     <button class="like-Button"></button>
-                    <button id="cardButton" class="card-Button"></button>
+                    <button id="cartButton" class="cart-Button"></button>
                 </div>
             </div>
      `).join("");
@@ -31,32 +31,14 @@ function generateFavorites() {
         btn.classList.add("liked");
         
         btn.addEventListener("click", (e) => {
+
             e.stopPropagation();
-            const bookId = favorites[index].id;
-            favorites = favorites.filter(book => book.id !== bookId);
-            localStorage.setItem("favorites", JSON.stringify(favorites));
-            generateFavorites();
+            const bookId = favorites[index].id;   // Get the id of the clicked book
+            favorites = favorites.filter(book => book.id !== bookId);    // Remove book from favorites array
+            localStorage.setItem("favorites", JSON.stringify(favorites));  // Save updated favorites to localStorage
+            generateFavorites();  // Re-render the favorites
+
         });
-    });
-}
-
-const searchButton = document.getElementById("searchIcon");
-const searchContainer = document.getElementById("searchContainer");
-const searchInput = document.querySelector("#searchContainer input");
-
-if (searchButton && searchInput) {
-    searchButton.addEventListener("click", () => {
-        searchContainer.classList.toggle('active');
-    });
-
-    searchInput.addEventListener("input", () => {
-        const query = searchInput.value.toLowerCase();
-        favorites = allFavorites.filter(book =>
-            book.name.toLowerCase().includes(query) ||
-            book.author.toLowerCase().includes(query) ||
-            book.tags.some(tag => tag.toLowerCase().includes(query))
-        );
-        generateFavorites();
     });
 }
 

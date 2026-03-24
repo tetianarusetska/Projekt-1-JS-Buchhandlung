@@ -20,8 +20,6 @@ registrButton.addEventListener("click", () => {
     showSection("registration");
 });
 
-
-
 loginButton.addEventListener("click", (e) => {
 
     e.preventDefault();
@@ -33,7 +31,7 @@ loginButton.addEventListener("click", (e) => {
         return;
     }
 
-    if (passwordInput.length < 8 || !hasNumber) {
+    if (passwordInput.value.length < 8 || !hasNumber) {
         message.textContent =
             "Das Passwort wurde falsch eingegeben!\n" +
             "(Mindestens 8 Zeichen &  eine Zahl)";
@@ -41,19 +39,17 @@ loginButton.addEventListener("click", (e) => {
     }
 
     if (emailInput.value.trim() === "tata@web.de" && passwordInput.value === "12345tata") {
-
         noShowSection("profilePage");
         showSection("profile");
-
         message.textContent = "Login erfolgreich!";
     } else {
         message.textContent = "Falsche E-Mail oder Passwort!";
     }
+
 });
 
 const registrationForm = document.getElementById("registrationForm");
 const message2 = document.getElementById("r-message");
-
 
 registrationForm.addEventListener("submit", (e) => {
 
@@ -90,25 +86,5 @@ registrationForm.addEventListener("submit", (e) => {
 
     noShowSection("registration");
     showSection("profile");
-
+    
 });
-
-const searchButton = document.getElementById("searchIcon");
-const searchContainer = document.getElementById("searchContainer");
-const searchInput = document.querySelector("#searchContainer input");
-
-if (searchButton && searchInput) {
-    searchButton.addEventListener("click", () => {
-        searchContainer.classList.toggle('active');
-    });
-
-    searchInput.addEventListener("input", () => {
-        const query = searchInput.value.toLowerCase();
-        favorites = allFavorites.filter(book =>
-            book.name.toLowerCase().includes(query) ||
-            book.author.toLowerCase().includes(query) ||
-            book.tags.some(tag => tag.toLowerCase().includes(query))
-        );
-        generateFavorites();
-    });
-}

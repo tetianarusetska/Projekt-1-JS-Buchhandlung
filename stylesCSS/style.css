@@ -409,7 +409,7 @@ input[type="radio"]:checked~.title {
     margin-left: -16px;
 }
 
-/* -------------------------------------------- LIKE SYSTEM + ADD TO CARD SYSTEM --------------------------------------------------------- */
+/* -------------------------------------------- LIKE SYSTEM + ADD TO CART SYSTEM --------------------------------------------------------- */
 
 .actionButtons {
     display: flex;
@@ -421,7 +421,7 @@ input[type="radio"]:checked~.title {
 }
 
 .like-Button,
-.card-Button {
+.cart-Button {
     background-size: cover;
     background-repeat: no-repeat;
     border: none;
@@ -440,13 +440,13 @@ input[type="radio"]:checked~.title {
     transform: scale(1.2);
 }
 
-.card-Button {
+.cart-Button {
     width: 25px;
     height: 25px;
     background-image: url("/assets/icons/basket.png");
 }
 
-.card-Button:hover {
+.cart-Button:hover {
     transform: scale(1.2);
 }
 
@@ -457,7 +457,7 @@ input[type="radio"]:checked~.title {
     border: 1px solid var(--accentColor);
 }
 
-.a-book:hover .card-Button {
+.a-book:hover .cart-Button {
     background-image: url("/assets/icons/basket4.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -478,7 +478,7 @@ input[type="radio"]:checked~.title {
     border: 1px solid var(--accentColor);
 }
 
-.book:hover .card-Button {
+.book:hover .cart-Button {
     background-image: url("/assets/icons/basket4.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -824,7 +824,7 @@ input[type="radio"]:checked~.title {
 
 
 .description-like-Button,
-.description-card-Button {
+.description-cart-Button {
 
     font-size: 17px;
     font-family: var(--mainFont);
@@ -845,7 +845,7 @@ input[type="radio"]:checked~.title {
     margin-top: 30px;
 }
 
-.description-card-Button {
+.description-cart-Button {
     color: var(--secondaryColor);
     background-color: var(--primaryColor);
     box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, var(--primaryColor) 0 -3px 0 inset;
@@ -862,7 +862,7 @@ input[type="radio"]:checked~.title {
     box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, var(--primaryColor) 0 -3px 0 inset;
 }
 
-.description-card-Button.clicked {
+.description-cart-Button.clicked {
     color: var(--secondaryColor);
     background-color: var(--accentColor);
     box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, var(--accentColor) 0 -3px 0 inset;

@@ -1,6 +1,3 @@
-// -------------------------------------------------------------------------------------------------------------------------------------------
-// SHOW SECTION 2 = ART BOOKS
-
 const artBooks = [
     {
         id: 96,
@@ -52,11 +49,17 @@ const artBooks = [
     }
 ];
 
-const artBooksElement = document.getElementById("artBooks");
+// -------------------------------------------------------------------------------------------------------------------------------------------
+// SHOW ART BOOKS
+
+const artBooksEl = document.getElementById("artBooks");
+
+
+// show art books
 
 function showArtBooks() {
 
-    artBooksElement.innerHTML = artBooks.map(book => `
+    artBooksEl.innerHTML = artBooks.map(book => `
         <div class="a-book">
             <img class="a-booksImage" src="${book.src}">
             <p class="a-name">${book.name}</p>
@@ -65,80 +68,67 @@ function showArtBooks() {
             <p class="a-price">${book.price}${book.currency}</p>
             <div class="actionButtons">
                 <button id="likeButton" class="like-Button"></button>
-                <button id="cardButton" class="card-Button"></button>
+                <button id="cartButton" class="cart-Button"></button>
             </div>
         </div>
     `).join("");
 
-    artBooksElement.querySelectorAll(".like-Button").forEach((btn, index) => {
-        btn.addEventListener("click", (e) => {
-            e.stopPropagation();
-            btn.classList.toggle("liked");
-            saveFavorite(artBooks[index]);
-        });
-    });
-
-    artBooksElement.querySelectorAll(".card-Button").forEach((btn, index) => {
-        btn.addEventListener("click", (e) => {
-            e.stopPropagation();
-            btn.classList.toggle("clicked");
-            buyBooks(artBooks[index]);
-        });
-    });
-
-    artBooksElement.querySelectorAll(".a-book").forEach((bookEl, index) => {
-        bookEl.addEventListener("click", () => {
-            const book = artBooks[index];
-            localStorage.setItem("selectedBook", JSON.stringify(book));
-            window.location.href = "bookpage.html";
-        });
-    });
 }
 
-if (artBooksElement) {
+function initArtBooks() {
+
     showArtBooks();
+
+    addLike(artBooksEl, artBooks);                           //like
+    addToCart(artBooksEl, artBooks);                         // cart
+    showBooksDescription(artBooksEl, artBooks, ".a-book");   //book´s description
+        
+}
+
+if (artBooksEl) {
+    initArtBooks();
 }
 
 
 // -------------------------------------------------------------------------------------------------------------------------------------------
 // SHOW SECTION 3 - ALL BOOKS
-// + PAGINATION, CATEGORISATION
+
 
 const pageWithBooks = document.getElementById("pageWithBooks");
 
-
-let books = [];
-let currentBooks = [];
+let books = [];            // Array to store all books fetched from JSON
+let currentBooks = [];     // Array to store currently filtered/active books
 
 let currentPage = 1;
 let booksPerPage = 9;
 
 
+// get books
 
 async function getBooks() {
 
-    const response = await fetch("/books.json")
+    const response = await fetch("/books.json");
     books = await response.json();
 
-    currentBooks = books;
+    currentBooks = books;   // Set currentBooks to full list initially
 
     console.log(books);
-    renderBooks(books);
+
+    initAllBooks(); 
+
 }
+
 
 if (pageWithBooks) {
     getBooks();
 }
 
 
+// show all books
 
 function renderBooks() {
 
-    pageWithBooks.innerHTML = "";
-
-    const start = (currentPage - 1) * booksPerPage;
-    const end = start + booksPerPage;
-    const pageBooks = currentBooks.slice(start, end);
+    const pageBooks = getPageBooks(); 
 
     pageWithBooks.innerHTML = pageBooks.map(book => `
         <div class="book">
@@ -149,105 +139,109 @@ function renderBooks() {
             <p class="booksPrice">${book.price}${book.currency}</p>
             <div class="actionButtons">
                 <button class="like-Button"></button>
-                <button id="cardButton" class="card-Button"></button>
+                <button class="cart-Button"></button>
             </div>
         </div>
     `).join("");
 
-    pageWithBooks.querySelectorAll(".like-Button").forEach((btn, index) => {
-        btn.addEventListener("click", (e) => {
-            e.stopPropagation();
-            btn.classList.toggle("liked");
-            saveFavorite(pageBooks[index]);
-        });
-    });
-
-    pageWithBooks.querySelectorAll(".card-Button").forEach((btn, index) => {
-        btn.addEventListener("click", (e) => {
-            e.stopPropagation();
-            btn.classList.toggle("clicked");
-            buyBooks(pageBooks[index]);
-        });
-    });
-
-    pageWithBooks.querySelectorAll(".book").forEach((bookEl, index) => {
-        bookEl.addEventListener("click", () => {
-            const book = pageBooks[index];
-            localStorage.setItem("selectedBook", JSON.stringify(book));
-            window.location.href = "bookpage.html";
-        });
-    });
-
 }
 
-function filterBooks(category) {
 
+function initAllBooks() {
+
+    renderBooks();
+
+    const pageBooks = getPageBooks();                          // Get current page books for event binding
+
+    addLike(pageWithBooks, pageBooks);                         //like
+    addToCart(pageWithBooks, pageBooks);                       //cart
+    showBooksDescription(pageWithBooks, pageBooks, ".book");   //book´s description
+}
+
+// ---------------------------------------------------------------------------------------------------------------------------------------------
+// FILTER(CATEGORISATION) + PAGINATION
+
+
+// fliter(categorisation)
+// Filter books by category and reset to page 1
+
+function filterBooks(category) {
     currentPage = 1;
+
     currentBooks = books.filter(book =>
         book.category.toLowerCase() === category.toLowerCase()
     );
-    renderBooks();
 
+    initAllBooks();           //Re-render with filtered results
 }
 
+
+// change to a specific page and re-render
 function changePage(page) {
 
     currentPage = page;
-    renderBooks();
+    initAllBooks();
+
+}
+
+
+// ----------------------------------------------------------------------------------------------------------------------------------------------
+// PAGINATION
+
+
+// Return the slice of books for the current page
+function getPageBooks() {
+
+    const start = (currentPage - 1) * booksPerPage;
+    const end = start + booksPerPage;
+    return currentBooks.slice(start, end);
 
 }
 
 // -------------------------------------------------------------------------------------------------------------------------------------------
-// SEARCH
+// LIKE SYSTEM
 
-const searchButton = document.getElementById("searchIcon");
-const searchContainer = document.getElementById("searchContainer");
-const searchInput = document.querySelector("#searchContainer input");
+function addLike(container, booksArray) {
 
-// searchButton.addEventListener("click", () => {
-//     searchContainer.classList.toggle('active');
-// });
-
-// searchInput.addEventListener("input", (e) => {
-
-//     e.preventDefault();
-
-//     const query = searchInput.value.toLowerCase();
-
-//     currentBooks = books.filter(book =>
-//         book.name.toLowerCase().includes(query) ||
-//         book.author.toLowerCase().includes(query) ||
-//         book.tags.some(tag => tag.toLowerCase().includes(query))
-//     );
-
-//     currentPage = 1;
-//     renderBooks();
-
-// });
-
-if (searchButton && searchInput) {
-
-    searchButton.addEventListener("click", () => {
-        searchContainer.classList.toggle('active');
+    container.querySelectorAll(".like-Button").forEach((btn, index) => {
+        btn.addEventListener("click", (e) => {
+            e.stopPropagation();
+            btn.classList.toggle("liked");
+            saveFavorite(booksArray[index]);      // Save/remove from favorites
+        });
     });
 
-    searchInput.addEventListener("input", (e) => {
-
-        e.preventDefault();
-
-        const query = searchInput.value.toLowerCase();
-
-        currentBooks = books.filter(book =>
-            book.name.toLowerCase().includes(query) ||
-            book.author.toLowerCase().includes(query) ||
-            book.tags.some(tag => tag.toLowerCase().includes(query))
-        );
-
-        currentPage = 1;
-        renderBooks();
-
-    });
 }
+
+// -------------------------------------------------------------------------------------------------------------------------------------------
+// CART SYSTEM
+
+function addToCart(container, booksArray) {
+
+    container.querySelectorAll(".cart-Button").forEach((btn, index) => {
+        btn.addEventListener("click", (e) => {
+            e.stopPropagation();
+            btn.classList.toggle("clicked");
+            buyBooks(booksArray[index]);      // Add/remove from cart
+        });
+    });
+
+}
+
+// -------------------------------------------------------------------------------------------------------------------------------------------
+// SHOW BOOK´S DESCRIPTION(BOOK´S PAGE) SYSTEM
+
+function showBooksDescription(container, booksArray, bookClass) {
+
+    container.querySelectorAll(bookClass).forEach((el, index) => {
+        el.addEventListener("click", () => {
+            localStorage.setItem("selectedBook", JSON.stringify(booksArray[index]));  // Save selected book data to localStorage
+            window.location.href = "bookpage.html";   // Navigate to the book detail page
+        });
+    });
+
+}
+
 
 // -------------------------------------------------------------------------------------------------------------------------------------------
 // LIKE SYSTEM
@@ -268,10 +262,10 @@ function saveFavorite(book) {
     console.log(favorites);
 
 
-    if (!favorites.some(b => b.id === book.id)) {
+    if (!favorites.some(b => b.id === book.id)) {  // If book not in favorites, add it
         favorites.push(book);
     } else {
-        favorites = favorites.filter(b => b.id !== book.id);
+        favorites = favorites.filter(b => b.id !== book.id); // Otherwise remove it from favorites
     }
 
     console.log(favorites);
@@ -279,7 +273,7 @@ function saveFavorite(book) {
 }
 
 // -------------------------------------------------------------------------------------------------------------------------------------------
-// CARt SYSTEM
+// CART SYSTEM
 
 
 let  cart = [];
