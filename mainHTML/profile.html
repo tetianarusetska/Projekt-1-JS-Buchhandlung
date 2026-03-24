@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/stylesCSS/root.css">
     <link rel="stylesheet" href="/stylesCSS/style.css">
     <script src="/JS/profile.js" defer></script>
+    <script src="/JS/favorites.js" defer></script>
     <script src="/JS/search.js" defer></script>
     <title>Profile Page</title>
 </head>
@@ -94,14 +95,41 @@
                         stroke="currentColor" stroke-width="1">
                         <path d="M6 9l6 6 6-6" />
                     </svg></p>
+                <div class="profBooks">
+                    <div class="book">
+                        <p class="booksPrice">12.04.2025</p>
+                        <img src="/assets/images/books/munch.jpg" alt="munch" class="booksImage ">
+                        <p class="booksName">Edvard Munch</p>
+                        <p class="booksAuthor">Hirmer Verlag GmbH</p>
+                        <p class="booksTags">Expressionismus, Malerei, Kunstgeschichte</p>
+                        <p class="booksPrice">130 €</p>
+                    </div>
+                    <div class="book">
+                        <p class="booksPrice">10.03.2026</p>
+                        <img src="/assets/images/books/baselitz.webp" alt="baselitz" class="booksImage ">
+                        <p class="booksName">Georg Baselitz</p>
+                        <p class="booksAuthor">Hans Werner Holzwarth</p>
+                        <p class="booksTags">Malerei, Sammleredition, Moderne Kunst</p>
+                        <p class="booksPrice">1500 €</p>
+                    </div>
+                    <div class="book">
+                        <p class="booksPrice">02.02.2024</p>
+                        <img src="/assets/images/books/baskia2.webp" alt="basquiat" class="booksImage ">
+                        <p class="booksName">Basquiat</p>
+                        <p class="booksAuthor">Eleanor Nairne</p>
+                        <p class="booksTags">Neoexpressionismus, Street Art, Moderne Kunst</p>
+                        <p class="booksPrice">175 €</p>
+                    </div>
+                </div>
                 <p class="profList">Mein Merkzettel<svg class="down-arrow" viewBox="0 0 24 24" fill="none"
                         stroke="currentColor" stroke-width="1">
                         <path d="M6 9l6 6 6-6" />
                     </svg></p>
+                <div id="likeContainer"></div>
             </div>
         </section>
     </main>
-<!------------------------ FOOTER --------------------------->
+    <!------------------------ FOOTER --------------------------->
     <footer>
         <div>
             <ul class="profileFooter">

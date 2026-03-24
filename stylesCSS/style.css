@@ -704,13 +704,14 @@ input[type="radio"]:checked~.title {
 
 .profWillkommen {
     font-size: 17px;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 
 .profList,
 .profOrders {
     font-size: 17px;
     margin-bottom: 20px;
+    margin-top: 40px;
 }
 
 .prof .down-arrow {
@@ -720,6 +721,18 @@ input[type="radio"]:checked~.title {
     stroke: var(--primaryColor);
     transform: translateY(-1px);
 }
+
+#likeContainer {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+}
+
+.profBooks {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+}
+
 
 /* -------------------------------------------------- FAVORITES SEITE -------------------------------------------------------------------- */
 
