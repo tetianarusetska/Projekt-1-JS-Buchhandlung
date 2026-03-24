@@ -10,6 +10,7 @@ function generateCart() {
 
     if (!cart || cart.length === 0) {
         cartContainer.innerHTML = `<p class="noBooks">Keine Bücher</p>`;
+        document.getElementById("cart-box").innerHTML = `<p class="booksSum">Gesamt: 0€</p>`;
         return;
     }
 
@@ -42,4 +43,11 @@ function generateCart() {
         });
     });
 
+    // MY CART:
+    const total = cart.reduce((sum, book) => sum + parseFloat(book.price), 0);
+    document.getElementById("cart-box").innerHTML = `<p class="booksSum">Gesamt: ${total.toFixed(2)} €</p>`;
+
 }
+
+
+
