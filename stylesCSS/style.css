@@ -783,6 +783,19 @@ input[type="radio"]:checked~.title {
     justify-content: center !important;
 }
 
+.booksSum,  .noBooks, .text1, .booksCount {
+    font-size: 22px;
+    font-family: var(--mainFont);
+    text-align: center;
+}
+
+.text1, .booksSum {
+    margin-top: 10px;
+}
+
+.booksCount {
+    margin-top: 40px;
+}
 
 /* -----------------------------------------------  BOOKS DESCRIPTION PAGE------------------------------------------------------------------------------- */
 

@@ -44,8 +44,12 @@ function generateCart() {
     });
 
     // MY CART:
-    const total = cart.reduce((sum, book) => sum + parseFloat(book.price), 0);
-    document.getElementById("cart-box").innerHTML = `<p class="booksSum">Gesamt: ${total.toFixed(2)} €</p>`;
+    // Medium article...
+    const sum = cart.reduce((acc, book) => acc + parseFloat(book.price), 0);
+    document.getElementById("cart-box").innerHTML = `
+                                                    <p class="booksCount">${cart.length} Artikel</p>
+                                                    <p class="booksSum">Gesamt: ${sum.toFixed(2)} €</p>
+                                                    `;
 
 }
 
