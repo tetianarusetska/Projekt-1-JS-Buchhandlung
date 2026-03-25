@@ -871,7 +871,6 @@ input[type="radio"]:checked~.title {
 
 .description-like-Button,
 .description-cart-Button {
-
     font-size: 17px;
     font-family: var(--mainFont);
     letter-spacing: 1.6px;
@@ -1049,7 +1048,7 @@ footer .materials a {
 }
 
 .kontaktFooter {
-    margin-top: 300px;
+    margin-top: 0px;
 }
 
 .kontaktFooter a {
@@ -1066,16 +1065,214 @@ footer .materials a {
 /* RESPONSIVE DESIGN */
 
 
-/* @media (max-width: 992px) {
+@media (max-width: 992px) {
 
-} */
+    
 
-/* @media (max-width: 768px) {}
+} 
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+@media (max-width: 768px) {
 
+    .mySvg,
+    .menuAndSearch,
+    .aboutShop,
+    .contact {
+        display: none;
+    }
 
-@media (max-width: 576px) {} */
+    header {
+        margin: 0px 20px;
+    }
 
-@media (max-width: 480px) {
+    .heroImage {
+        margin: 50px 0px;
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .heroImage2 {
+        object-fit: contain;
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        transform: none;
+    }
+
+    .heroText1,
+    .heroText2,
+    .hero-Text2 {
+        margin: 12px 20px;
+        text-align: left;
+    }
+
+    .hero-Text2,
+    .heroText2 {
+        width: 89%;
+        font-size: 17px;
+        text-align: left;
+    }
+
+    #artBooks {
+        margin-top: 12px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .a-booksText {
+        margin: 0px 20px;
+    }
+
+    .a-booksImage {
+        width: 270px;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .booksPage {
+        grid-template-columns: 200px 1fr;
+        margin: 80px 20px;
+    }
+
+    #pageWithBooks {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .pagesWithPagination {
+        gap: 22px;
+    }
+
+    .roman-radio {
+        font-size: 15px;
+    }
+
+    /* Menu */
+    .icon1 {
+        transform: translateY(19px);
+    }
+
+    .icon2 {
+        transform: translate(12px, 19px);
+    }
+
+    .icon3 {
+        transform: translate(-5px, 17px);
+    }
+
+    .icon5 {
+        display: block;
+        width: 20px;
+        height: 37px;
+        transform: translateY(15px);
+    }
+
+    /* Footer */
+    footer {
+        margin: 0 20px;
+    }
+
+    footer .materials ul {
+        transform: translateY(20px);
+    }
+
+    .imprDatKo {
+        margin-top: 80px;
+    }
+
+    /* Favorites Page */
+    .favoritesContainer {
+        margin-top: 30px;
+        grid-template-columns: 200px 200px 200px;
+    }
+
+    /* Profile Page */
+    .profileWrapper {
+        margin-top: 20px;
+    }
+
+    .registr {
+        margin-top: 40px;
+    }
+
+    .prof {
+        margin: 60px 20px;
+    }
+
+    .profTitel,
+    .profWillkommen {
+        margin-bottom: 20px;
+    }
+
+    .profList,
+    .profOrders {
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+
+    #likeContainer {
+        margin-top: 20px;
+        justify-content: center;
+        grid-template-columns: 300px 300px;
+    }
+
+    .profBooks {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 300px 300px;
+        gap: 24px;
+    }
+
+    #r-passwordMessage,
+    #r-message {
+        margin-top: 12px;
+    }
+
+    /* Cart Page */
+
+    .booksSum,
+    .booksCount {
+        font-size: 19px;
+    }
+
+    .cartContainer {
+        margin: 30px;
+        grid-template-columns: 200px 200px;
+    }
+
+    /* Book´s description page */
+    .description {
+        margin: 0px 20px;
+        grid-template-columns: 300px 400px;
+        gap: 80px;
+    }
+
+    .descriprion-image {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 80px;
+        object-fit: contain;
+        width: 300px;
+        height: 300px;
+        align-self: center;
+    }
+
+    .description-text {
+        gap: 22px;
+        font-size: 18px;
+        margin: 80px 20px;
+    }
+
+    .description-name {
+        font-size: 28px;
+    }
+
+    .description-summary {
+        width: 350px;
+    }
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+/* 0px-576px, 480px inclusive */
+@media (max-width: 576px) {
 
     .mainBooks {
         margin: 0px 20px;
@@ -1147,12 +1344,13 @@ footer .materials a {
     .hero-Text2 {
         width: 89%;
         font-size: 17px;
+        text-align: center;
     }
 
     /* Footer */
     .contact {
         text-align: center;
-        margin: 20px 20px;
+        margin: 40px 20px;
         transform: translateY(0px);
         font-size: 14px;
     }
@@ -1176,20 +1374,6 @@ footer .materials a {
         height: 37px;
         transform: translateY(15px);
     }
-
-    /* #menu-1 {
-        display: none;
-    }
-
-    #menu-1.open {
-        display: block;
-        position: absolute;
-        top: 80px;
-        left: 0;
-        width: 100%;
-        background: white;
-        z-index: 100;
-    } */
 
     /* Profile Page */
     .profileWrapper {
@@ -1298,5 +1482,73 @@ footer .materials a {
     .favoritesContainer {
         margin-top: 30px;
         grid-template-columns: 200px 200px;
+    }
+
+    /* Book´s description page */
+    .description {
+        margin: 0px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .descriprion-image {
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-top: 80px;
+        object-fit: contain;
+        width: 300px;
+        height: 300px;
+        align-self: center;
+    }
+
+    .description-text {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        gap: 22px;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .description-name {
+        font-size: 28px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .description-author {
+        text-align: center;
+    }
+
+    .description-summary {
+        width: 460px;
+        text-align: center;
+    }
+
+    .description-price,
+    .description-tags {
+        text-align: center;
+    }
+
+
+    .description-like-Button,
+    .description-cart-Button {
+        font-size: 15px;
+        height: 28px;
+        width: fit-content;
+    }
+
+    .description-actionButtons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 26px;
+        margin-top: 10px;
+    }
+
+    .profileFooter {
+        margin-top: 60px;
     }
 }

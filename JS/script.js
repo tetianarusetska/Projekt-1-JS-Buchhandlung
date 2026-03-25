@@ -331,11 +331,12 @@ if (textEl && textPath) {
 // -------------------------------------------------------------------------------------------------------------------------------------------
 // RESPONSIVE DESIGN
 
-// const icon = document.getElementById("threedots");
-// const menu = document.getElementById("menu-1");
+const icon = document.getElementById("threedots");
+const menu = document.getElementById("menu-1");
 
-// if (icon && menu) {
-//     icon.addEventListener("click", () => {
-//         menu.classList.toggle("open");
-//     });
-// }
+
+document.addEventListener("click", () => {
+        icon.addEventListener("click", () => {
+            menu.style.display = "block";
+        });
+});
