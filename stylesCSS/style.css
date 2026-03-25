@@ -3,7 +3,9 @@
     padding: 0;
 }
 
-html, body {
+
+html,
+body {
     height: 100%;
 }
 
@@ -71,6 +73,7 @@ header {
     transform: translateY(-4px);
     stroke: var(--secondaryColor);
 }
+
 
 /* SEARCH */
 
@@ -150,6 +153,10 @@ header {
     width: 70px;
     height: 70px;
     transform: translate(-18px, -6px);
+}
+
+.icon5 {
+    display: none;
 }
 
 /* ---------------------------------------------------------- HOME PAGE ----------------------------------------------------------- */
@@ -485,6 +492,15 @@ input[type="radio"]:checked~.title {
     border: 1px solid var(--accentColor);
 }
 
+.cart-Button.clicked {
+    background-image: url("/assets/icons/cartnew4.png") !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid var(--accentColor);
+}
+
+
+
 /* ----------------------------------------------- PROFILE PAGE ------------------------------------------------------------------------ */
 
 .profileWrapper {
@@ -796,13 +812,17 @@ input[type="radio"]:checked~.title {
     justify-content: center !important;
 }
 
-.booksSum,  .noBooks, .text1, .booksCount {
+.booksSum,
+.noBooks,
+.text1,
+.booksCount {
     font-size: 22px;
     font-family: var(--mainFont);
     text-align: center;
 }
 
-.text1, .booksSum {
+.text1,
+.booksSum {
     margin-top: 10px;
 }
 
@@ -949,7 +969,7 @@ footer .materials a {
 }
 
 .aboutShop {
-    transform: translateY(-200px);
+    transform: translateY(-300px);
     text-align: left;
     display: flex;
     flex-direction: column;
@@ -979,7 +999,7 @@ footer .materials a {
 }
 
 .contact {
-    transform: translateY(40px);
+    transform: translateY(-60px);
     text-align: left;
     display: flex;
     flex-direction: column;
@@ -989,11 +1009,6 @@ footer .materials a {
     margin-left: 80px;
     font-family: var(--mainFont);
 }
-
-.profileFooter {
-   margin-top: 0;
-}
-
 
 /* ------------------------------------- IMPRESSUM, DATENSHUTZ, KONTAKT SEITE ---------------------------------------------------- */
 
@@ -1046,3 +1061,242 @@ footer .materials a {
     color: var(--primaryColor);
 }
 
+
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+/* RESPONSIVE DESIGN */
+
+
+/* @media (max-width: 992px) {
+
+} */
+
+/* @media (max-width: 768px) {}
+
+
+@media (max-width: 576px) {} */
+
+@media (max-width: 480px) {
+
+    .mainBooks {
+        margin: 0px 20px;
+    }
+
+    #artBooks {
+        margin-top: 12px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .a-booksText {
+        margin: 0px 10px;
+        font-size: 53px;
+
+    }
+
+    .booksPage,
+    .menuAndSearch,
+    .heroText1,
+    .heroText2,
+    .aboutShop,
+    .materials,
+    .mySvg {
+        display: none;
+    }
+
+    .icon1 {
+        transform: translateY(19px);
+    }
+
+    .icon2 {
+        transform: translate(12px, 19px);
+    }
+
+    .icon3 {
+        transform: translate(-5px, 17px);
+    }
+
+    .a-booksImage {
+        width: 180px;
+        height: 250px;
+    }
+
+    header {
+        margin: 0 20px;
+    }
+
+    .heroImage {
+        object-fit: contain;
+        width: 100%;
+        height: auto;
+        margin: 40px 0px;
+        transform: translateY(0);
+    }
+
+    .heroImage2 {
+        object-fit: contain;
+        width: 100%;
+        height: auto;
+        margin: 20px 0px;
+        transform: none;
+    }
+
+    .heroText1,
+    .hero-Text2 {
+        margin: 12px 20px;
+    }
+
+    .hero-Text2 {
+        width: 89%;
+        font-size: 17px;
+    }
+
+    /* Footer */
+    .contact {
+        text-align: center;
+        margin: 20px 20px;
+        transform: translateY(0px);
+        font-size: 14px;
+    }
+
+    .imprDatKo {
+        margin-top: 40px;
+    }
+
+    .footer {
+        gap: 16px;
+    }
+
+    .footer li a {
+        font-size: 17px;
+    }
+
+    /* Menu */
+    .icon5 {
+        display: block;
+        width: 20px;
+        height: 37px;
+        transform: translateY(15px);
+    }
+
+    /* #menu-1 {
+        display: none;
+    }
+
+    #menu-1.open {
+        display: block;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background: white;
+        z-index: 100;
+    } */
+
+    /* Profile Page */
+    .profileWrapper {
+        margin-top: 20px;
+    }
+
+    .login-Button,
+    .registr-Button {
+        font-size: 15px;
+        height: 28px;
+        width: 130px;
+    }
+
+    .email,
+    .password {
+        font-size: 15px;
+        width: 300px;
+        height: 28px;
+    }
+
+    .prof {
+        margin: 60px 20px;
+    }
+
+    .profTitel {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .profWillkommen {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .profList,
+    .profOrders {
+        font-size: 15px;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+
+    .prof .down-arrow {
+        width: 25px;
+        height: 30px;
+        vertical-align: middle;
+        stroke: var(--primaryColor);
+        transform: translateY(-1px);
+    }
+
+    #likeContainer {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+    }
+
+    .profBooks {
+        display: grid;
+        grid-template-columns: 200px 200px;
+        gap: 24px;
+        font-size: 15px;
+    }
+
+    .noBooks {
+        font-size: 15px;
+    }
+
+    .registr {
+        margin-top: 70px;
+    }
+
+    .form label {
+        font-size: 15px;
+    }
+
+    .form input {
+        font-size: 15px;
+        width: 300px;
+        height: 28px;
+    }
+
+    .form button {
+        font-size: 15px;
+        height: 32px;
+        width: 130px;
+    }
+
+    #r-passwordMessage,
+    #r-message {
+        font-size: 15px;
+        margin-top: 12px;
+    }
+
+    /* Cart Page */
+
+    .booksSum,
+    .booksCount {
+        font-size: 19px;
+    }
+
+    .cartContainer {
+        margin: 30px;
+        grid-template-columns: 200px 200px;
+    }
+
+    /* Favorites Page */
+    .favoritesContainer {
+        margin-top: 30px;
+        grid-template-columns: 200px 200px;
+    }
+}

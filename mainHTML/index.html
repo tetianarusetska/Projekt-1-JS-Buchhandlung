@@ -18,7 +18,7 @@
 
         <div><a href="index.html"><img class="logo" src="/assets/logo/screenshots/newversion5.png" alt="logo"></a></div>
         <div class="menuAndSearch">
-            <nav class="menu1">
+            <nav class="menu1" id="menu-1">
                 <ul>
                     <li><a href="index.html">HOME<svg class="down-arrow" viewBox="0 0 24 24" fill="none"
                                 stroke="currentColor" stroke-width="1">
@@ -32,8 +32,8 @@
                                 stroke="currentColor" stroke-width="1">
                                 <path d="M6 9l6 6 6-6" />
                             </svg></a></li>
-                    <li><a href="#contactArea">KONTAKT<svg class="down-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="1">
+                    <li><a href="#contactArea">KONTAKT<svg class="down-arrow" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="1">
                                 <path d="M6 9l6 6 6-6" />
                             </svg></a></li>
                     <li><img class="icon4" id="searchIcon" src="/assets/icons/search3.svg" alt="icon4"></li>
@@ -48,16 +48,21 @@
             <a href="favorites.html"><img class="icon2" src="/assets/icons/heart.svg" alt="icon2"></a>
             <a href="profile.html"><img class="icon1" src="/assets/icons/profile2.svg" alt="icon1"></a>
             <a href="cart.html"><img class="icon3" src="/assets/icons/basket.png" alt="icon4"></a>
+            <a href="#"><img id="threedots" class="icon5" src="/assets/icons/threedots1.png" alt="icon5"></a>
         </div>
 
     </header>
+
     <main>
         <!------------------------ MAIN --------------------------->
 
         <!----------------------- SECTION 1 ----------------------->
-        <section>
-            <img class="heroImage" src="/assets/images/books/Bildschirmfoto 2026-03-07 um 18.53.59.png"
+        <section class="section1">
+            <picture>
+                <source media="(max-width: 480px)" srcset="/assets/images/books/img1.png">
+                <img class="heroImage" src="/assets/images/books/Bildschirmfoto 2026-03-07 um 18.53.59.png"
                 alt="hero-section-book-1">
+            </picture>
             <p class="heroText1">Das Ingmar Bergman Archiv</p>
             <p class="heroText2">Eine Hommage an einen der vielseitigsten und einflussreichsten Regisseure der
                 Filmgeschichte. Bergman selbst hatte noch an der Konzeption der preisgekrönten Originalausgabe
@@ -86,7 +91,7 @@
             <!--------------------- ALL BOOKS ------------------------->
             <div class="pagesWithPagination">
                 <div id="pageWithBooks"></div>
-            <!--------------------- PAGINATION ------------------------->
+                <!--------------------- PAGINATION ------------------------->
                 <div class="roman-pagination">
                     <label class="roman-radio">
                         <input type="radio" name="radioName" checked onclick="changePage(1)">
@@ -169,7 +174,7 @@
                 Collector's Edition (No. 201–1.200), von Sophia Loren signiert</p>
         </section>
         <!--------------------- SECTION 5 ------------------------->
-        <section>
+        <section class="mySvg">
             <svg id="animatedSvg" viewBox="0 0 250 150" preserveAspectRatio="none">
                 <path id="curve" d="m0,88.5c61.37,0,61.5-68,126.5-68,58,0,51,68,123,68" fill="none" stroke="black"
                     stroke-width="0.5" />
@@ -192,7 +197,7 @@
                 <li class="footerText">Verwendete Materialien:</li>
                 <li>Icons: <a href="https://thenounproject.com/">The Noun Project</a></li>
                 <li>Bildmaterialien & Buchinformationen: <a href="https://www.taschen.com/de/">TASCHEN, </a><a
-                        href="https://www.hugendubel.de/de?srsltid=AfmBOopl_ObVhQcnXPt5UIxKZCkMvsWt9skVYm0mvviePM2wDHpHNA8p">Hüden
+                        href="https://www.hugendubel.de/de?srsltid=AfmBOopl_ObVhQcnXPt5UIxKZCkMvsWt9skVYm0mvviePM2wDHpHNA8p">Hügen
                         Dubel</a></li>
                 <li>SVG-Text entlang eines Pfades:<a href="https://blog.olivierlarose.com/tutorials/text-along-path">
                         von Olivier Larose</a></li>
@@ -207,7 +212,8 @@
         </div>
         <div id="about-Shop" class="aboutShop">
             <p class="abc">abc.</p>
-            <p><span class="abc">abc</span> ist mehr als nur eine Buchhandlung – es ist ein kuratierter Raum für visuelle Kultur, Film,
+            <p><span class="abc">abc</span> ist mehr als nur eine Buchhandlung – es ist ein kuratierter Raum für
+                visuelle Kultur, Film,
                 Fotografie und zeitlose Literatur.</p>
             <p>Wir glauben an Bücher als Objekte, als Inspiration und als stille Begleiter. Jedes Werk in unserem
                 Sortiment ist bewusst ausgewählt – nicht nach Trends, sondern nach Bedeutung, Ästhetik und Tiefe.</p>
@@ -216,10 +222,11 @@
             <p>Unser Fokus liegt auf Kunst, Film und Fotografie – Disziplinen, die unsere visuelle Wahrnehmung prägen
                 und immer wieder neu definieren. Gleichzeitig schaffen wir Raum für Philosophie und Literatur, die diese
                 Bilder hinterfragen und kontextualisieren.</p>
-            <p><span class="abc">abc</span> richtet sich an alle, die nicht einfach nur konsumieren, sondern entdecken wollen.</p>
+            <p><span class="abc">abc</span> richtet sich an alle, die nicht einfach nur konsumieren, sondern entdecken
+                wollen.</p>
             <p>Willkommen in einer Welt aus Papier, Bildern und Ideen.</p>
         </div>
-        <div>
+        <div class="imprDatKo">
             <ul class="footer">
                 <li><a href="/footerHTML/impressum.html">Impressum</a></li>
                 <li><a href="/footerHTML/datenschutz.html">Datenschutz</a></li>

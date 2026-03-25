@@ -160,6 +160,7 @@ function initAllBooks() {
 
 // ---------------------------------------------------------------------------------------------------------------------------------------------
 // FILTER(CATEGORISATION) + PAGINATION
+// mit StackOverflow Hilfe...
 
 
 // fliter(categorisation)
@@ -325,3 +326,16 @@ if (textEl && textPath) {
 
     animate();
 }
+
+
+// -------------------------------------------------------------------------------------------------------------------------------------------
+// RESPONSIVE DESIGN
+
+// const icon = document.getElementById("threedots");
+// const menu = document.getElementById("menu-1");
+
+// if (icon && menu) {
+//     icon.addEventListener("click", () => {
+//         menu.classList.toggle("open");
+//     });
+// }
