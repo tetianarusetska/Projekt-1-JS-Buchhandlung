@@ -1067,9 +1067,150 @@ footer .materials a {
 
 @media (max-width: 992px) {
 
-    
+    header {
+        margin: 0px 20px;
+    }
 
-} 
+    .mainBooks {
+        margin: 80px 20px;
+    }
+
+    #artBooks {
+        margin: 30px 20px;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+    }
+
+    .a-booksText {
+        margin: 0px 105px;
+    }
+
+    .mainBooks .actionButtons {
+        margin-right: 0px;
+        transform: translateX(-60px);
+    }
+
+    .booksPage {
+        grid-template-columns: 200px 500px;
+        gap: 70px;
+        margin: 120px 20px;
+    }
+
+    .heroImage {
+        margin: 50px 0px;
+        width: 100%;
+    }
+
+    .heroImage2 {
+        object-fit: contain;
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        transform: translateY(-60px);
+    }
+
+    .heroText2,
+    .hero-Text2 {
+        margin: 20px 20px;
+        text-align: left;
+    }
+
+    .heroText1 {
+        margin-top: 40px;
+        margin-left: 20px;
+        text-align: left;
+    }
+
+    .hero-Text2,
+    .heroText2 {
+        width: 89%;
+        font-size: 17px;
+        text-align: left;
+    }
+
+    /* Footer */
+    footer {
+        margin: 0px 20px;
+    }
+
+    footer .materials ul {
+        transform: translateY(-200px);
+    }
+
+
+    .aboutShop {
+        transform: translateY(-220px);
+        max-width: 400px;
+        margin-right: 20px;
+    }
+
+    .contact {
+        transform: translateY(20px);
+        margin-left: 20px;
+    }
+
+    .impressumTitel {
+        font-size: 23px !important;
+    }
+
+    .impressum p {
+        font-size: 15px;
+    }
+
+    /* Pagination */
+    .pagesWithPagination {
+        gap: 32px;
+    }
+
+    /* Book´s Description Page */
+    .description {
+        margin: 90px 20px;
+        grid-template-columns: 300px 400px;
+        gap: 120px;
+    }
+
+    .descriprion-image {
+        margin: 0 20px;
+        width: 300px;
+        height: 300px;
+    }
+
+    .description-summary {
+        width: 400px;
+    }
+
+    /* Profile Page */
+    .profileWrapper {
+        margin-top: 20px;
+    }
+
+    .prof {
+        margin: 60px 20px;
+    }
+
+    .profList,
+    .profOrders {
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+
+    #likeContainer {
+        margin-top: 20px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .profBooks {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 24px;
+    }
+
+    .registr {
+        margin-top: 70px;
+    }
+
+}
+
 /* --------------------------------------------------------------------------------------------------------------------------------------- */
 @media (max-width: 768px) {
 
