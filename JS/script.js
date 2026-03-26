@@ -128,7 +128,7 @@ if (pageWithBooks) {
 
 function renderBooks() {
 
-    const pageBooks = getPageBooks(); 
+    const pageBooks = getPageBooks();     // Nur Bücher für aktuelle Seite holen
 
     pageWithBooks.innerHTML = pageBooks.map(book => `
         <div class="book">
@@ -167,6 +167,7 @@ function initAllBooks() {
 // Filter books by category and reset to page 1
 
 function filterBooks(category) {
+
     currentPage = 1;
 
     currentBooks = books.filter(book =>
