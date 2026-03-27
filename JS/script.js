@@ -327,17 +327,3 @@ if (textEl && textPath) {
 
     animate();
 }
-
-
-// -------------------------------------------------------------------------------------------------------------------------------------------
-// RESPONSIVE DESIGN
-
-const icon = document.getElementById("threedots");
-const menu = document.getElementById("menu-1");
-
-
-document.addEventListener("click", () => {
-        icon.addEventListener("click", () => {
-            menu.style.display = "block";
-        });
-});

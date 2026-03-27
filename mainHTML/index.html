@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/stylesCSS/style.css">
     <script src="/JS/script.js" defer></script>
     <script src="/JS/search.js" defer></script>
+    <script src="/JS/mobMenu.js" defer></script>
     <title>Buchhandlung</title>
 </head>
 
@@ -44,13 +45,22 @@
             </div>
         </div>
 
-        <div class="icons">
-            <a href="favorites.html"><img class="icon2" src="/assets/icons/heart.svg" alt="icon2"></a>
-            <a href="profile.html"><img class="icon1" src="/assets/icons/profile2.svg" alt="icon1"></a>
-            <a href="cart.html"><img class="icon3" src="/assets/icons/basket.png" alt="icon4"></a>
-            <a href="#" id="threedots"><img class="icon5" src="/assets/icons/threedots1.png" alt="icon5"></a>
+        <div class="wrapper">
+            <div class="icons">
+                <a href="favorites.html"><img class="icon2" src="/assets/icons/heart.svg" alt="icon2"></a>
+                <a href="profile.html"><img class="icon1" src="/assets/icons/profile2.svg" alt="icon1"></a>
+                <a href="cart.html"><img class="icon3" src="/assets/icons/basket.png" alt="icon4"></a>
+                <a href="#"><img id="threedots" class="icon5" src="/assets/icons/threedots1.png" alt="icon5"></a>
+            </div>
+            <nav id="menuMobile" class="hidden">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="index.html#about-Shop">ÜBER UNS</a></li>
+                    <li><a href="index.html#allBooks">SHOP</a></li>
+                    <li><a href="index.html#contactArea">KONTAKT</a></li>
+                </ul>
+            </nav>
         </div>
-
     </header>
 
     <main>

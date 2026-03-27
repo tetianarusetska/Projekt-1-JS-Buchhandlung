@@ -34,6 +34,10 @@ header {
     display: none !important;
 }
 
+.active {
+    display: flex !important;
+}
+
 /* MENU */
 
 .menu1 ul {
@@ -74,6 +78,41 @@ header {
     stroke: var(--secondaryColor);
 }
 
+.wrapper {
+    position: relative;
+}
+
+#menuMobile {
+    display: none;
+}
+
+#menuMobile ul {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    padding: 12px;
+    justify-content: flex-end;
+    list-style-type: none;
+    position: absolute;
+    top: 139px;
+    right: -19px;
+    background-color: var(--primaryColor);
+    border: 1px solid red;
+    z-index: 100;
+}
+
+#menuMobile a {
+    text-align: left !important;
+    text-decoration: none;
+    color: var(--secondaryColor);
+    font-family: var(--mainFont);
+    letter-spacing: -1.0px;
+    font-size: 20px;
+}
+
+#menuMobile.active {
+    display: flex;
+}
 
 /* SEARCH */
 
@@ -1215,8 +1254,8 @@ footer .materials a {
 @media (max-width: 768px) {
 
     .mySvg,
-    .menuAndSearch,
     .aboutShop,
+    .menuAndSearch,
     .contact {
         display: none;
     }
@@ -1304,6 +1343,14 @@ footer .materials a {
         width: 20px;
         height: 37px;
         transform: translateY(15px);
+    }
+
+     #menuMobile.active {
+        display: flex;
+    }
+
+     #menuMobile ul {
+        top: 149px;
     }
 
     /* Footer */
@@ -1430,6 +1477,11 @@ footer .materials a {
 
     }
 
+    .menu1 {
+        display: flex;
+        flex-direction: column;
+    }
+
     .booksPage,
     .menuAndSearch,
     .heroText1,
@@ -1514,6 +1566,10 @@ footer .materials a {
         width: 20px;
         height: 37px;
         transform: translateY(15px);
+    }
+
+    #menuMobile.active {
+        display: flex;
     }
 
     /* Profile Page */

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/stylesCSS/style.css">
     <script src="/JS/bookpage.js" defer></script>
     <script src="/JS/search.js" defer></script>
+    <script src="/JS/mobMenu.js" defer></script>
     <title>Books Page</title>
 </head>
 
@@ -24,15 +25,15 @@
                                 stroke="currentColor" stroke-width="1">
                                 <path d="M6 9l6 6 6-6" />
                             </svg></a></li>
-                    <li><a href="#about-Shop">ÜBER UNS<svg class="down-arrow" viewBox="0 0 24 24" fill="none"
+                    <li><a href="index.html#about-Shop">ÜBER UNS<svg class="down-arrow" viewBox="0 0 24 24" fill="none"
                                 stroke="currentColor" stroke-width="1">
                                 <path d="M6 9l6 6 6-6" />
                             </svg></a></li>
-                    <li><a href="#allBooks">SHOP<svg class="down-arrow" viewBox="0 0 24 24" fill="none"
+                    <li><a href="index.html#allBooks">SHOP<svg class="down-arrow" viewBox="0 0 24 24" fill="none"
                                 stroke="currentColor" stroke-width="1">
                                 <path d="M6 9l6 6 6-6" />
                             </svg></a></li>
-                    <li><a href="#">KONTAKT<svg class="down-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    <li><a href="index.html#contactArea">KONTAKT<svg class="down-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="1">
                                 <path d="M6 9l6 6 6-6" />
                             </svg></a></li>
@@ -44,10 +45,21 @@
             </div>
         </div>
 
-        <div class="icons">
-            <a href="favorites.html"><img class="icon2" src="/assets/icons/heart.svg" alt="icon2"></a>
-            <a href="profile.html"><img class="icon1" src="/assets/icons/profile2.svg" alt="icon1"></a>
-            <a href="cart.html"><img class="icon3" src="/assets/icons/basket.png" alt="icon4"></a>
+        <div class="wrapper">
+            <div class="icons">
+                <a href="favorites.html"><img class="icon2" src="/assets/icons/heart.svg" alt="icon2"></a>
+                <a href="profile.html"><img class="icon1" src="/assets/icons/profile2.svg" alt="icon1"></a>
+                <a href="cart.html"><img class="icon3" src="/assets/icons/basket.png" alt="icon4"></a>
+                <a href="#"><img id="threedots" class="icon5" src="/assets/icons/threedots1.png" alt="icon5"></a>
+            </div>
+            <nav id="menuMobile" class="menuMobile">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="index.html#about-Shop">ÜBER UNS</a></li>
+                    <li><a href="index.html#allBooks">SHOP</a></li>
+                    <li><a href="index.html#contactArea">KONTAKT</a></li>
+                </ul>
+            </nav>
         </div>
 
     </header>
