@@ -10,6 +10,7 @@
     <script src="/JS/script.js" defer></script>
     <script src="/JS/favorites.js" defer></script>
     <script src="/JS/search.js" defer></script>
+    <script src="/JS/mobMenu.js" defer></script>
     <title>Impressum</title>
 </head>
 
@@ -45,10 +46,19 @@
             </div>
         </div>
 
-        <div class="icons">
-            <a href="/mainHTML/favorites.html"><img class="icon2" src="/assets/icons/heart.svg" alt="icon2"></a>
-            <a href="/mainHTML/profile.html"><img class="icon1" src="/assets/icons/profile2.svg" alt="icon1"></a>
-            <a href="/mainHTML/cart.html"><img class="icon3" src="/assets/icons/basket.png" alt="icon4"></a>
+        <div class="wrapper">
+            <div class="icons">
+                <a href="favorites.html"><img class="icon2" src="/assets/icons/heart.svg" alt="icon2"></a>
+                <a href="profile.html"><img class="icon1" src="/assets/icons/profile2.svg" alt="icon1"></a>
+                <a href="cart.html"><img class="icon3" src="/assets/icons/basket.png" alt="icon4"></a>
+                <a href="#"><img id="threedots" class="icon5" src="/assets/icons/threedots1.png" alt="icon5"></a>
+            </div>
+            <nav id="menuMobile" class="menuMobile">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#allBooks">SHOP</a></li>
+                </ul>
+            </nav>
         </div>
 
     </header>
