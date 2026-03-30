@@ -838,6 +838,12 @@ input[type="radio"]:checked~.title {
 .cartTitel {
     font-size: 22px;
     font-family: var(--mainFont);
+    color: var(--secondaryColor);
+    text-align: center;
+    margin-bottom: 60px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    opacity: 0.95;
 }
 
 .cartContainer {
@@ -865,8 +871,130 @@ input[type="radio"]:checked~.title {
     margin-top: 10px;
 }
 
-.booksCount {
+.booksCount,
+.booksSum {
+    color: var(--secondaryColor);
+    font-weight: 400;
+    opacity: 0.9;
+}
+
+.cartElement {
+    max-width: 1000px;
+    width: 100%;
+    margin: 80px auto;
+    background-color: var(--primaryColor);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    border: 2px solid red;
+}
+
+.cartElement>div:last-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
     margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.cartBox {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.textPay {
+    opacity: 0.9;
+    font-size: 17px;
+    margin: 40px 20px;
+    color: var(--secondaryColor);
+    font-family: var(--mainFont);
+    text-align: center;
+    letter-spacing: 0.3px;
+    line-height: 1.4;
+}
+
+.payments:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+.payments {
+    width: 120px;
+    height: 60px;
+    opacity: 0.6;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+
+.kindsOfPay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+.acceptButton {
+    color: var(--primaryColor);
+    font-size: 17px;
+    font-family: var(--mainFont);
+    letter-spacing: 1.3px;
+    background-color: var(--secondaryColor);
+    border-radius: 2px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, var(--secondaryColor) 0 -3px 0 inset;
+    box-sizing: border-box;
+    height: 38px;
+    width: 160px;
+    line-height: 1;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: block;
+    margin: 20px auto 0 auto;
+}
+
+.loader-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+}
+
+.loader-overlay.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.loader-circle {
+    border: 5px solid rgba(255, 255, 255, 0.6);
+    border-top: 5px solid var(--secondaryColor);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 /* -----------------------------------------------  BOOKS DESCRIPTION PAGE------------------------------------------------------------------------------- */
@@ -1345,11 +1473,11 @@ footer .materials a {
         transform: translateY(15px);
     }
 
-     #menuMobile.active {
+    #menuMobile.active {
         display: flex;
     }
 
-     #menuMobile ul {
+    #menuMobile ul {
         top: 149px;
     }
 

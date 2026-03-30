@@ -53,5 +53,20 @@ function generateCart() {
 
 }
 
+// LOADER
+
+const button = document.getElementById('accept-button');
+const loader = document.getElementById('loader');
+
+button.addEventListener('click', () => {
+    loader.classList.add('active');
+
+    setTimeout(() => {
+        loader.classList.remove('active');
+        alert("Bestellung abgeschlossen! ✅");
+    }, 2000);
+
+});
+
 
 
