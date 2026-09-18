@@ -102,6 +102,124 @@ let currentBooks = [];     // Array to store currently filtered/active books
 let currentPage = 1;
 let booksPerPage = 9;
 
+function updateBooksPerPage() {
+    booksPerPage =
+        window.innerWidth >= 0 && window.innerWidth <= 1024
+            ? 4
+            : 9;
+}
+
+function renderPagination() {
+    const pagination = document.querySelector(".roman-pagination");
+
+    if (!pagination) return;
+
+    const totalPages = Math.ceil(currentBooks.length / booksPerPage);
+
+    pagination.innerHTML = "";
+
+    const romanNumbers = [
+        "I.", "II.", "III.", "IV.", "V.",
+        "VI.", "VII.", "VIII.", "IX.", "X.",
+        "XI.", "XII.", "XIII.", "XIV.", "XV.",
+        "XVI.", "XVII.", "XVIII.", "XIX.", "XX.", "XXI", 
+        "XXII", "XXIII", "XXIV"
+    ];
+
+    const pageTitles = [
+        "Erste Seite",
+        "Zweite Seite",
+        "Dritte Seite",
+        "Vierte Seite",
+        "Fünfte Seite",
+        "Sechste Seite",
+        "Siebte Seite",
+        "Achte Seite",
+        "Neunte Seite",
+        "Zehnte Seite",
+        "Elfte Seite",
+        "Zwölfte Seite",
+        "Dreizehnte Seite",
+        "Vierzehnte Seite",
+        "Fünfzehnte Seite",
+        "Sechzehnte Seite",
+        "Siebzente Seite",
+        "Achtzente Seite",
+        "Neunzente Seite",
+        "Zwanzigste Seite",
+        "Einundzwanzigste Seite",
+        "Zweiundzwanzigste Seite",
+        "Dreiundzwanzigste Seite",
+        "Vierundzwanzigste Seite",
+    ];
+
+    // Welche Seiten anzeigen
+    const pages = [];
+
+    if (totalPages <= 7) {
+        // Если страниц мало — показываем все
+        for (let i = 1; i <= totalPages; i++) {
+            pages.push(i);
+        }
+    } else {
+        // Всегда первая страница
+        pages.push(1);
+
+        if (currentPage > 4) {
+            pages.push("...");
+        }
+
+        // Страницы вокруг текущей
+        const start = Math.max(2, currentPage - 1);
+        const end = Math.min(totalPages - 1, currentPage + 1);
+
+        for (let i = start; i <= end; i++) {
+            pages.push(i);
+        }
+
+        if (currentPage < totalPages - 3) {
+            pages.push("...");
+        }
+
+        // Всегда последняя
+        pages.push(totalPages);
+    }
+
+    pages.forEach(page => {
+        // Троеточие
+        if (page === "...") {
+            const dots = document.createElement("span");
+            dots.className = "pagination-dots";
+            dots.textContent = "...";
+            pagination.appendChild(dots);
+            return;
+        }
+
+        const label = document.createElement("label");
+        label.className = "roman-radio";
+
+        label.innerHTML = `
+            <input 
+                type="radio" 
+                name="radioName"
+                ${page === currentPage ? "checked" : ""}
+            >
+            <span class="num">
+                ${romanNumbers[page - 1] || page + "."}
+            </span>
+            <span class="title">
+                ${pageTitles[page - 1] || `Seite ${page}`}
+            </span>
+        `;
+
+        label.querySelector("input").addEventListener("click", () => {
+            changePage(page);
+        });
+
+        pagination.appendChild(label);
+    });
+}
+
 
 // get books
 
@@ -149,13 +267,23 @@ function renderBooks() {
 
 function initAllBooks() {
 
+    updateBooksPerPage();
+
+    const totalPages = Math.ceil(currentBooks.length / booksPerPage);
+
+    if (currentPage > totalPages) {
+        currentPage = 1;
+    }
+
     renderBooks();
 
-    const pageBooks = getPageBooks();                          // Get current page books for event binding
+    renderPagination();
 
-    addLike(pageWithBooks, pageBooks);                         //like
-    addToCart(pageWithBooks, pageBooks);                       //cart
-    showBooksDescription(pageWithBooks, pageBooks, ".book");   //book´s description
+    const pageBooks = getPageBooks();
+
+    addLike(pageWithBooks, pageBooks);
+    addToCart(pageWithBooks, pageBooks);
+    showBooksDescription(pageWithBooks, pageBooks, ".book");
 }
 
 // ---------------------------------------------------------------------------------------------------------------------------------------------
@@ -238,7 +366,7 @@ function showBooksDescription(container, booksArray, bookClass) {
     container.querySelectorAll(bookClass).forEach((el, index) => {
         el.addEventListener("click", () => {
             localStorage.setItem("selectedBook", JSON.stringify(booksArray[index]));  // Save selected book data to localStorage
-            window.location.href = "bookpage.html";   // Navigate to the book detail page
+            window.location.href = "./mainHTML/bookpage.html";   // Navigate to the book detail page
         });
     });
 

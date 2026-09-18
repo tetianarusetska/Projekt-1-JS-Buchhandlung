@@ -11,7 +11,7 @@ function showDescription() {
     if (book) {
         descriptionContainer.innerHTML = `
             <div class="description">
-                <div><img src="${book.src}" alt="${book.name}" class="descriprion-image"></div>
+                <div><img src="${book.src}" alt="${book.name}" class="description-image"></div>
                 <div class="description-text">
                     <p class="description-name">${book.name}</p>
                     <p class="description-author">${book.author}, ${book.publishedDate}</p>

@@ -248,11 +248,16 @@ header {
     width: 89%;
 }
 
+.section1 {
+    display: block;
+}
+
 /* ----------------------------------------------------------SECTION 2----------------------------------------------------------------------- */
 /* ---------------------------------------------------------- BOOKS. KUNST ----------------------------------------------------------------------- */
 
 
 .mainBooks {
+    display: block;
     margin: 80px 80px;
 }
 
@@ -424,7 +429,7 @@ header {
 }
 
 .roman-pagination {
-    margin-top: 12px;
+    margin-top: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1007,7 +1012,7 @@ input[type="radio"]:checked~.title {
     justify-content: center;
 }
 
-.descriprion-image {
+.description-image {
     margin: 0 100px;
     object-fit: contain;
     width: 500px;
@@ -1230,650 +1235,336 @@ footer .materials a {
 
 /* --------------------------------------------------------------------------------------------------------------------------------------- */
 /* RESPONSIVE DESIGN */
-
-
-@media (max-width: 992px) {
-
-    header {
-        margin: 0px 20px;
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+@media (max-width: 767px) {
+    body {
+        height: auto;
     }
 
-    .mainBooks {
+    /* header */
+    header {
+        margin: 0px 0px;
+    }
+
+    .section1,
+    .mainBooks,
+    .menu1 .down-arrow,
+    .heroText1,
+    .hero-Text2,
+    .contact,
+    .aboutShop,
+    .hero-2,
+    .materials,
+    .menuAndSearch,
+    #animatedSvg {
+        display: none;
+    }
+
+    .search input {
+        width: 220px;
+    }
+
+    /* books */
+    .booksPage {
+        grid-template-columns: 1fr;
+        gap: 40px;
         margin: 80px 20px;
     }
 
-    #artBooks {
-        margin: 30px 20px;
-        grid-template-columns: 1fr 1fr;
-        gap: 40px;
+    .menu2 ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 12px;
+        justify-content: center;
     }
 
-    .a-booksText {
-        margin: 0px 105px;
+    #pageWithBooks {
+        grid-template-columns: 1fr;
+        gap: 20px;
     }
 
-    .mainBooks .actionButtons {
-        margin-right: 0px;
-        transform: translateX(-60px);
+    /* footer */
+    .footer {
+        transform: translateY(-40px);
+        gap: 8px;
     }
 
-    .booksPage {
-        grid-template-columns: 200px 500px;
-        gap: 70px;
-        margin: 120px 20px;
+    .profileFooter {
+        gap: 8px;
     }
 
-    .heroImage {
-        margin: 50px 0px;
-        width: 100%;
-    }
-
-    .heroImage2 {
-        object-fit: contain;
-        width: 100%;
+    /* --- Book Detail Page --- */
+    .description {
+        margin: 50px 16px;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        min-height: auto;
         height: auto;
-        margin: 0px;
-        transform: translateY(-60px);
     }
 
-    .heroText2,
-    .hero-Text2 {
-        margin: 20px 20px;
-        text-align: left;
+    .description-image {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 280px;
+        height: auto;
+        align-self: center;
     }
 
-    .heroText1 {
-        margin-top: 40px;
-        margin-left: 20px;
-        text-align: left;
+    .description-text {
+        font-size: 15px;
+        gap: 14px;
     }
 
-    .hero-Text2,
-    .heroText2 {
-        width: 89%;
-        font-size: 17px;
-        text-align: left;
+    .description-summary {
+        width: 100%;
     }
 
-    /* Footer */
-    footer {
-        margin: 0px 20px;
+    .description-actionButtons {
+        flex-direction: column;
+        gap: 12px;
+        width: 100%;
     }
 
-    footer .materials ul {
-        transform: translateY(-200px);
+    .description-like-Button,
+    .description-cart-Button {
+        height: 44px;
+        width: 100%;
     }
 
-
-    .aboutShop {
-        transform: translateY(-220px);
-        max-width: 400px;
-        margin-right: 20px;
+    /* --- Cart Page --- */
+    .cartElement {
+        margin: 30px 16px;
+        padding: 20px 16px;
+        box-sizing: border-box;
     }
 
-    .contact {
-        transform: translateY(20px);
-        margin-left: 20px;
+    .cartContainer {
+        grid-template-columns: 1fr;
+        gap: 20px;
     }
 
-    .impressumTitel {
-        font-size: 23px !important;
+    .kindsOfPay {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .payments {
+        width: 90px;
+        height: 45px;
+    }
+
+    .textPay {
+        margin: 20px 10px;
+        font-size: 15px;
+    }
+
+    /* --- Favorites & Profile Pages --- */
+    .favoritesContainer,
+    .profBooks,
+    #likeContainer {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .prof {
+        margin: 40px 16px;
+    }
+
+    .form input {
+        width: 100%;
+        max-width: 300px;
+        box-sizing: border-box;
+    }
+
+    .form {
+        padding: 16px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* --- Impressum, Datenschutz & Kontakt --- */
+    .impressum {
+        margin-top: 20px;
+        padding: 0 16px;
     }
 
     .impressum p {
         font-size: 15px;
     }
-
-    /* Pagination */
-    .pagesWithPagination {
-        gap: 32px;
-    }
-
-    /* Book´s Description Page */
-    .description {
-        margin: 90px 20px;
-        grid-template-columns: 300px 400px;
-        gap: 120px;
-    }
-
-    .descriprion-image {
-        margin: 0 20px;
-        width: 300px;
-        height: 300px;
-    }
-
-    .description-summary {
-        width: 400px;
-    }
-
-    /* Profile Page */
-    .profileWrapper {
-        margin-top: 20px;
-    }
-
-    .prof {
-        margin: 60px 20px;
-    }
-
-    .profList,
-    .profOrders {
-        margin-bottom: 40px;
-        margin-top: 40px;
-    }
-
-    #likeContainer {
-        margin-top: 20px;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    .profBooks {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 24px;
-    }
-
-    .registr {
-        margin-top: 70px;
-    }
-
 }
 
-/* --------------------------------------------------------------------------------------------------------------------------------------- */
-@media (max-width: 768px) {
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+@media (min-width: 768px) and (max-width: 1023px) {
 
-    .mySvg,
-    .aboutShop,
-    .menuAndSearch,
-    .contact {
-        display: none;
+    body {
+        height: auto;
+        min-height: 100vh;
+        overflow-x: hidden;
     }
 
+    /* header */
     header {
-        margin: 0px 20px;
+        margin: 0px 0px;
     }
 
-    .heroImage {
-        margin: 50px 0px;
-        width: 100%;
-        height: auto;
-        object-fit: contain;
-    }
-
-    .heroImage2 {
-        object-fit: contain;
-        width: 100%;
-        height: auto;
-        margin: 0px;
-        transform: none;
-    }
-
+    .section1,
+    .mainBooks,
+    .menu1 .down-arrow,
     .heroText1,
-    .heroText2,
-    .hero-Text2 {
-        margin: 12px 20px;
-        text-align: left;
-    }
-
     .hero-Text2,
-    .heroText2 {
-        width: 89%;
-        font-size: 17px;
-        text-align: left;
+    .contact,
+    .aboutShop,
+    .hero-2,
+    .materials {
+        display: none !important;
     }
 
-    #artBooks {
-        margin-top: 12px;
-        grid-template-columns: 1fr 1fr;
+    .search input {
+        width: 360px;
     }
 
-    .a-booksText {
-        margin: 0px 20px;
-    }
-
-    .a-booksImage {
-        width: 270px;
-        height: 300px;
-        object-fit: cover;
-    }
-
+    /* books */
     .booksPage {
         grid-template-columns: 200px 1fr;
+        gap: 40px;
         margin: 80px 20px;
+    }
+
+    .menu2 ul {
+        gap: 48px;
     }
 
     #pageWithBooks {
         grid-template-columns: 1fr 1fr;
+        gap: 32px;
     }
 
-    .pagesWithPagination {
-        gap: 22px;
-    }
-
-    .roman-radio {
-        font-size: 15px;
-    }
-
-    /* Menu */
-    .icon1 {
-        transform: translateY(19px);
-    }
-
-    .icon2 {
-        transform: translate(12px, 19px);
-    }
-
-    .icon3 {
-        transform: translate(-5px, 17px);
-    }
-
-    .icon5 {
-        display: block;
-        width: 20px;
-        height: 37px;
-        transform: translateY(15px);
-    }
-
-    #menuMobile.active {
-        display: flex;
-    }
-
-    #menuMobile ul {
-        top: 149px;
-    }
-
-    /* Footer */
-    footer {
-        margin: 0 20px;
-    }
-
-    footer .materials ul {
-        transform: translateY(20px);
-    }
-
-    .imprDatKo {
-        margin-top: 80px;
-    }
-
-    /* Favorites Page */
-    .favoritesContainer {
-        margin-top: 30px;
-        grid-template-columns: 200px 200px 200px;
-    }
-
-    /* Profile Page */
-    .profileWrapper {
-        margin-top: 20px;
-    }
-
-    .registr {
-        margin-top: 40px;
-    }
-
-    .prof {
-        margin: 60px 20px;
-    }
-
-    .profTitel,
-    .profWillkommen {
-        margin-bottom: 20px;
-    }
-
-    .profList,
-    .profOrders {
-        margin-bottom: 40px;
-        margin-top: 40px;
-    }
-
-    #likeContainer {
-        margin-top: 20px;
-        justify-content: center;
-        grid-template-columns: 300px 300px;
-    }
-
-    .profBooks {
-        display: grid;
-        justify-content: center;
-        grid-template-columns: 300px 300px;
-        gap: 24px;
-    }
-
-    #r-passwordMessage,
-    #r-message {
-        margin-top: 12px;
-    }
-
-    /* Cart Page */
-
-    .booksSum,
-    .booksCount {
-        font-size: 19px;
-    }
-
-    .cartContainer {
-        margin: 30px;
-        grid-template-columns: 200px 200px;
-    }
-
-    /* Book´s description page */
+    /* books description */
     .description {
-        margin: 0px 20px;
-        grid-template-columns: 300px 400px;
-        gap: 80px;
+        margin: 50px 20px;
+        grid-template-columns: 320px 1fr;
+        justify-content: start;
+        gap: 24px;
+        min-height: auto;
+        height: auto;
     }
 
-    .descriprion-image {
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-top: 80px;
+    .descriprion-image,
+    .description-image {
+        margin: 0;
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+        max-height: 380px;
         object-fit: contain;
-        width: 300px;
-        height: 300px;
-        align-self: center;
     }
 
     .description-text {
-        gap: 22px;
-        font-size: 18px;
-        margin: 80px 20px;
-    }
-
-    .description-name {
-        font-size: 28px;
-    }
-
-    .description-summary {
-        width: 350px;
-    }
-}
-
-/* --------------------------------------------------------------------------------------------------------------------------------------- */
-/* 0px-576px, 480px inclusive */
-@media (max-width: 576px) {
-
-    .mainBooks {
-        margin: 0px 20px;
-    }
-
-    #artBooks {
-        margin-top: 12px;
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .a-booksText {
-        margin: 0px 10px;
-        font-size: 53px;
-
-    }
-
-    .menu1 {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .booksPage,
-    .menuAndSearch,
-    .heroText1,
-    .heroText2,
-    .aboutShop,
-    .materials,
-    .mySvg {
-        display: none;
-    }
-
-    .icon1 {
-        transform: translateY(19px);
-    }
-
-    .icon2 {
-        transform: translate(12px, 19px);
-    }
-
-    .icon3 {
-        transform: translate(-5px, 17px);
-    }
-
-    .a-booksImage {
-        width: 180px;
-        height: 250px;
-    }
-
-    header {
-        margin: 0 20px;
-    }
-
-    .heroImage {
-        object-fit: contain;
-        width: 100%;
-        height: auto;
-        margin: 40px 0px;
-        transform: translateY(0);
-    }
-
-    .heroImage2 {
-        object-fit: contain;
-        width: 100%;
-        height: auto;
-        margin: 20px 0px;
-        transform: none;
-    }
-
-    .heroText1,
-    .hero-Text2 {
-        margin: 12px 20px;
-    }
-
-    .hero-Text2 {
-        width: 89%;
-        font-size: 17px;
-        text-align: center;
-    }
-
-    /* Footer */
-    .contact {
-        text-align: center;
-        margin: 40px 20px;
-        transform: translateY(0px);
-        font-size: 14px;
-    }
-
-    .imprDatKo {
-        margin-top: 40px;
-    }
-
-    .footer {
+        font-size: 16px;
         gap: 16px;
     }
 
-    .footer li a {
-        font-size: 17px;
-    }
-
-    /* Menu */
-    .icon5 {
-        display: block;
-        width: 20px;
-        height: 37px;
-        transform: translateY(15px);
-    }
-
-    #menuMobile.active {
-        display: flex;
-    }
-
-    /* Profile Page */
-    .profileWrapper {
-        margin-top: 20px;
-    }
-
-    .login-Button,
-    .registr-Button {
-        font-size: 15px;
-        height: 28px;
-        width: 130px;
-    }
-
-    .email,
-    .password {
-        font-size: 15px;
-        width: 300px;
-        height: 28px;
-    }
-
-    .prof {
-        margin: 60px 20px;
-    }
-
-    .profTitel {
-        font-size: 28px;
-        margin-bottom: 20px;
-    }
-
-    .profWillkommen {
-        font-size: 15px;
-        margin-bottom: 20px;
-    }
-
-    .profList,
-    .profOrders {
-        font-size: 15px;
-        margin-bottom: 40px;
-        margin-top: 40px;
-    }
-
-    .prof .down-arrow {
-        width: 25px;
-        height: 30px;
-        vertical-align: middle;
-        stroke: var(--primaryColor);
-        transform: translateY(-1px);
-    }
-
-    #likeContainer {
-        margin-top: 20px;
-        display: grid;
-        grid-template-columns: 300px 300px 300px;
-    }
-
-    .profBooks {
-        display: grid;
-        grid-template-columns: 200px 200px;
-        gap: 24px;
-        font-size: 15px;
-    }
-
-    .noBooks {
-        font-size: 15px;
-    }
-
-    .registr {
-        margin-top: 70px;
-    }
-
-    .form label {
-        font-size: 15px;
-    }
-
-    .form input {
-        font-size: 15px;
-        width: 300px;
-        height: 28px;
-    }
-
-    .form button {
-        font-size: 15px;
-        height: 32px;
-        width: 130px;
-    }
-
-    #r-passwordMessage,
-    #r-message {
-        font-size: 15px;
-        margin-top: 12px;
-    }
-
-    /* Cart Page */
-
-    .booksSum,
-    .booksCount {
-        font-size: 19px;
-    }
-
-    .cartContainer {
-        margin: 30px;
-        grid-template-columns: 200px 200px;
-    }
-
-    /* Favorites Page */
-    .favoritesContainer {
-        margin-top: 30px;
-        grid-template-columns: 200px 200px;
-    }
-
-    /* Book´s description page */
-    .description {
-        margin: 0px 20px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-    }
-
-    .descriprion-image {
-        margin-left: 80px;
-        margin-right: 80px;
-        margin-top: 80px;
-        object-fit: contain;
-        width: 300px;
-        height: 300px;
-        align-self: center;
-    }
-
-    .description-text {
-        justify-content: center;
-        display: flex;
-        flex-direction: column;
-        gap: 22px;
-        font-size: 18px;
-        margin-top: 20px;
-    }
-
-    .description-name {
-        font-size: 28px;
-        font-weight: 500;
-        text-align: center;
-    }
-
-    .description-author {
-        text-align: center;
-    }
-
     .description-summary {
-        width: 460px;
-        text-align: center;
+        width: 100%;
+        max-width: 100%;
     }
-
-    .description-price,
-    .description-tags {
-        text-align: center;
-    }
-
 
     .description-like-Button,
     .description-cart-Button {
+        height: 44px;
+        width: 160px;
         font-size: 15px;
-        height: 28px;
-        width: fit-content;
     }
 
     .description-actionButtons {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 26px;
-        margin-top: 10px;
+        gap: 12px;
+        margin-top: 20px;
     }
 
-    .profileFooter {
-        margin-top: 60px;
+    /* footer */
+
+    #animatedSvg {
+        margin-top: 0px;
+        transform: translateY(0px);
+    }
+
+    .favoritesPage {
+        margin: 30px 24px;
+    }
+
+    .favoritesContainer {
+        grid-template-columns: repeat(2, 1fr) !important;
+        /* Fixed 3-column overflow (300px * 3) */
+        gap: 24px;
+        margin-top: 30px;
+    }
+
+    /* --- CART PAGE (.cartElement & .cartContainer) --- [WAS MISSING] */
+    .cart-section {
+        margin: 40px 20px;
+    }
+
+    .cartContainer {
+        grid-template-columns: repeat(2, 1fr) !important;
+        /* Fixed 3-column overflow */
+        gap: 24px;
+        margin-top: 30px;
+    }
+
+    .cartElement {
+        max-width: 90%;
+        margin: 40px auto;
+        padding: 24px;
+    }
+
+    .kindsOfPay {
+        gap: 12px;
+    }
+
+    .payments {
+        width: 100px;
+        height: 50px;
+    }
+
+    /* --- USER PROFILE & REGISTRATION (.prof & .form) --- [CRITICAL FIX: WAS MISSING] */
+    .prof {
+        margin: 40px auto !important;
+        /* Fixed desktop margin: 80px 430px which broke tablet layout */
+        width: 90%;
+    }
+
+    .profBooks,
+    #likeContainer {
+        grid-template-columns: repeat(2, 1fr) !important;
+        /* Fixed 3-column overflow */
+        gap: 20px;
+    }
+
+    .form input {
+        width: 100%;
+        max-width: 340px;
+    }
+
+    /* --- IMPRESSUM, DATENSCHUTZ, KONTAKT --- [WAS MISSING] */
+    .impressum {
+        padding: 0 24px;
+        margin-top: 30px;
+    }
+
+    .impressum p {
+        max-width: 100%;
+    }
+
+    footer {
+        margin: 0 24px;
+    }
+
+    .footer,
+    .profileFooter,
+    .impressumFooter,
+    .kontaktFooter {
+        gap: 32px;
+        /* Fixed desktop gap: 70px */
+        font-size: 15px;
     }
 }
