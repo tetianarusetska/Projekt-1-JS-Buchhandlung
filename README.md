@@ -21,7 +21,7 @@ Vercel
 - Modernes und benutzerfreundliches Design
 
 ## Live Demo
-![Vercel-Live-demo](https://projekt-1-js-buchhandlung.vercel.app/)
+[Vercel-Live-demo](https://projekt-1-js-buchhandlung.vercel.app/)
 
 
 ## Screens
