@@ -1,6 +1,6 @@
 # Online-Buchhandlung abc
 Eine moderne und responsive Online-Buchhandlung, entwickelt mit HTML, CSS und JavaScript im Rahmen des Web-Grundlagen-Kurses am Syntax Institut.
-Die Anwendung ermöglicht es, Bücher zu entdecken, nach Kategorien zu filtern, Buchdetails anzuzeigen, Bücher zu Favoriten hinzuzufügen und Bücher in den Warenkorb zu legen.
+Die Anwendung ermöglicht es, Bücher zu entdecken, nach Kategorien zu filtern, Buchdetails anzuzeigen, Bücher zu Favoriten hinzuzufügen und Bücher in den Warenkorb zu legen. 
 
 ## Tech Stack
 HTML5, CSS3, JavaScript (ES6+), JSON
